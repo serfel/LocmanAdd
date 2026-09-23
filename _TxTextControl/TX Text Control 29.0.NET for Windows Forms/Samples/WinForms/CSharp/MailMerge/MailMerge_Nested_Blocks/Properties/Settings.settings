@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="tx_nested_blocks.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="xml_value" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
-    </Setting>
-  </Settings>
-</SettingsFile>
