@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<address_table>
+
+<address_record>
+	<company>The Miller Company</company>
+	<recipient>Mr. Jones</recipient>
+	<street>332 Farmington Road</street>
+	<phone>234-444-222</phone>
+	<city>Los Angeles, CA 90010</city>
+	<country>USA</country>
+	<salutation>Dear Mr Jones</salutation>
+</address_record>
+
+<address_record>
+	<company>Soft Systems</company>
+	<recipient>Mr. Fuller</recipient>
+	<street>334 Alexander Park</street>
+	<city>Princenton, NJ 02984</city>
+	<phone>234-444-666</phone>
+	<country>USA</country>
+	<salutation>Dear Mr Fuller</salutation>
+</address_record>
+
+<address_record>
+	<company>Myer's Marketing Limited</company>
+	<recipient>Ms. Myers</recipient>
+	<street>188 South Park</street>
+	<city>Seattle, WA 12312</city>
+	<phone>234-444-333</phone>
+	<country>USA</country>
+	<salutation>Dear Ms Myers</salutation>
+</address_record>
+  
+</address_table>

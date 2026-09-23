@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="LBL_FSDLG_POSITION_TOP"><value>&amp;Top:</value></data>
+  <data name="LBL_FSDLG_APPEARANCE_ROTATION_MEASURING_UNIT"><value>°</value></data>
+  <data name="LBL_FSDLG_POSITION_LEFT_MEASURING_UNIT_INCH"><value>inch</value></data>
+  <data name="ITM_BRING_TO_FRONT"><value>Bring to Front</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_DARKGRAY"><value>DarkGray</value></data>
+  <data name="ITM_FLIP_VERTICAL"><value>Vertical</value></data>
+  <data name="LBL_FSDLG_SHAPE_FILL_TRANSPARENCY_MEASURING_UNIT"><value>%</value></data>
+  <data name="ITM_SEND_BACKWARD"><value>Send Backward</value></data>
+  <data name="LBL_FSDLG_SIZE_WIDTH_MEASURING_UNIT_MM"><value>mm</value></data>
+  <data name="LBL_FSDLG_SCALE_HEADER"><value>Scale:</value></data>
+  <data name="LBL_FSDLG_SCALE_HEIGHT"><value>H&amp;eight:</value></data>
+  <data name="CHBX_FSDLG_APPEARANCE_FLIP_VERTICAL"><value>&amp;Vertical</value></data>
+  <data name="ERR_INVALID_DOCKSTYLE"><value>The Dock property has been set to None to change the value of the ZoomFactor property.</value></data>
+  <data name="LBL_FSDLG_POSITION_TOP_MEASURING_UNIT_MM"><value>mm</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_DARKGRAY"><value>DarkGray</value></data>
+  <data name="LBL_FSDLG_SCALE_HEIGHT_PERCENT"><value>%</value></data>
+  <data name="LBL_FSDLG_SCALE_WIDTH"><value>Wi&amp;dth:</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_GREEN"><value>Green</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_BLACK"><value>Black</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_OLIVE"><value>Olive</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_OTHER"><value>Other</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_WHITE"><value>White</value></data>
+  <data name="ITM_MOVABLE"><value>Movable</value></data>
+  <data name="DLG_FSDLG_FORMAT_SHAPES"><value>Format Shapes</value></data>
+  <data name="BTN_FSDLG_CANCEL"><value>Cancel</value></data>
+  <data name="ITM_ROTATE_90_RIGHT"><value>Right 90°</value></data>
+  <data name="ITM_BRING_FORWARD"><value>Bring Forward</value></data>
+  <data name="LBL_FSDLG_POSITION_HEADER"><value>Position:</value></data>
+  <data name="ITM_FLIP_DROP_DOWN"><value>Flip</value></data>
+  <data name="LBL_FSDLG_POSITION_TOP_MEASURING_UNIT_INCH"><value>inch</value></data>
+  <data name="LBL_FSDLG_SHAPE_FILL_HEADER"><value>Shape Fill:</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_NAVY"><value>Navy</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_LIME"><value>Lime</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_GRAY"><value>Gray</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_BLUE"><value>Blue</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_AQUA"><value>Aqua</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_TEAL"><value>Teal</value></data>
+  <data name="LBL_FSDLG_POSITION_LEFT"><value>&amp;Left:</value></data>
+  <data name="ITM_SELECT_ALL"><value>Select All</value></data>
+  <data name="BTN_FSDLG_SHAPE_OUTLINE_OTHER"><value>Oth&amp;er...</value></data>
+  <data name="CHBX_FSDLG_APPEARANCE_FLIP_HORIZONTAL"><value>Hori&amp;zontal</value></data>
+  <data name="LBL_FSDLG_SHAPE_OUTLINE_HEADER"><value>Shape Outline:</value></data>
+  <data name="CHBX_FSDLG_SIZABLE"><value>&amp;Sizable with the mouse</value></data>
+  <data name="ITM_BRING_TO_FRONT_DROP_DOWN"><value>Bring to Front</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_FUCHSIA"><value>Fuchsia</value></data>
+  <data name="LBL_FSDLG_SHAPE_FILL_TRANSPARENCY"><value>Transp&amp;arency:</value></data>
+  <data name="ITM_SIZABLE"><value>Sizable</value></data>
+  <data name="LBL_FSDLG_SIZE_HEIGHT_MEASURING_UNIT_INCH"><value>inch</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_LIGHTGRAY"><value>LightGray</value></data>
+  <data name="BTN_FSDLG_OK"><value>OK</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_OLIVE"><value>Olive</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_OTHER"><value>Other</value></data>
+  <data name="ITM_CUT"><value>Cut</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_GREEN"><value>Green</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_BLACK"><value>Black</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_WHITE"><value>White</value></data>
+  <data name="LBL_FSDLG_POSITION_LEFT_MEASURING_UNIT_MM"><value>mm</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_MAROON"><value>Maroon</value></data>
+  <data name="LBL_FSDLG_SIZE_WIDTH"><value>&amp;Width:</value></data>
+  <data name="ITM_COPY"><value>Copy</value></data>
+  <data name="ITM_FLIP_HORIZONTAL"><value>Horizontal</value></data>
+  <data name="TAB_FSDLG_OUTLINE_AND_FILL"><value>Outline and Fill</value></data>
+  <data name="LBL_FSDLG_APPEARANCE_HEADER"><value>Appearance:</value></data>
+  <data name="LBL_FSDLG_APPEARANCE_FLIP"><value>Flip:</value></data>
+  <data name="LBL_FSDLG_SIZE_HEIGHT"><value>&amp;Height:</value></data>
+  <data name="LBL_FSDLG_SIZE_HEADER"><value>Size:</value></data>
+  <data name="LBL_FSDLG_SHAPE_OUTLINE_LINE_WIDTH_MEASURING_UNIT"><value>pt</value></data>
+  <data name="LBL_FSDLG_APPEARANCE_ROTATION"><value>&amp;Rotation:</value></data>
+  <data name="ITM_SEND_TO_BACK_DROP_DOWN"><value>Send to Back</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_YELLOW"><value>Yellow</value></data>
+  <data name="ITM_PASTE"><value>Paste</value></data>
+  <data name="ERR_INCORRECT_ACTIVE_TAB"><value>Parameter activeTab must be 0 or 1.</value></data>
+  <data name="LBL_FSDLG_OPTIONS_HEADER"><value>Options:</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_PURPLE"><value>Purple</value></data>
+  <data name="ERR_NO_SHAPES_SELECTED"><value>No shapes selected.</value></data>
+  <data name="TAB_FSDLG_SIZE_AND_DISTANCE"><value>Size and Distance</value></data>
+  <data name="CHBX_FSDLG_SIZE_AUTOMATICALLY"><value>Size &amp;automatically</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_FUCHSIA"><value>Fuchsia</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_MAROON"><value>Maroon</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_PURPLE"><value>Purple</value></data>
+  <data name="ITM_FIT_TO_CANVAS"><value>Fit to Canvas</value></data>
+  <data name="LBL_FSDLG_SIZE_HEIGHT_MEASURING_UNIT_MM"><value>mm</value></data>
+  <data name="ITM_FORMAT_SHAPES_DIALOG"><value>Format...</value></data>
+  <data name="ITM_SIZE_AUTOMATICALLY"><value>Size automatically</value></data>
+  <data name="ITM_SEND_TO_BACK"><value>Send to Back</value></data>
+  <data name="ITM_ROTATE_90_LEFT"><value>Left 90°</value></data>
+  <data name="LBL_FSDLG_SHAPE_FILL_COLOR"><value>&amp;Color:</value></data>
+  <data name="CHBX_FSDLG_MOVABLE"><value>&amp;Movable with the mouse</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_YELLOW"><value>Yellow</value></data>
+  <data name="LBL_FSDLG_SHAPE_OUTLINE_COLOR"><value>C&amp;olor:</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_RED"><value>Red</value></data>
+  <data name="BTN_FSDLG_SHAPE_FILL_OTHER"><value>Ot&amp;her...</value></data>
+  <data name="LBL_FSDLG_SIZE_WIDTH_MEASURING_UNIT_INCH"><value>inch</value></data>
+  <data name="CMBX_FSDLG_SHAPE_OUTLINE_ITEM_LIGHTGRAY"><value>LightGray</value></data>
+  <data name="LBL_FSDLG_SHAPE_OUTLINE_LINE_WIDTH"><value>&amp;Line width:</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_AQUA"><value>Aqua</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_GRAY"><value>Gray</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_BLUE"><value>Blue</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_LIME"><value>Lime</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_NAVY"><value>Navy</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_TEAL"><value>Teal</value></data>
+  <data name="LBL_FSDLG_SCALE_WIDTH_PERCENT"><value>%</value></data>
+  <data name="CMBX_FSDLG_SHAPE_FILL_ITEM_RED"><value>Red</value></data>
+  <data name="ITM_ROTATE_DROP_DOWN"><value>Rotate</value></data>
+  <data name="ERR_NEGATIVE_SHAPE_SIZE"><value>The width or height of a shape cannot be negative.</value></data>
+  <data name="ITM_ROTATE_180"><value>180°</value></data>
+  </root>

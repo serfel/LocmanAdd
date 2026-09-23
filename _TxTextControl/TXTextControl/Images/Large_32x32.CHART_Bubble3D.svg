@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_); stroke:#98999C; stroke-width:0.1 }
+	.st1{fill:url(#SVGID_2_); stroke:#98999C; stroke-width:0.1 }
+	.st2{fill:url(#SVGID_3_); stroke:#98999C; stroke-width:0.1 }
+	.st3{fill:url(#SVGID_4_); stroke:#98999C; stroke-width:0.1 }
+	.st4{fill:none;stroke:#646766;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+<radialGradient id="SVGID_1_" cx="16.2749" cy="8.0359" r="4.0359" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1724" style="stop-color:#FBFBFB"/>
+	<stop  offset="0.3511" style="stop-color:#EEEFEF"/>
+	<stop  offset="0.5327" style="stop-color:#DADADB"/>
+	<stop  offset="0.7162" style="stop-color:#BDBEBF"/>
+	<stop  offset="0.8996" style="stop-color:#98999C"/>
+	<stop  offset="1" style="stop-color:#808285"/>
+</radialGradient>
+<circle class="st0" cx="16.3" cy="8" r="4"/>
+<radialGradient id="SVGID_2_" cx="13.5084" cy="17.9238" r="4.0359" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1724" style="stop-color:#FBFBFB"/>
+	<stop  offset="0.3511" style="stop-color:#EEEFEF"/>
+	<stop  offset="0.5327" style="stop-color:#DADADB"/>
+	<stop  offset="0.7162" style="stop-color:#BDBEBF"/>
+	<stop  offset="0.8996" style="stop-color:#98999C"/>
+	<stop  offset="1" style="stop-color:#808285"/>
+</radialGradient>
+<circle class="st1" cx="13.5" cy="18" r="4"/>
+<radialGradient id="SVGID_3_" cx="23.8903" cy="11.7738" r="2.7355" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1724" style="stop-color:#FBFBFB"/>
+	<stop  offset="0.3511" style="stop-color:#EEEFEF"/>
+	<stop  offset="0.5327" style="stop-color:#DADADB"/>
+	<stop  offset="0.7162" style="stop-color:#BDBEBF"/>
+	<stop  offset="0.8996" style="stop-color:#98999C"/>
+	<stop  offset="1" style="stop-color:#808285"/>
+</radialGradient>
+<circle class="st2" cx="23.9" cy="11.7" r="2.7"/>
+<radialGradient id="SVGID_4_" cx="22.3847" cy="18.6737" r="2.626" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1724" style="stop-color:#FBFBFB"/>
+	<stop  offset="0.3511" style="stop-color:#EEEFEF"/>
+	<stop  offset="0.5327" style="stop-color:#DADADB"/>
+	<stop  offset="0.7162" style="stop-color:#BDBEBF"/>
+	<stop  offset="0.8996" style="stop-color:#98999C"/>
+	<stop  offset="1" style="stop-color:#808285"/>
+</radialGradient>
+<circle class="st3" cx="22.4" cy="18.7" r="2.7"/>
+<g>
+	<line class="st4" x1="7.5" y1="3.5" x2="7.5" y2="24.5"/>
+	<line class="st4" x1="28.5" y1="24.5" x2="7.5" y2="24.5"/>
+	<line class="st4" x1="3.5" y1="28.5" x2="7.5" y2="24.5"/>
+</g>
+</svg>

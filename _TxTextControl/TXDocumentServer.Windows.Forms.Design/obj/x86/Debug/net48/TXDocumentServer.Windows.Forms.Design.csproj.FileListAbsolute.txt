@@ -1,0 +1,9 @@
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.csproj.AssemblyReference.cache
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXTextControl.DocumentServer.MailMergeDesigner.resources
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.csproj.GenerateResource.cache
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.csproj.CoreCompileInputs.cache
+I:\_TxTextControl\_Выход\net48\TXDocumentServer.Windows.Forms.Design.dll
+I:\_TxTextControl\_Выход\net48\TXDocumentServer.Windows.Forms.Design.pdb
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.csproj.CopyComplete
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.dll
+I:\_TxTextControl\TXDocumentServer.Windows.Forms.Design\obj\x86\Debug\net48\TXDocumentServer.Windows.Forms.Design.pdb

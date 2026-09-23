@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="TX_Text_Control_Words\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\ChartDataGridDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\EditUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\FormFields\CheckFormFieldDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\FormFields\DateFormFieldDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\FormFields\EmptyWidthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\FormFields\SelectionFormFieldDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\FormFields\TextFormFieldDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\InputBoxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\InsertBreakDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\MSChartLinkDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\TrackedChangesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\UserAccessDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\UserAdminDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\UserInfoListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\UserPromptDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TX_Text_Control_Words\User_Access_Control\AddEditableRegionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

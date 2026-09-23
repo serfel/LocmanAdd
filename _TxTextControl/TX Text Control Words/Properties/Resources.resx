@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strMsgFileHandler01" xml:space="preserve">
+    <value>Некоторые функции форматирования, возможно, не поддерживаются используемым форматом сохранения.
+Эти функции могут быть потеряны или ухудшены при повторной загрузке этого документа.
+Нажмите ОК, чтобы все равно перезагрузить документ.
+Чтобы сохранить все функции форматирования, нажмите «Отмена» и сохраните файл в другом формате.</value>
+  </data>
+  <data name="strChartPropertiesMenuItemName" xml:space="preserve">
+    <value>Свойства диаграммы…</value>
+  </data>
+  <data name="strChartEditDataMenuItemName" xml:space="preserve">
+    <value>Изменить данные диаграммы…</value>
+  </data>
+  <data name="strChartDataRelMenuItemName" xml:space="preserve">
+    <value>Установить связь данных диаграммы…</value>
+  </data>
+  <data name="strMsgFileHandler02" xml:space="preserve">
+    <value>Экспорт в PDF / A в настоящее время невозможен, поскольку параметры PDF / A не были включены.
+Параметры PDF / A можно включить в «Параметры» → «Параметры PDF» → «Параметры экспорта».
+Теперь процесс экспорта будет отменен.</value>
+  </data>
+  <data name="strObjectName" xml:space="preserve">
+    <value>Установить имя объекта…</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Arc" xml:space="preserve">
+    <value>Дуга</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Arrow" xml:space="preserve">
+    <value>Стрела</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BentArrow" xml:space="preserve">
+    <value>Изогнутая стрелка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BentUpArrow" xml:space="preserve">
+    <value>Изогнутая стрелка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Bevel" xml:space="preserve">
+    <value>Скос</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BlockArc" xml:space="preserve">
+    <value>Блок Арк</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Can" xml:space="preserve">
+    <value>Может</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Chevron" xml:space="preserve">
+    <value>Шеврон</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Chord" xml:space="preserve">
+    <value>Аккорд</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CircularArrow" xml:space="preserve">
+    <value>Круговая стрелка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Cloud" xml:space="preserve">
+    <value>Облако</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CloudCallout" xml:space="preserve">
+    <value>Cloud Callout</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Plus" xml:space="preserve">
+    <value>Пересекать</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Cube" xml:space="preserve">
+    <value>Куб</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Curve" xml:space="preserve">
+    <value>Кривая</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedArrowCon" xml:space="preserve">
+    <value>Изогнутая стрелка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedConnector3" xml:space="preserve">
+    <value>Изогнутый разъем</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedDblArrowCon" xml:space="preserve">
+    <value>Изогнутый разъем с двумя стрелками</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedDownArrow" xml:space="preserve">
+    <value>Изогнутая стрелка вниз</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_EllipseRibbon" xml:space="preserve">
+    <value>Изогнутая вниз лента</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedLeftArrow" xml:space="preserve">
+    <value>Изогнутая стрелка влево</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedRightArrow" xml:space="preserve">
+    <value>Изогнутая стрелка вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_CurvedUpArrow" xml:space="preserve">
+    <value>Изогнутая стрелка вверх</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_EllipseRibbon2" xml:space="preserve">
+    <value>Изогнутая лента</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_DblArrow" xml:space="preserve">
+    <value>Двойная стрела</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BracePair" xml:space="preserve">
+    <value>Двойная скобка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BracketPair" xml:space="preserve">
+    <value>Двойной кронштейн</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_DoubleWave" xml:space="preserve">
+    <value>Двойная волна</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Decagon" xml:space="preserve">
+    <value>Декагон</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_DiagonalStripe" xml:space="preserve">
+    <value>Диагональная полоса</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Diamond" xml:space="preserve">
+    <value>Ромб</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathDivide" xml:space="preserve">
+    <value>Разделение</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Dodecagon" xml:space="preserve">
+    <value>Двенадцатиугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Donut" xml:space="preserve">
+    <value>Пончик</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_DownArrow" xml:space="preserve">
+    <value>Стрелка вниз</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_DownArrowCallout" xml:space="preserve">
+    <value>Выноска стрелки вниз</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Ribbon" xml:space="preserve">
+    <value>Вниз ленты</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_ElbowArrowCon" xml:space="preserve">
+    <value>Локоть стрелка разъем</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BentConnector3" xml:space="preserve">
+    <value>Локоть разъем</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_ElbowDblArrowCon" xml:space="preserve">
+    <value>Локоть двойной разъем</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathEqual" xml:space="preserve">
+    <value>Равных</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_IrregularSeal1" xml:space="preserve">
+    <value>Взрыв 1</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_IrregularSeal2" xml:space="preserve">
+    <value>Взрыв 2</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartAlternateProcess" xml:space="preserve">
+    <value>Блок-схема: альтернативный процесс</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartPunchedCard" xml:space="preserve">
+    <value>Блок-схема: карта</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartCollate" xml:space="preserve">
+    <value>Блок-схема: сортировка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartConnector" xml:space="preserve">
+    <value>Блок-схема: соединитель</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartInputOutput" xml:space="preserve">
+    <value>Блок-схема: данные</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartDecision" xml:space="preserve">
+    <value>Блок-схема: решение</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartDelay" xml:space="preserve">
+    <value>Блок-схема: задержка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartMagneticDrum" xml:space="preserve">
+    <value>Блок-схема: хранилище с прямым доступом</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartDisplay" xml:space="preserve">
+    <value>Блок-схема: дисплей</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartDocument" xml:space="preserve">
+    <value>Блок-схема: документ</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartExtract" xml:space="preserve">
+    <value>Блок-схема: извлечение</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartInternalStorage" xml:space="preserve">
+    <value>Блок-схема: внутреннее хранилище</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartMagneticDisk" xml:space="preserve">
+    <value>Блок-схема: магнитный диск</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartManualInput" xml:space="preserve">
+    <value>Блок-схема: ручной ввод</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartManualOperation" xml:space="preserve">
+    <value>Блок-схема: ручное управление</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartMerge" xml:space="preserve">
+    <value>Блок-схема: слияние</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartMultidocument" xml:space="preserve">
+    <value>Блок-схема: мультидокумент</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartOffpageConnector" xml:space="preserve">
+    <value>Блок-схема: соединитель вне страницы</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartOr" xml:space="preserve">
+    <value>Блок-схема: или</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartPredefinedProcess" xml:space="preserve">
+    <value>Блок-схема: предопределенный процесс</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartPreparation" xml:space="preserve">
+    <value>Блок-схема: подготовка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartProcess" xml:space="preserve">
+    <value>Блок-схема: процесс</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartPunchedTape" xml:space="preserve">
+    <value>Блок-схема: перфорированная лента</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartMagneticTape" xml:space="preserve">
+    <value>Блок-схема: хранилище с последовательным доступом</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartSort" xml:space="preserve">
+    <value>Блок-схема: сортировка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartOnlineStorage" xml:space="preserve">
+    <value>Блок-схема: сохраненные данные</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartSummingJunction" xml:space="preserve">
+    <value>Блок-схема: суммирующий узел</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FlowChartTerminator" xml:space="preserve">
+    <value>Блок-схема: терминатор</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_FoldedCorner" xml:space="preserve">
+    <value>Сложенный угол</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Frame" xml:space="preserve">
+    <value>Рамка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Freeform" xml:space="preserve">
+    <value>Свободная форма</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_HalfFrame" xml:space="preserve">
+    <value>Полукадр</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Heart" xml:space="preserve">
+    <value>Сердце</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Heptagon" xml:space="preserve">
+    <value>Семиугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Hexagon" xml:space="preserve">
+    <value>Шестиугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_HorizontalScroll" xml:space="preserve">
+    <value>Горизонтальная прокрутка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Triangle" xml:space="preserve">
+    <value>Равнобедренный треугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftArrow" xml:space="preserve">
+    <value>Стрелка влево</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftArrowCallout" xml:space="preserve">
+    <value>Выноска влево</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftBrace" xml:space="preserve">
+    <value>Левая скобка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftBracket" xml:space="preserve">
+    <value>Левый кронштейн</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftRightArrow" xml:space="preserve">
+    <value>Стрелка влево-вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftRightArrowCallout" xml:space="preserve">
+    <value>Выноска влево-вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftRightUpArrow" xml:space="preserve">
+    <value>Стрелка влево-вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LeftUpArrow" xml:space="preserve">
+    <value>Стрелка влево</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_LightningBolt" xml:space="preserve">
+    <value>Удар молнии</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Line" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BorderCallout1" xml:space="preserve">
+    <value>Линия выноски 1</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentCallout1" xml:space="preserve">
+    <value>Линия выноски 1 (Accent Bar)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentBorderCallout1" xml:space="preserve">
+    <value>Линия выноски 1 (Граница и Акцент Бар)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Callout1" xml:space="preserve">
+    <value>Линия выноски 1 (без границ)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BorderCallout2" xml:space="preserve">
+    <value>Линия выноски 2</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentCallout2" xml:space="preserve">
+    <value>Линия выноски 2 (Accent Bar)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentBorderCallout2" xml:space="preserve">
+    <value>Линия выноски 2 (Граница и Акцент Бар)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Callout2" xml:space="preserve">
+    <value>Линия выноски 2 (без границ)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_BorderCallout3" xml:space="preserve">
+    <value>Линия выноски 3</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentCallout3" xml:space="preserve">
+    <value>Линия выноски 3 (Accent Bar)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_AccentBorderCallout3" xml:space="preserve">
+    <value>Линия выноски 3 (Граница и Акцент Бар)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Callout3" xml:space="preserve">
+    <value>Линия выноски 3 (без границ)</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Corner" xml:space="preserve">
+    <value>L-образный</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathMinus" xml:space="preserve">
+    <value>Минус</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Moon" xml:space="preserve">
+    <value>Луна</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathMultiply" xml:space="preserve">
+    <value>Умножение</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_NotchedRightArrow" xml:space="preserve">
+    <value>Зубчатая стрелка вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathNotEqual" xml:space="preserve">
+    <value>Не равный</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_NoSmoking" xml:space="preserve">
+    <value>Символ "нет"</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Octagon" xml:space="preserve">
+    <value>Восьмиугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Ellipse" xml:space="preserve">
+    <value>Овальный</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_WedgeEllipseCallout" xml:space="preserve">
+    <value>Овальная выноска</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Parallelogram" xml:space="preserve">
+    <value>Параллелограмм</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_HomePlate" xml:space="preserve">
+    <value>Пятиугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Pie" xml:space="preserve">
+    <value>Пирог</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Plaque" xml:space="preserve">
+    <value>Зубной налет</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_MathPlus" xml:space="preserve">
+    <value>Плюс</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_QuadArrow" xml:space="preserve">
+    <value>Quad Arrow</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_QuadArrowCallout" xml:space="preserve">
+    <value>Quad Arrow Callout</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Rectangle" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_WedgeRectangleCallout" xml:space="preserve">
+    <value>Прямоугольная выноска</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Pentagon" xml:space="preserve">
+    <value>Регулярный Пентагон</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RightArrow" xml:space="preserve">
+    <value>Правая стрелка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RightArrowCallout" xml:space="preserve">
+    <value>Выноска вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RightBrace" xml:space="preserve">
+    <value>Правая скобка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RightBracket" xml:space="preserve">
+    <value>Правая скобка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RightTriangle" xml:space="preserve">
+    <value>Прямоугольный треугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Round2DiagonalRectangle" xml:space="preserve">
+    <value>Круглый Диагональный Угол Прямоугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_RoundRectangle" xml:space="preserve">
+    <value>Прямоугольник с закругленными углами</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_WedgeRoundRectangleCallout" xml:space="preserve">
+    <value>Закругленные прямоугольные выноски</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Round2SameRectangle" xml:space="preserve">
+    <value>Прямоугольник с закругленными углами</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Round1Rectangle" xml:space="preserve">
+    <value>Круглый одноугольный прямоугольник</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Scribble" xml:space="preserve">
+    <value>Мазня</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_SmileyFace" xml:space="preserve">
+    <value>Улыбающееся лицо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Snip2DiagonalRectangle" xml:space="preserve">
+    <value>Прямоугольник с диагональным углом</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_SnipRoundRectangle" xml:space="preserve">
+    <value>Прямоугольник Snip и Round Single Corner</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Snip2SameRectangle" xml:space="preserve">
+    <value>Прямоугольник Snip Same Side Side</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Snip1Rectangle" xml:space="preserve">
+    <value>Прямоугольник Snip Single Corner</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star4" xml:space="preserve">
+    <value>4-х точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star5" xml:space="preserve">
+    <value>5-балльная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star6" xml:space="preserve">
+    <value>6-точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star7" xml:space="preserve">
+    <value>7-точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star8" xml:space="preserve">
+    <value>8-балльная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star10" xml:space="preserve">
+    <value>10-балльная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star12" xml:space="preserve">
+    <value>12-точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star16" xml:space="preserve">
+    <value>16-точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star24" xml:space="preserve">
+    <value>24-точечная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Star32" xml:space="preserve">
+    <value>32-балльная звезда</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_StripedRightArrow" xml:space="preserve">
+    <value>Полосатая стрелка вправо</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Sun" xml:space="preserve">
+    <value>Солнце</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Teardrop" xml:space="preserve">
+    <value>Слеза</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_TextBox" xml:space="preserve">
+    <value>Текстовое окно</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_NonIsoscelesTrapezoid" xml:space="preserve">
+    <value>Трапеция</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_UpArrow" xml:space="preserve">
+    <value>Стрелка вверх</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_UpArrowCallout" xml:space="preserve">
+    <value>Стрелка вверх</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_UpDownArrow" xml:space="preserve">
+    <value>Стрелка вверх-вниз</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Ribbon2" xml:space="preserve">
+    <value>Up Ribbon</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_UTurnArrow" xml:space="preserve">
+    <value>Стрелка разворота</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_VerticalScroll" xml:space="preserve">
+    <value>Вертикальная прокрутка</value>
+  </data>
+  <data name="TOOLTIP_SHAPE_Wave" xml:space="preserve">
+    <value>Волна</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="DOC_TITLE_UNTITLED" xml:space="preserve">
+    <value>[Без названия]</value>
+  </data>
+  <data name="EXC_MERGE_BLOCK_CONVERSION" xml:space="preserve">
+    <value>TX Text Control Отчеты:
+Следующие блоки слияния не могут быть преобразованы:
+{0}
+
+Удалите соответствующие закладки с помощью:
+Вставить - Закладка - Удалить закладку.
+Создайте новый блок с:
+Отчетность - Вставить блок слияния - Вставить пользовательский блок слияния.</value>
+    <comment>{0} is a list of merge block names separated by line breaks</comment>
+  </data>
+  <data name="EXC_PDF_SIGNATURE" xml:space="preserve">
+    <value>Кажется, есть проблема с настройками файла подписи PDF: {0}</value>
+    <comment>{0} is the exception text</comment>
+  </data>
+  <data name="MSG_CONFIRM_UPDATE_MERGE_BLOCK_TYPE" xml:space="preserve">
+    <value>Шаблон отчета был сохранен в более старом формате TX Text Control.
+Вы хотите сохранить его в текущем формате?</value>
+  </data>
+  <data name="MSG_FILE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Файл "{0}" не существует.</value>
+    <comment>{0} is the file name</comment>
+  </data>
+  <data name="MSG_REMOVE_FILE_FROM_LIST" xml:space="preserve">
+    <value>Выбранный файл не существует. Вы хотите
+удалить его из списка последних файлов?</value>
+  </data>
+  <data name="MSG_UNKNOWN_FILE_TYPE" xml:space="preserve">
+    <value>Неизвестный тип файла (* {0}).</value>
+    <comment>{0} is the file extension of the file which could not be loaded.</comment>
+  </data>
+  <data name="OPT_DLG_CSS_GRP_SAVEOPTS" xml:space="preserve">
+    <value>Параметры сохранения таблицы стилей HTML</value>
+  </data>
+  <data name="OPT_DLG_CSS_INLINE" xml:space="preserve">
+    <value>Inline &amp;stylesheet</value>
+  </data>
+  <data name="OPT_DLG_CSS_LBL_FILE" xml:space="preserve">
+    <value>Stylesheet fil&amp;e:</value>
+  </data>
+  <data name="OPT_DLG_CSS_NONE" xml:space="preserve">
+    <value>&amp;No stylesheet</value>
+  </data>
+  <data name="OPT_DLG_CSS_SAVE_NOT_OVR" xml:space="preserve">
+    <value>Sa&amp;ve but do not overwrite existing file</value>
+  </data>
+  <data name="OPT_DLG_CSS_SEPARATE_FILE" xml:space="preserve">
+    <value>S&amp;ave stylesheet in separate file</value>
+  </data>
+  <data name="OPT_DLG_PDFEXP_ENABLE_PDFA" xml:space="preserve">
+    <value>&amp;Use embeddable fonts only</value>
+  </data>
+  <data name="OPT_DLG_PDFEXP_GRP_OPTS" xml:space="preserve">
+    <value>Параметры экспорта PDF / A</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_GRP_OPTS" xml:space="preserve">
+    <value>Параметры импорта PDF</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_LBL_MODE" xml:space="preserve">
+    <value>I&amp;mport mode:</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_FRAMES" xml:space="preserve">
+    <value>Лучше всего соответствовать оригинальному внешнему виду с помощью таблиц, изображений и текстовых фреймов</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_PAR" xml:space="preserve">
+    <value>Форматирование текста и абзацев, изображения отбрасываются</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_PLAIN" xml:space="preserve">
+    <value>Только текст, изображения и форматирование абзаца отбрасываются</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_CHNGALLOW_ANY" xml:space="preserve">
+    <value>Любое, кроме извлечения страниц</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_CHNGALLOW_COMMENTS" xml:space="preserve">
+    <value>Комментирование, заполнение полей формы и подпись</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_CHNGALLOW_FORMFLDS" xml:space="preserve">
+    <value>Заполнение полей формы и подпись</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_CHNGALLOW_INSDEL" xml:space="preserve">
+    <value>Вставка, удаление и поворот страниц</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_CHNGALLOW_NONE" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_ERR_NO_DOC_PWD" xml:space="preserve">
+    <value>Параметр «Требовать пароль для открытия документа» выбран, но поле «Пароль для открытия документа» пусто. Пожалуйста, введите пароль или снимите флажок безопасности.</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_ERR_NO_MASTER_PWD" xml:space="preserve">
+    <value>'Используйте пароль, чтобы ограничить печать и редактирование
+документ и его параметры безопасности выбрана, но
+поле Permissions Password пусто. Пожалуйста, введите
+пароль или отмените выбор параметра безопасности.</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_ERR_SAME_PWD" xml:space="preserve">
+    <value>Пароли открытия документов и разрешений не могут
+быть таким же. Пожалуйста, введите другой пароль в поле
+Поле «Открыть пароль документа» или «Пароль разрешения»
+поле.</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_GRP_DIG_SIG" xml:space="preserve">
+    <value>Цифровая подпись</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_GRP_DOC_PWD" xml:space="preserve">
+    <value>Пароль документа PDF</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_LBL_CERT_FILE" xml:space="preserve">
+    <value>&amp;Certificate File (*.pfx):</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_LBL_CERT_PWD" xml:space="preserve">
+    <value>Certificate &amp;Password:</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_LBL_DOC_PWD" xml:space="preserve">
+    <value>&amp;Document Password:</value>
+  </data>
+  <data name="OPT_DLG_PDFSEC_REQ_DOC_PWD" xml:space="preserve">
+    <value>&amp;Require a password to open the document</value>
+  </data>
+  <data name="OPT_DLG_TAB_HTMLOPTS" xml:space="preserve">
+    <value>Параметры HTML</value>
+  </data>
+  <data name="OPT_DLG_TAB_PDFEXP" xml:space="preserve">
+    <value>PDF / A экспорт</value>
+  </data>
+  <data name="OPT_DLG_TAB_PDFIMP" xml:space="preserve">
+    <value>PDF Импорт</value>
+  </data>
+  <data name="OPT_DLG_TAB_PDFSEC" xml:space="preserve">
+    <value>PDF Security</value>
+  </data>
+  <data name="OPT_DLG_TITLE" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="SAVE_CHANGES_TO" xml:space="preserve">
+    <value>Сохранить изменения в {0}?</value>
+    <comment>{0} is the document title</comment>
+  </data>
+  <data name="USR_INP_PASSWORD_LABEL" xml:space="preserve">
+    <value>Введите пароль для защищенного паролем файла:</value>
+  </data>
+  <data name="USR_INP_PASSWORD_TITLE" xml:space="preserve">
+    <value>Введите пароль</value>
+  </data>
+  <data name="EDIT_USER_DLG_LBL_NEW_PASSWORD" xml:space="preserve">
+    <value>&amp;Новый пароль:</value>
+  </data>
+  <data name="EDIT_USER_DLG_LBL_PASSWORD" xml:space="preserve">
+    <value>&amp;Пароль:</value>
+  </data>
+  <data name="EDIT_USER_DLG_LBL_PASSWORD_CONFIRM" xml:space="preserve">
+    <value>&amp;Подтвердить пароль:</value>
+  </data>
+  <data name="EDIT_USER_DLG_LBL_USER_NAME" xml:space="preserve">
+    <value>&amp;Имя пользователя:</value>
+  </data>
+  <data name="EDIT_USER_DLG_TITLE" xml:space="preserve">
+    <value>Изменить пользователя</value>
+  </data>
+  <data name="EDIT_USER_DLG_USER_EXISTS" xml:space="preserve">
+    <value>Пользователь с таким именем уже существует.</value>
+  </data>
+  <data name="EDIT_USER_DLG_WRONG_PASSWORD" xml:space="preserve">
+    <value>Введенный пароль не соответствует паролю пользователя.</value>
+  </data>
+  <data name="USER_ACC_DLG_BTN_GRANT" xml:space="preserve">
+    <value>&amp;Grant Access</value>
+  </data>
+  <data name="USER_ACC_DLG_BTN_MANAGE" xml:space="preserve">
+    <value>&amp;Manage Users…</value>
+  </data>
+  <data name="USER_ACC_DLG_BTN_REVOKE" xml:space="preserve">
+    <value>&amp;Revoke Access</value>
+  </data>
+  <data name="USER_ACC_DLG_ENTER_PASSWORD" xml:space="preserve">
+    <value>Предоставление доступа</value>
+  </data>
+  <data name="USER_ACC_DLG_ENTER_PASSWORD_LABEL" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="USER_ACC_DLG_LBL_USERS" xml:space="preserve">
+    <value>Registered &amp;Users:</value>
+  </data>
+  <data name="USER_ACC_DLG_TITLE" xml:space="preserve">
+    <value>Доступ пользователя</value>
+  </data>
+  <data name="USER_ACC_DLG_WRONG_PASSWORD" xml:space="preserve">
+    <value>Введенный пароль не соответствует паролю выбранного пользователя.</value>
+  </data>
+  <data name="USER_ADMIN_DLG_BTN_DELETE" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="USER_ADMIN_DLG_BTN_EDIT" xml:space="preserve">
+    <value>&amp;Edit…</value>
+  </data>
+  <data name="USER_ADMIN_DLG_BTN_NEW" xml:space="preserve">
+    <value>&amp;New…</value>
+  </data>
+  <data name="USER_ADMIN_DLG_LBL_USERS" xml:space="preserve">
+    <value>Registered &amp;Users:</value>
+  </data>
+  <data name="USER_ADMIN_DLG_TITLE" xml:space="preserve">
+    <value>Управление пользователями</value>
+  </data>
+  <data name="DSP_USERNAME_EVERYONE" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="USER_ADD_REGION_DLG_TITLE" xml:space="preserve">
+    <value>Добавить редактируемую область</value>
+  </data>
+  <data name="MNUBTNCOLUMNS_TEXT" xml:space="preserve">
+    <value>Колонки</value>
+  </data>
+  <data name="MNUBTNCOPY_TEXT" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="MNUBTNCUT_TEXT" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="MNUBTNFIND_TEXT" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="MNUBTNHEADERSANDFOOTERS_TEXT" xml:space="preserve">
+    <value>Заголовки и нижние колонтитулы</value>
+  </data>
+  <data name="MNUBTNMARGINSANDPAPER_TEXT" xml:space="preserve">
+    <value>Поля и бумага</value>
+  </data>
+  <data name="MNUBTNNEWFILE_TEXT" xml:space="preserve">
+    <value>Новый документ</value>
+  </data>
+  <data name="MNUBTNOPENFILE_TEXT" xml:space="preserve">
+    <value>Открыть документ</value>
+  </data>
+  <data name="MNUBTNPAGEBORDERS_TEXT" xml:space="preserve">
+    <value>Границы страницы</value>
+  </data>
+  <data name="MNUBTNPASTE_TEXT" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="MNUBTNPRINTPREVIEW_TEXT" xml:space="preserve">
+    <value>Предварительный просмотр печати</value>
+  </data>
+  <data name="MNUBTNPRINT_TEXT" xml:space="preserve">
+    <value>Распечатать документ</value>
+  </data>
+  <data name="MNUBTNREDO_TEXT" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="MNUBTNSAVE_TEXT" xml:space="preserve">
+    <value>Сохранить документ</value>
+  </data>
+  <data name="MNUBTNSELECTOBJECTS_TEXT" xml:space="preserve">
+    <value>Выберите объекты</value>
+  </data>
+  <data name="MNUBTNUNDO_TEXT" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="MNUEDIT_DELETE_TEXT" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="MNUEDIT_REDO_TEXT" xml:space="preserve">
+    <value>&amp;Повторить</value>
+  </data>
+  <data name="MNUEDIT_UNDO_TEXT" xml:space="preserve">
+    <value>&amp;Отменить</value>
+  </data>
+  <data name="MNUFILE_EXPORT_TEXT" xml:space="preserve">
+    <value>&amp;Export…</value>
+  </data>
+  <data name="MNUFORMAT_CHARACTER_TEXT" xml:space="preserve">
+    <value>&amp;Character…</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXES_LEFTTORIGHT_TEXT" xml:space="preserve">
+    <value>&amp;Show left to right Axis</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXES_TEXT" xml:space="preserve">
+    <value>A&amp;xes</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXES_WITHOUTLABELING_TEXT" xml:space="preserve">
+    <value>Show Axis &amp;without Labeling</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXISTITLES_BELOWCHART_TEXT" xml:space="preserve">
+    <value>Title &amp;below Chart</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXISTITLES_NONE_TEXT" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXISTITLES_TEXT" xml:space="preserve">
+    <value>&amp;Axis Titles</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_AXISTITLES_VERTICAL_TEXT" xml:space="preserve">
+    <value>&amp;Vertical Title</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_CHARTTITLE_ABOVECHART_TEXT" xml:space="preserve">
+    <value>&amp;Above Chart</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_CHARTTITLE_CENTEREDOVERLAY_TEXT" xml:space="preserve">
+    <value>&amp;Centered Overlay Title</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_CHARTTITLE_NONE_TEXT" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_CHARTTITLE_TEXT" xml:space="preserve">
+    <value>Chart &amp;Title</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_DATALABELS_NONE_TEXT" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_DATALABELS_OUTSIDEEND_TEXT" xml:space="preserve">
+    <value>&amp;Outside End</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_DATALABELS_TEXT" xml:space="preserve">
+    <value>&amp;Data Labels</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_HORGRIDLINES_TEXT" xml:space="preserve">
+    <value>&amp;Horizontal Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_HORIZGRIDLINES_MAJANDMIN_TEXT" xml:space="preserve">
+    <value>Major &amp;&amp; minor &amp;Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_HORIZGRIDLINES_MAJOR_TEXT" xml:space="preserve">
+    <value>&amp;Major Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_HORIZGRIDLINES_MINOR_TEXT" xml:space="preserve">
+    <value>Min&amp;or Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_HORIZGRIDLINES_NONE_TEXT" xml:space="preserve">
+    <value>&amp;Нет</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_BOTTOM_TEXT" xml:space="preserve">
+    <value>Show Legend at &amp;Bottom</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_LEFT_TEXT" xml:space="preserve">
+    <value>Show Legend at &amp;Left</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_NONE_TEXT" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_RIGHT_TEXT" xml:space="preserve">
+    <value>Show Legend at &amp;Right</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_TEXT" xml:space="preserve">
+    <value>&amp;Legend</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_LEGEND_TOP_TEXT" xml:space="preserve">
+    <value>Show Legend at &amp;Top</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_TEXT" xml:space="preserve">
+    <value>Гр&amp;афики</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_VERTGRIDLINES_MAJANDMIN_TEXT" xml:space="preserve">
+    <value>Major &amp;&amp; minor &amp;Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_VERTGRIDLINES_MAJOR_TEXT" xml:space="preserve">
+    <value>&amp;Major Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_VERTGRIDLINES_MINOR_TEXT" xml:space="preserve">
+    <value>Min&amp;or Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_VERTGRIDLINES_NONE_TEXT" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MNUFORMAT_CHARTLAYOUT_VERTGRIDLINES_TEXT" xml:space="preserve">
+    <value>&amp;Vertical Gridlines</value>
+  </data>
+  <data name="MNUFORMAT_COLUMNS_TEXT" xml:space="preserve">
+    <value>C&amp;olumns…</value>
+  </data>
+  <data name="MNUFORMAT_HEADERSANDFOOTERS_TEXT" xml:space="preserve">
+    <value>&amp;Заголовки и подвалы…</value>
+  </data>
+  <data name="MNUFORMAT_IMAGE_TEXT" xml:space="preserve">
+    <value>&amp;Image…</value>
+  </data>
+  <data name="MNUFORMAT_LANGUAGE_TEXT" xml:space="preserve">
+    <value>&amp;Язык…</value>
+  </data>
+  <data name="MNUFORMAT_LIST_ARABICNUMBERS_TEXT" xml:space="preserve">
+    <value>&amp;1, 2, 3</value>
+  </data>
+  <data name="MNUFORMAT_LIST_ATTRIBUTES_TEXT" xml:space="preserve">
+    <value>&amp;Свойства…</value>
+  </data>
+  <data name="MNUFORMAT_LIST_BULLETS_TEXT" xml:space="preserve">
+    <value>B&amp;ullets</value>
+  </data>
+  <data name="MNUFORMAT_LIST_CAPITALLETTERS_TEXT" xml:space="preserve">
+    <value>A, &amp;B, C</value>
+  </data>
+  <data name="MNUFORMAT_LIST_DECREASELEVEL_TEXT" xml:space="preserve">
+    <value>&amp;Уменьшить уровень</value>
+  </data>
+  <data name="MNUFORMAT_LIST_INCREASELEVEL_TEXT" xml:space="preserve">
+    <value>Уве&amp;личить уровень</value>
+  </data>
+  <data name="MNUFORMAT_LIST_LETTERS_TEXT" xml:space="preserve">
+    <value>a, b, &amp;c</value>
+  </data>
+  <data name="MNUFORMAT_LIST_ROMANNUMBERS_TEXT" xml:space="preserve">
+    <value>&amp;I, II, III, IV</value>
+  </data>
+  <data name="MNUFORMAT_LIST_SMALLROMANNUMBERS_TEXT" xml:space="preserve">
+    <value>i, ii, iii, i&amp;v</value>
+  </data>
+  <data name="MNUFORMAT_LIST_TEXT" xml:space="preserve">
+    <value>Bullets and &amp;Numbering</value>
+  </data>
+  <data name="MNUFORMAT_PAGEBORDERS_TEXT" xml:space="preserve">
+    <value>Page &amp;Borders…</value>
+  </data>
+  <data name="MNUFORMAT_PARAGRAPH_TEXT" xml:space="preserve">
+    <value>&amp;Paragraph…</value>
+  </data>
+  <data name="MNUFORMAT_SHAPE_TEXT" xml:space="preserve">
+    <value>Sha&amp;pe…</value>
+  </data>
+  <data name="MNUFORMAT_STYLES_TEXT" xml:space="preserve">
+    <value>&amp;Стили…</value>
+  </data>
+  <data name="MNUFORMAT_TABS_TEXT" xml:space="preserve">
+    <value>&amp;Закладки…</value>
+  </data>
+  <data name="MNUFORMAT_TEXT" xml:space="preserve">
+    <value>Фор&amp;мат</value>
+  </data>
+  <data name="MNUFORMAT_TEXTFRAME_TEXT" xml:space="preserve">
+    <value>Текс&amp;товое окно…</value>
+  </data>
+  <data name="MNUHELP_ABOUTTXTEXTCONTROLWORDS_TEXT" xml:space="preserve">
+    <value>&amp;About TX Text Control Words…</value>
+  </data>
+  <data name="MNUHELP_TEXT" xml:space="preserve">
+    <value>&amp;Помощь</value>
+  </data>
+  <data name="MNUINSERT_BREAK_TEXT" xml:space="preserve">
+    <value>Разр&amp;ыв…</value>
+  </data>
+  <data name="MNUINSERT_CHART_AREA_TEXT" xml:space="preserve">
+    <value>&amp;Area</value>
+  </data>
+  <data name="MNUINSERT_CHART_BAR_TEXT" xml:space="preserve">
+    <value>&amp;Bar</value>
+  </data>
+  <data name="MNUINSERT_CHART_COLUMN_TEXT" xml:space="preserve">
+    <value>&amp;Столбец</value>
+  </data>
+  <data name="MNUINSERT_CHART_CLUSTEREDBAR_TEXT" xml:space="preserve">
+    <value>C&amp;lustered Bar</value>
+  </data>
+  <data name="MNUINSERT_CHART_PIE_TEXT" xml:space="preserve">
+    <value>&amp;Pie</value>
+  </data>
+  <data name="MNUINSERT_CHART_TEXT" xml:space="preserve">
+    <value>&amp;График</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_ADD_EVERYONE_TEXT" xml:space="preserve">
+    <value>Для всех</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_ADD_TEXT" xml:space="preserve">
+    <value>Добавить редактируемую область</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_ADD_USER_TEXT" xml:space="preserve">
+    <value>Для определенного пользователя…</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_REMOVE_EVERYONE_TEXT" xml:space="preserve">
+    <value>Для всех</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_REMOVE_TEXT" xml:space="preserve">
+    <value>Удалить редактируемую область</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_REMOVE_USER_TEXT" xml:space="preserve">
+    <value>Для определенного пользователя…</value>
+  </data>
+  <data name="MNUINSERT_EDITABLEREGION_TEXT" xml:space="preserve">
+    <value>E&amp;ditable Region</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_DELETEFIELD_TEXT" xml:space="preserve">
+    <value>&amp;Удалить поле</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_HIGHLIGHTMERGEFIELDS_TEXT" xml:space="preserve">
+    <value>&amp;Highlight Merge Fields</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTMERGEFIELD_TEXT" xml:space="preserve">
+    <value>&amp;Объединить поле...</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_DATE_TEXT" xml:space="preserve">
+    <value>&amp;Дата...</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_IF_TEXT" xml:space="preserve">
+    <value>&amp;IF...</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_INCLTEXT_TEXT" xml:space="preserve">
+    <value>I&amp;ncludeText...</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_NEXTIF_TEXT" xml:space="preserve">
+    <value>Nex&amp;tIf...</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_NEXT_TEXT" xml:space="preserve">
+    <value>Сл&amp;едующий</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_INSERTSPECIALFIELD_TEXT" xml:space="preserve">
+    <value>&amp;Special Field</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_SHOWFIELDCODES_TEXT" xml:space="preserve">
+    <value>Show Field &amp;Codes</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_SHOWFIELDTEXT_TEXT" xml:space="preserve">
+    <value>Show Field &amp;Text</value>
+  </data>
+  <data name="MNUINSERT_FIELDS_TEXT" xml:space="preserve">
+    <value>M&amp;erge Fields</value>
+  </data>
+  <data name="MNUINSERT_FILE_TEXT" xml:space="preserve">
+    <value>&amp;Файл…</value>
+  </data>
+  <data name="MNUINSERT_HYPERLINK_TEXT" xml:space="preserve">
+    <value>&amp;Hyperlink…</value>
+  </data>
+  <data name="MNUINSERT_IMAGE_TEXT" xml:space="preserve">
+    <value>&amp;Image…</value>
+  </data>
+  <data name="MNUINSERT_PAGENUM_TEXT" xml:space="preserve">
+    <value>&amp;Page Number</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_BASIC_TEXT" xml:space="preserve">
+    <value>Basic &amp;Shapes</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_BLOCKARROWS_TEXT" xml:space="preserve">
+    <value>Block &amp;Arrows</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_CALLOUTS_TEXT" xml:space="preserve">
+    <value>&amp;Callouts</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_DRAWINGCANVAS_TEXT" xml:space="preserve">
+    <value>&amp;Drawing Canvas</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_EQUATION_TEXT" xml:space="preserve">
+    <value>&amp;Equation Shapes</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_FLOWCHART_TEXT" xml:space="preserve">
+    <value>&amp;Flowchart</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_LINES_TEXT" xml:space="preserve">
+    <value>&amp;Линии</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_RECTANGLES_TEXT" xml:space="preserve">
+    <value>&amp;Rectangles</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_STARSBANNERS_TEXT" xml:space="preserve">
+    <value>Stars and &amp;Banners</value>
+  </data>
+  <data name="MNUINSERT_SHAPES_TEXT" xml:space="preserve">
+    <value>&amp;Shape</value>
+  </data>
+  <data name="MNUINSERT_SYMBOL_TEXT" xml:space="preserve">
+    <value>&amp;Symbol…</value>
+  </data>
+  <data name="MNUINSERT_TARGET_TEXT" xml:space="preserve">
+    <value>&amp;Закладки…</value>
+  </data>
+  <data name="MNUINSERT_TEXT" xml:space="preserve">
+    <value>&amp;Insert</value>
+  </data>
+  <data name="MNUINSERT_TEXTFRAME_TEXT" xml:space="preserve">
+    <value>Текстовое ок&amp;но</value>
+  </data>
+  <data name="MNUINSERT_PAGENUM_INSERT_TEXT" xml:space="preserve">
+    <value>&amp;Insert Page Number</value>
+  </data>
+  <data name="MNUINSERT_PAGENUM_DELETE_TEXT" xml:space="preserve">
+    <value>&amp;Delete Page Numbers</value>
+  </data>
+  <data name="MNUTABLE_DELETE_CELLS_ENTIRECOLUMN_TEXT" xml:space="preserve">
+    <value>Удалить весь сто&amp;лбец</value>
+  </data>
+  <data name="MNUTABLE_DELETE_CELLS_ENTIREROW_TEXT" xml:space="preserve">
+    <value>Удалить всю ст&amp;року</value>
+  </data>
+  <data name="MNUTABLE_DELETE_CELLS_SHIFTLEFT_TEXT" xml:space="preserve">
+    <value>Shift Cells &amp;Left</value>
+  </data>
+  <data name="MNUTABLE_DELETE_CELLS_TEXT" xml:space="preserve">
+    <value>Яч&amp;ейки…</value>
+  </data>
+  <data name="MNUTABLE_DELETE_COLUMN_TEXT" xml:space="preserve">
+    <value>&amp;Столбец</value>
+  </data>
+  <data name="MNUTABLE_DELETE_ROWS_TEXT" xml:space="preserve">
+    <value>Ст&amp;роки</value>
+  </data>
+  <data name="MNUTABLE_DELETE_TABLE_TEXT" xml:space="preserve">
+    <value>&amp;Таблица</value>
+  </data>
+  <data name="MNUTABLE_DELETE_TEXT" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="MNUTABLE_GRIDLINES_TEXT" xml:space="preserve">
+    <value>&amp;Grid Lines</value>
+  </data>
+  <data name="MNUTABLE_INSERT_COLUMNTOTHELEFT_TEXT" xml:space="preserve">
+    <value>Column To The &amp;Left</value>
+  </data>
+  <data name="MNUTABLE_INSERT_COLUMNTOTHERIGHT_TEXT" xml:space="preserve">
+    <value>Column To The &amp;Right</value>
+  </data>
+  <data name="MNUTABLE_INSERT_ROWABOVE_TEXT" xml:space="preserve">
+    <value>Row &amp;Above</value>
+  </data>
+  <data name="MNUTABLE_INSERT_ROWBELOW_TEXT" xml:space="preserve">
+    <value>Row &amp;Below</value>
+  </data>
+  <data name="MNUTABLE_INSERT_TABLE_TEXT" xml:space="preserve">
+    <value>&amp;Table...</value>
+  </data>
+  <data name="MNUTABLE_INSERT_TEXT" xml:space="preserve">
+    <value>&amp;Insert</value>
+  </data>
+  <data name="MNUTABLE_MERGE_CELLS_TEXT" xml:space="preserve">
+    <value>&amp;Merge Cells</value>
+  </data>
+  <data name="MNUTABLE_PROPERTIES_TEXT" xml:space="preserve">
+    <value>&amp;Properties…</value>
+  </data>
+  <data name="MNUTABLE_SELECT_CELL_TEXT" xml:space="preserve">
+    <value>C&amp;ell</value>
+  </data>
+  <data name="MNUTABLE_SELECT_COLUMN_TEXT" xml:space="preserve">
+    <value>&amp;Column</value>
+  </data>
+  <data name="MNUTABLE_SELECT_ROW_TEXT" xml:space="preserve">
+    <value>&amp;Row</value>
+  </data>
+  <data name="MNUTABLE_SELECT_TABLE_TEXT" xml:space="preserve">
+    <value>&amp;Table</value>
+  </data>
+  <data name="MNUTABLE_SELECT_TEXT" xml:space="preserve">
+    <value>S&amp;elect</value>
+  </data>
+  <data name="MNUTABLE_SPLIT_ABOVE_TEXT" xml:space="preserve">
+    <value>&amp;Above</value>
+  </data>
+  <data name="MNUTABLE_SPLIT_BELOW_TEXT" xml:space="preserve">
+    <value>&amp;Below</value>
+  </data>
+  <data name="MNUTABLE_SPLIT_CELLS_TEXT" xml:space="preserve">
+    <value>&amp;Split Cells</value>
+  </data>
+  <data name="MNUTABLE_SPLIT_TEXT" xml:space="preserve">
+    <value>S&amp;plit Table</value>
+  </data>
+  <data name="MNUTABLE_TEXT" xml:space="preserve">
+    <value>T&amp;able</value>
+  </data>
+  <data name="MNUVIEW_FORMLAYOUT_TEXT" xml:space="preserve">
+    <value>&amp;Right to Left Layout</value>
+  </data>
+  <data name="OPT_DLG_BTN_BROWSE" xml:space="preserve">
+    <value>Просматривать...</value>
+  </data>
+  <data name="USER_ACC_DLG_BTN_CURRENTAUTHOR" xml:space="preserve">
+    <value>Текущий автор</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_ACCEPT" xml:space="preserve">
+    <value>&amp;Accept</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_ACCEPTALL" xml:space="preserve">
+    <value>Acce&amp;pt All</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_CLOSE" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_NEXT" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_REJECT" xml:space="preserve">
+    <value>&amp;Reject</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_BTN_REJECTALL" xml:space="preserve">
+    <value>R&amp;eject All</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_TITLE" xml:space="preserve">
+    <value>Просмотр отслеживаемых изменений</value>
+  </data>
+  <data name="MNUEDIT_REVIEWING_REVIEWCHANGES_TEXT" xml:space="preserve">
+    <value>&amp;Предпросмотр изменений...</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_CHANGEKIND_DELETEDTEXT" xml:space="preserve">
+    <value>Исключен</value>
+  </data>
+  <data name="TRACKED_CHANGES_DLG_CHANGEKIND_INSERTEDTEXT" xml:space="preserve">
+    <value>Вставленный</value>
+  </data>
+  <data name="MNUTABLE_FORMULAS_A1STYLE_TEXT" xml:space="preserve">
+    <value>&amp;A1 Reference Style</value>
+  </data>
+  <data name="MNUTABLE_FORMULAS_AUTOMATICCALCULATION_TEXT" xml:space="preserve">
+    <value>Automatic &amp;Calculation</value>
+  </data>
+  <data name="MNUTABLE_FORMULAS_EDITFORMULA_TEXT" xml:space="preserve">
+    <value>&amp;Edit Formula...</value>
+  </data>
+  <data name="MNUTABLE_FORMULAS_R1C1STYLE_TEXT" xml:space="preserve">
+    <value>&amp;R1C1 Reference Style</value>
+  </data>
+  <data name="MNUTABLE_FORMULAS_TEXT" xml:space="preserve">
+    <value>&amp;Formulas</value>
+  </data>
+  <data name="FILEHANDLER_MSGTEMPLATE_NAFILEFORMAT" xml:space="preserve">
+    <value>Этот формат документа недоступен в TX Text Control {0}.</value>
+  </data>
+  <data name="ABOUTBOX_LBL_APPLICATIONTYPE" xml:space="preserve">
+    <value>(Версия меню и панели инструментов)</value>
+  </data>
+  <data name="ERR_NEEDSPROFLICENSE" xml:space="preserve">
+    <value>Эта функция недоступна в стандартной версии TX Text Control. По крайней мере, должна быть установлена ​​Профессиональная версия.</value>
+  </data>
+  <data name="MSG_EDITABLEREGION_NA_FOR_USER" xml:space="preserve">
+    <value>Нет редактируемой области, доступной в текущей позиции ввода пользователя: \ '{0} \'.</value>
+  </data>
+  <data name="MSG_SELECT_DOCUMENTPART" xml:space="preserve">
+    <value>Сначала выберите часть документа.</value>
+  </data>
+  <data name="MNUEDIT_COPY_TEXT" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="MNUEDIT_CUT_TEXT" xml:space="preserve">
+    <value>Вы&amp;резать</value>
+  </data>
+  <data name="MNUEDIT_FIND_TEXT" xml:space="preserve">
+    <value>&amp;Найти</value>
+  </data>
+  <data name="MNUEDIT_HYPERLINK_TEXT" xml:space="preserve">
+    <value>&amp;Hyperlink…</value>
+  </data>
+  <data name="MNUEDIT_PASTE_TEXT" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_ALLOWCOPY_TEXT" xml:space="preserve">
+    <value>Разрешить копирование</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_ALLOWFORMATTINGSTYLES_TEXT" xml:space="preserve">
+    <value>Разрешить стили форматирования</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_ALLOWFORMATTING_TEXT" xml:space="preserve">
+    <value>Разрешить форматирование</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_ALLOWPRINTING_TEXT" xml:space="preserve">
+    <value>Разрешить печать</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_READONLY_TEXT" xml:space="preserve">
+    <value>Только чтение</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_TEXT" xml:space="preserve">
+    <value>&amp;Разрешения</value>
+  </data>
+  <data name="MNUEDIT_PROTECTDOCUMENT_TEXT" xml:space="preserve">
+    <value>Pr&amp;otect Document...</value>
+  </data>
+  <data name="MNUEDIT_REPLACE_TEXT" xml:space="preserve">
+    <value>З&amp;аменить</value>
+  </data>
+  <data name="MNUEDIT_REVIEWING_TEXT" xml:space="preserve">
+    <value>Re&amp;viewing</value>
+  </data>
+  <data name="MNUEDIT_REVIEWING_TRACKCHANGES_TEXT" xml:space="preserve">
+    <value>&amp;Track Changes</value>
+  </data>
+  <data name="MNUEDIT_SELECTALL_TEXT" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="MNUEDIT_TARGET_TEXT" xml:space="preserve">
+    <value>&amp;Bookmark…</value>
+  </data>
+  <data name="MNUEDIT_TEXT" xml:space="preserve">
+    <value>&amp;Правка</value>
+  </data>
+  <data name="MNUFILE_EXIT_TEXT" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="MNUFILE_NEW_TEXT" xml:space="preserve">
+    <value>&amp;Новый</value>
+  </data>
+  <data name="MNUFILE_OPEN_TEXT" xml:space="preserve">
+    <value>&amp;Открыть…</value>
+  </data>
+  <data name="MNUFILE_OPTIONS_TEXT" xml:space="preserve">
+    <value>На&amp;стройки…</value>
+  </data>
+  <data name="MNUFILE_PAGESETUP_TEXT" xml:space="preserve">
+    <value>Параме&amp;тры страницы…</value>
+  </data>
+  <data name="MNUFILE_PRINTPREVIEW_TEXT" xml:space="preserve">
+    <value>Пред&amp;просмотр печати…</value>
+  </data>
+  <data name="MNUFILE_PRINT_TEXT" xml:space="preserve">
+    <value>&amp;Печать…</value>
+  </data>
+  <data name="MNUFILE_RECENTFILES_TEXT" xml:space="preserve">
+    <value>&amp;Недавние файлы</value>
+  </data>
+  <data name="MNUFILE_SAVEAS_TEXT" xml:space="preserve">
+    <value>Save &amp;As…</value>
+  </data>
+  <data name="MNUFILE_SAVE_TEXT" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="MNUFILE_TEXT" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="MNUFILE_USERACCESS_TEXT" xml:space="preserve">
+    <value>User A&amp;ccess...</value>
+  </data>
+  <data name="MNUFILE_USERMANAGEMENT_TEXT" xml:space="preserve">
+    <value>&amp;User Management...</value>
+  </data>
+  <data name="MNUVIEW_BUTTONBAR_TEXT" xml:space="preserve">
+    <value>&amp;Button Bar</value>
+  </data>
+  <data name="MNUVIEW_DOCUMENTTARGETMARKERS_TEXT" xml:space="preserve">
+    <value>Bookmark &amp;Markers</value>
+  </data>
+  <data name="MNUVIEW_DRAFT_TEXT" xml:space="preserve">
+    <value>&amp;Draft</value>
+  </data>
+  <data name="MNUVIEW_DRAWINGMARKERLINES_TEXT" xml:space="preserve">
+    <value>&amp;Drawing Marker Lines</value>
+  </data>
+  <data name="MNUVIEW_HEADERSANDFOOTERS_TEXT" xml:space="preserve">
+    <value>&amp;Headers and Footers</value>
+  </data>
+  <data name="MNUVIEW_HORIZONTALRULER_TEXT" xml:space="preserve">
+    <value>H&amp;orizontal Ruler</value>
+  </data>
+  <data name="MNUVIEW_PAGELAYOUT_TEXT" xml:space="preserve">
+    <value>&amp;Page Layout</value>
+  </data>
+  <data name="MNUVIEW_STATUSBAR_TEXT" xml:space="preserve">
+    <value>&amp;Status Bar</value>
+  </data>
+  <data name="MNUVIEW_TEXT" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="MNUVIEW_TEXTFRAMEMARKERLINES_TEXT" xml:space="preserve">
+    <value>Text &amp;Frame Marker Lines</value>
+  </data>
+  <data name="MNUVIEW_TOOLBAR_TEXT" xml:space="preserve">
+    <value>&amp;Toolbar</value>
+  </data>
+  <data name="MNUVIEW_VERTICALRULER_TEXT" xml:space="preserve">
+    <value>&amp;Vertical Ruler</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_100_TEXT" xml:space="preserve">
+    <value>&amp;4  100%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_150_TEXT" xml:space="preserve">
+    <value>&amp;5  150%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_200_TEXT" xml:space="preserve">
+    <value>&amp;6  200%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_25_TEXT" xml:space="preserve">
+    <value>&amp;1  25%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_300_TEXT" xml:space="preserve">
+    <value>&amp;7  300%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_400_TEXT" xml:space="preserve">
+    <value>&amp;8  400%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_50_TEXT" xml:space="preserve">
+    <value>&amp;2  50%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_75_TEXT" xml:space="preserve">
+    <value>&amp;3  75%</value>
+  </data>
+  <data name="MNUVIEW_ZOOM_TEXT" xml:space="preserve">
+    <value>&amp;Zoom</value>
+  </data>
+  <data name="INPUTBOXDLG_REMOVE_EDITABLEREGION_TITLE" xml:space="preserve">
+    <value>Удалить редактируемую область</value>
+  </data>
+  <data name="INPUTBOXDLG_SETAXISTITLE_TITLE" xml:space="preserve">
+    <value>Установить заголовок оси</value>
+  </data>
+  <data name="INPUTBOXDLG_SETCHARTTITLE_TITLE" xml:space="preserve">
+    <value>Установить заголовок диаграммы</value>
+  </data>
+  <data name="INPUTBOXDLG_SETOBJECTNAME_TITLE" xml:space="preserve">
+    <value>Установить имя объекта</value>
+  </data>
+  <data name="EXPORTDLG_TITLE" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="MSG_FORMLAYOUTCHANGED_TEXT" xml:space="preserve">
+    <value>Ваши измененные настройки были сохранены. Вы должны перезапустить приложение, чтобы они вступили в силу. Вы хотите перезагрузить сейчас?</value>
+  </data>
+  <data name="MSG_FORMLAYOUTCHANGED_TITLE" xml:space="preserve">
+    <value>Изменить макет формы</value>
+  </data>
+  <data name="INSERTBREAK_DLG_btnCancel_Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="INSERTBREAK_DLG_grpBreak_Text" xml:space="preserve">
+    <value>Типы перерывов:</value>
+  </data>
+  <data name="INSERTBREAK_DLG_grpSectionBreak_Text" xml:space="preserve">
+    <value>Типы разрыва раздела:</value>
+  </data>
+  <data name="INSERTBREAK_DLG_rbBeginAtNewLine_Text" xml:space="preserve">
+    <value>Begin at &amp;new line</value>
+  </data>
+  <data name="INSERTBREAK_DLG_rbBeginAtNewPage_Text" xml:space="preserve">
+    <value>Begin &amp;at new page</value>
+  </data>
+  <data name="INSERTBREAK_DLG_rbInsertColumn_Text" xml:space="preserve">
+    <value>Insert &amp;column break</value>
+  </data>
+  <data name="INSERTBREAK_DLG_rbInsertPageBreak_Text" xml:space="preserve">
+    <value>Insert page &amp;break</value>
+  </data>
+  <data name="INSERTBREAK_DLG_rbInsertTextBreak_Text" xml:space="preserve">
+    <value>Insert text &amp;wrapping break</value>
+  </data>
+  <data name="INSERTBREAK_DLG_TITLE" xml:space="preserve">
+    <value>Вставить разрыв</value>
+  </data>
+  <data name="ABOUTBOX_CLOSE_TEXT" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="ABOUTBOX_FORMAT_TITLE" xml:space="preserve">
+    <value>О {0}</value>
+  </data>
+  <data name="ABOUTBOX_LINKLABEL_TEXT" xml:space="preserve">
+    <value>Для получения дополнительной информации посетите www.textcontrol.com.</value>
+  </data>
+  <data name="CHARTDATAGRID_DLG_CTX_COPY" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="CHARTDATAGRID_DLG_CTX_DELETECOLUMNS" xml:space="preserve">
+    <value>Удалить строки</value>
+  </data>
+  <data name="CHARTDATAGRID_DLG_CTX_DELETEROWS" xml:space="preserve">
+    <value>Удалить столбцы</value>
+  </data>
+  <data name="CHARTDATAGRID_DLG_CTX_PASTE" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="CHARTDATAGRID_DLG_TITLE" xml:space="preserve">
+    <value>Техническая спецификация</value>
+  </data>
+  <data name="MSG_EXPORTDOCUMENT_TITLE" xml:space="preserve">
+    <value>Экспорт документа</value>
+  </data>
+  <data name="MSG_FIELDNOTAVAILABLE" xml:space="preserve">
+    <value>В текущей позиции ввода нет поля.</value>
+  </data>
+  <data name="MSG_SAVINGDOCUMENT_TITLE" xml:space="preserve">
+    <value>Сохранение документа</value>
+  </data>
+  <data name="MSG_COULD_NOT_OPEN_LINK" xml:space="preserve">
+    <value>Не удалось открыть ссылку / путь к файлу.</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_CHECKFORMFIELD_TEXT" xml:space="preserve">
+    <value>&amp;Check Box</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_COMBOBOXFORMFIELD_TEXT" xml:space="preserve">
+    <value>Выпадающий сп&amp;исок...</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_DROPDOWNLISTFORMFIELD_TEXT" xml:space="preserve">
+    <value>D&amp;rop-Down List...</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_TEXT" xml:space="preserve">
+    <value>F&amp;orm Fields</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_TEXTFORMFIELD_TEXT" xml:space="preserve">
+    <value>&amp;Text</value>
+  </data>
+  <data name="CONTEXTMENU_FORMFIELDS_TEXT" xml:space="preserve">
+    <value>Свойства поля формы ...</value>
+  </data>
+  <data name="SELECTIONFORMFIELD_DLG_COMBOBOX_TITLE" xml:space="preserve">
+    <value>Свойства поля со списком</value>
+  </data>
+  <data name="SELECTIONFORMFIELD_DLG_DROPDOWN_TITLE" xml:space="preserve">
+    <value>Свойства выпадающего списка</value>
+  </data>
+  <data name="ERR_VALUEREQUIRED" xml:space="preserve">
+    <value>Значение не должно быть пустым.</value>
+  </data>
+  <data name="MNUFILE_RECENTFILES_CLEAR_TEXT" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="MNUFORMAT_FORMFIELDS_DELETE_TEXT" xml:space="preserve">
+    <value>&amp;Удалить поле</value>
+  </data>
+  <data name="MNUFORMAT_FORMFIELDS_PROPERTIES_TEXT" xml:space="preserve">
+    <value>&amp;...</value>
+  </data>
+  <data name="MNUFORMAT_FORMFIELDS_TEXT" xml:space="preserve">
+    <value>&amp;Поля формы</value>
+  </data>
+  <data name="MNUEDIT_PERMISSIONS_ALLOWEDITINGFORMFIELDS_TEXT" xml:space="preserve">
+    <value>Разрешить редактирование полей формы</value>
+  </data>
+  <data name="MNUINSERT_FORMFIELDS_DATEPICKER_TEXT" xml:space="preserve">
+    <value>&amp;Дата</value>
+  </data>
+  <data name="DATEFORMFIELD_DLG_PLACEHOLDER_DEFAULT" xml:space="preserve">
+    <value>(Дефолт)</value>
+  </data>
+  <data name="MNUFORMAT_FORMFIELDS_CONDITIONALINSTRUCTIONS_TEXT" xml:space="preserve">
+    <value>&amp;Conditional Instructions...</value>
+  </data>
+  <data name="MNUFORMAT_FORMFIELDS_ISFORMFIELDVALIDATIONENABLED_TEXT" xml:space="preserve">
+    <value>&amp;Enable Form Validation</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_EMBEDDEDFILES" xml:space="preserve">
+    <value>&amp;Load Embedded Files</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_METADATA" xml:space="preserve">
+    <value>Метаданные</value>
+  </data>
+  <data name="OPT_DLG_PDFIMP_MODE_ADDITIONAL_EMBEDDED_DATA" xml:space="preserve">
+    <value>Load &amp;additional embedded data (coordinates, formfields, metadata)</value>
+  </data>
+  <data name="MNUEDIT_TABLEOFCONTENTS_DELETE_TEXT" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="MNUEDIT_TABLEOFCONTENTS_EDIT_TEXT" xml:space="preserve">
+    <value>&amp;Редактировать...</value>
+  </data>
+  <data name="MNUEDIT_TABLEOFCONTENTS_TEXT" xml:space="preserve">
+    <value>Table of Co&amp;ntents</value>
+  </data>
+  <data name="MNUEDIT_TABLEOFCONTENTS_UPDATE_TEXT" xml:space="preserve">
+    <value>&amp;Update</value>
+  </data>
+  <data name="MNUINSERT_TABLEOFCONTENTS_TEXT" xml:space="preserve">
+    <value>Table of Co&amp;ntents...</value>
+  </data>
+</root>

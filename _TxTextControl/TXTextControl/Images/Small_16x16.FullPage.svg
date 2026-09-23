@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#646766;}
+	.st2{fill:#4D82B8;}
+	.st3{fill:none;stroke:#B1B1B1;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="4.5" y="4.5" class="st0" width="7" height="6"/>
+	<path class="st1" d="M11,5v5H5V5H11 M12,4h-1H5H4v1v5v1h1h6h1v-1V5V4L12,4z"/>
+</g>
+<g>
+	<polygon class="st2" points="7.9,0 6.2,3 9.6,3 	"/>
+</g>
+<g>
+	<polygon class="st2" points="7.9,15 9.6,12 6.2,12 	"/>
+</g>
+<g>
+	<polygon class="st2" points="15.9,7.7 13,6.1 13,9.4 	"/>
+</g>
+<g>
+	<polygon class="st2" points="0,7.7 3,9.4 3,6 	"/>
+</g>
+<line class="st3" x1="6.5" y1="6.5" x2="9.5" y2="6.5"/>
+<line class="st3" x1="6.5" y1="8.5" x2="9.5" y2="8.5"/>
+</svg>

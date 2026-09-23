@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="METH_ADDRIBBON_DISPLAY"><value>Add a Ribbon</value></data>
+  <data name="METH_CONVERTTORIBBONFORM_DISPLAY"><value>Convert to a RibbonForm</value></data>
+  <data name="ERR_TXWORDS_NOTFOUND"><value>The TXTextControlWords Demo Application is not installed.</value></data>
+  <data name="ERR_TXHELPCENTER_NOTFOUND"><value>The TX Text Control Help and Support Center is not installed.</value></data>
+  <data name="METH_ADDSTATUSBAR"><value>Creates a StatusBar and connects it with the TextControl.</value></data>
+  <data name="PROP_DOCK"><value>Defines which borders of the control are bound to the container.</value></data>
+  <data name="PROP_TEXT"><value>Gets or sets the control's text.</value></data>
+  <data name="PROP_TEXTCONTROL"><value>Defines the TextControl which is connected to the Sidebar.</value></data>
+  <data name="METH_ADDRIBBONVIEWTAB_DISPLAY"><value>Add a RibbonViewTab</value></data>
+  <data name="METH_ADDRIBBONFORMATTINGTAB"><value>Adds a ribbon for font and paragraph formatting.</value></data>
+  <data name="METH_ADDRULERBAR"><value>Creates a RulerBar and connects it with the TextControl.</value></data>
+  <data name="METH_ADDRIBBONREPORTINGTAB"><value>Add a ribbon to manage and design a mail merge document.</value></data>
+  <data name="METH_STARTTXWORDS"><value>Starts the TXTextControlWords Demo Application.</value></data>
+  <data name="METH_ADDRIBBONPROOFINGTAB_DISPLAY"><value>Add a RibbonProofingTab</value></data>
+  <data name="METH_ADDRIBBONPERMISSIONSTAB"><value>Adds a ribbon to set document permissions.</value></data>
+  <data name="METH_ADDRIBBONPROOFINGTAB"><value>Adds a ribbon to check spelling and hyphenation.</value></data>
+  <data name="METH_ADDRIBBONINSERTTAB_DISPLAY"><value>Add a RibbonInsertTab</value></data>
+  <data name="METH_ADDRIBBONINSERTTAB"><value>Adds a ribbon for inserting text elements, such as images, tables, text frames and drawings.</value></data>
+  <data name="METH_ADDRIBBONREPORTINGTAB_DISPLAY"><value>Add a RibbonReportingTab</value></data>
+  <data name="METH_ADDRIBBONFORMFIELDSTAB_DISPLAY"><value>Add a RibbonFormFieldsTab</value></data>
+  <data name="METH_ADDBUTTONBAR"><value>Creates a ButtonBar and connects it with the TextControl.</value></data>
+  <data name="METH_ADDRIBBONTAB"><value>Adds an empty ribbon.</value></data>
+  <data name="METH_ADDRIBBON"><value>Creates a Ribbon.</value></data>
+  <data name="METH_ADDRIBBONPERMISSIONSTAB_DISPLAY"><value>Add a RibbonPermissionsTab</value></data>
+  <data name="METH_ADDRULERBAR_DISPLAY"><value>Add a Ruler</value></data>
+  <data name="METH_ADDTEXTCONTROL_DISPLAY"><value>Add a TextControl</value></data>
+  <data name="METH_CONVERTTORIBBONFORM"><value>Changes the Form object to a RibbonForm object to enable key tips and a Quick Access Toolbar.</value></data>
+  <data name="PROP_CONTENTLAYOUT"><value>Defines the Sidebar's content layout to render.</value></data>
+  <data name="METH_ADDVERTRULERBAR"><value>Creates a vertical RulerBar and connects it with the TextControl.</value></data>
+  <data name="METH_STARTTXWORDS_DISPLAY"><value>Start TXTextControlWords</value></data>
+  <data name="METH_ADDBUTTONBAR_DISPLAY"><value>Add a ButtonBar</value></data>
+  <data name="METH_REMOVERIBBONTAB_DISPLAY"><value>Remove RibbonTab</value></data>
+  <data name="ERR_ADDRIBBONTAB"><value>A RibbonTab control can only be added to a TXTextControl.Windows.Forms.Ribbon.Ribbon control.</value></data>
+  <data name="METH_ADDRIBBONPAGELAYOUTTAB"><value>Adds a ribbon for designing the page layout.</value></data>
+  <data name="METH_ADDRIBBONFORMFIELDSTAB"><value>Add a ribbon to insert and design form fields.</value></data>
+  <data name="METH_OPENTXHELPCENTER"><value>Opens the TX Text Control Help And Support Center.</value></data>
+  <data name="METH_ARRANGECONTROLS"><value>Arranges all TX Text Control controls in the container.</value></data>
+  <data name="METH_ARRANGECONTROLS_DISPLAY"><value>Arrange Controls Automatically</value></data>
+  <data name="METH_ADDVERTRULERBAR_DISPLAY"><value>Add a Vertical Ruler</value></data>
+  <data name="PROP_VIEWMODE"><value>Defines the kind of view for displaying the text.</value></data>
+  <data name="METH_ADDRIBBONPAGELAYOUTTAB_DISPLAY"><value>Add a RibbonPageLayoutTab</value></data>
+  <data name="METH_REMOVERIBBONTAB"><value>Removes the selected ribbon tab.</value></data>
+  <data name="PROP_SHOWTITLEBAR"><value>Defines a value indication whether the Sidebar's titlebar is shown.</value></data>
+  <data name="PROP_SHOWPINBUTTON"><value>Gets or sets a value indication whether the Sidebar's pin button is shown.</value></data>
+  <data name="METH_ADDRIBBONREFERENCESTAB_DISPLAY"><value>Add a RibbonReferencesTab</value></data>
+  <data name="METH_ADDTEXTCONTROL"><value>Creates a TextControl and connects it with the Ribbon.</value></data>
+  <data name="METH_ADDSTATUSBAR_DISPLAY"><value>Add a StatusBar</value></data>
+  <data name="METH_ADDRIBBONVIEWTAB"><value>Adds a ribbon to select which elements are visible.</value></data>
+  <data name="PROP_SIDEBARDOCK"><value>Defines which borders of the Sidebar are docked to its parent control.</value></data>
+  <data name="PROP_SIDEBARTEXT"><value>Defines the Sidebar's title text.</value></data>
+  <data name="METH_ADDRIBBONREFERENCESTAB"><value>Add a ribbon to insert a table of contents.</value></data>
+  <data name="PROP_SHOWCLOSEBUTTON"><value>Defines a value indication whether the Sidebar's close button is shown.</value></data>
+  <data name="METH_OPENTXHELPCENTER_DISPLAY"><value>Open the Help and Support Center</value></data>
+  <data name="ERR_MATCH_PROPERTY_NOTFOUND"><value>A matching TextControl property could not be found.</value></data>
+  <data name="METH_ADDRIBBONTAB_DISPLAY"><value>Add a RibbonTab</value></data>
+  <data name="METH_ADDRIBBONFORMATTINGTAB_DISPLAY"><value>Add a RibbonFormattingTab</value></data>
+  </root>

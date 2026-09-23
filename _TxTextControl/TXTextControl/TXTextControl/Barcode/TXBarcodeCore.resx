@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ERR_TEXT_LENGTH_NOT_VARIABLE_1"><value>Invalid text length. The number of characters for this barcode type must be </value></data>
+  <data name="ERR_TEXT_LENGTH_NOT_VARIABLE_3"><value /></data>
+  <data name="ERR_TEXT_LENGTH_NOT_VARIABLE_2"><value>.</value></data>
+  <data name="ERR_EAN13"><value>The text is invalid. The barcode type EAN 13 requires 12 digits. The first three digits represent the country code, the next 4-6 signify the company and the remainder the article.</value></data>
+  <data name="ERR_AZTEC"><value>The text is invalid. For the barcode type AztecCode, only ASCII characters are allowed.</value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_STATIC_1"><value>Invalid value. The upper text length for this barcode type must be </value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_STATIC_2"><value>.</value></data>
+  <data name="ERR_POSTNET"><value>The text is invalid. For the barcode type Postnet, only postal zip codes with 5, 9 or 11 digits are allowed.</value></data>
+  <data name="PROP_BACKCOLOR"><value>Gets or sets the background color for the barcode control.</value></data>
+  <data name="PROP_TEXT"><value>Gets or sets the text that should be encrypted by the specific barcode.</value></data>
+  <data name="ERR_CODE_93"><value>The text is invalid. For the barcode type Code 93, only alphanuermical characters and . $/+% are allowed.</value></data>
+  <data name="ERR_CODE_11"><value>The text is invalid. For the barcode type Code 11, only digits are allowed.</value></data>
+  <data name="ERR_CODABAR"><value>The text is invalid. For the barcode type Codabar, only digits and -$:/.+ characters are allowed.</value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_INTELLIGENTMAIL"><value>Invalid value. The upper text length for the barcode type Intelligent Mail must be 20 (plus a trailing 0), 25, 29 or 31.</value></data>
+  <data name="ERR_TEXT_LENGTH_POSTNET_2"><value>Invalid text length. The number of characters for the barcode type Postnet must be 5, 9 or 11.</value></data>
+  <data name="ERR_TEXT_LENGTH_POSTNET_1"><value>Invalid text length. The number of characters for the barcode type Postnet must be 5, 9 or 11</value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_3"><value>.</value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_2"><value> and less or equal than </value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_1"><value>Invalid value. The upper text length for this barcode type must be greater or equal than </value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_4"><value>Invalid value. The specified value must be greater or equal than the number of characters of the current text.</value></data>
+  <data name="ERR_MAXICODE"><value>The text is invalid. For the barcode type Maxicode, the form can be defined with the following regular expression: "[0-9]{3}~[0-9]{3}~[0-9A-Z ]{6}|[0-9 ]{9}~[0-9A-Z*-.!""#$+%&amp;'\\(), -:;&lt;=&gt;?[]{}@^_|~\a\b\t\n\f\r]*" or "[)&gt;~[0-9]{2}~[0-9]{2}[0-9 ]{9}|[0-9A-Z ]{6}~[0-9]{3}~[0-9]{3}~[0-9A-Z*-.!""#$+%&amp;'\\(), -:;&lt;=&gt;?[]{}@^_|~\a\b\t\n\f\r]*"</value></data>
+  <data name="PROP_BARCODETYPE"><value>Gets or sets the type of barcode that should be displayed.</value></data>
+  <data name="ERR_DATAMATRIX"><value>The text is invalid. For the barcode type Datamatrix, only ASCII (ISO 8859-1) characters are allowed.</value></data>
+  <data name="ERR_ROYAL_MAIL"><value>The text is invalid. For the barcode type Royal Mail, only Alphanumerical characters and )( are allowed.</value></data>
+  <data name="PROP_SHOWTEXT"><value>Gets or sets a value indicating whether the barcode text is displayed below or above the barcode image or not.</value></data>
+  <data name="PROP_ANGLE"><value>Gets or sets the angle of the barcode image inside the control.</value></data>
+  <data name="ERR_4STATE"><value>The text is invalid. For the barcode type 4State, only digits are allowed.</value></data>
+  <data name="ERR_TEXT_LENGTH_4"><value>)</value></data>
+  <data name="ERR_TEXT_LENGTH_5"><value>.</value></data>
+  <data name="ERR_TEXT_LENGTH_2"><value> and less or equal than the value, that is defined in the UpperTextLength property (its value is set to </value></data>
+  <data name="ERR_TEXT_LENGTH_3"><value> and less or equal than </value></data>
+  <data name="ERR_TEXT_LENGTH_1"><value>Invalid text length. The number of characters for this barcode type must be greater or equal than </value></data>
+  <data name="PROP_FORECOLOR"><value>Gets or sets the foreground color for the barcode.</value></data>
+  <data name="PROP_TEXTALIGNMENT"><value>Gets or sets a value indicating whether the barcode text and additional text is displayed below or above the barcode image.</value></data>
+  <data name="ERR_128"><value>The text is invalid. For the barcode type Code128, the English alphabet plus !#$%&amp;()*+,-./[$]^_`:;&lt;=&gt;?@;{|}~ is allowed.</value></data>
+  <data name="ERR_QRCODE"><value>The text is invalid. For the barcode type QR Code, only ASCII (ISO 8859-1) characters are allowed.</value></data>
+  <data name="ERR_PLANET"><value>The text is invalid. For the barcode type PLANET, only digits are allowed.</value></data>
+  <data name="ERR_PDF417"><value>The text is invalid. For the barcode type PDF417, only ASCII characters are allowed.</value></data>
+  <data name="ERR_TEXT_LENGTH_INTELLIGENTMAIL_2"><value>Invalid value. The upper text length for the barcode type Intelligent Mail must be 20 (plus a trailing 0), 25, 29 or 31.</value></data>
+  <data name="ERR_TEXT_LENGTH_INTELLIGENTMAIL_1"><value>Invalid value. The upper text length for the barcode type Intelligent Mail must be 20 (plus a trailing 0), 25, 29 or 31.</value></data>
+  <data name="PROP_ALIGNMENT"><value>Gets or sets the alignment of the barcode image inside the control.</value></data>
+  <data name="ERR_UPCA"><value>The text is not valid. The barcode type UPC-A requires 11 digits.</value></data>
+  <data name="ERR_EAN8"><value>The text is invalid. The barcode type EAN 8 requires 7 digits. The first 2-3 digits represent the country code and the remainder the article.</value></data>
+  <data name="ERR_3OF9"><value>The text is invalid. For the barcode type 3 of 9, only digits, uppercase characters and - . SP * $ / + %, are allowed.</value></data>
+  <data name="ERR_2OF5"><value>The text is invalid. For the barcode type 2 of 5, only digits are allowed.</value></data>
+  <data name="ERR_SERIALIZATION_FORMAT_DESTINATION"><value>Invalid type of destination object. Can be Stream, BinaryWriter, or String (file name).
+Parameter name: destination</value></data>
+  <data name="ERR_MICROPDF"><value>The text is invalid. For the barcode type MicroPDF, only ASCII characters are allowed.</value></data>
+  <data name="ERR_SERIALIZATION_FORMAT_SOURCE"><value>Invalid type of source object. Can be Stream, BinaryReader, or String (file name).
+Parameter name: source</value></data>
+  <data name="PROP_UPPERTEXTLENGTH"><value>Gets or sets the maximum number of characters the Text property can get.</value></data>
+  <data name="PROP_ADDITIONALTEXT"><value>Gets or sets an additional text that is displayed below or above the barcode image.</value></data>
+  <data name="ERR_TEXT_LENGTH_CURRENT_LENGTH_2"><value>.</value></data>
+  <data name="ERR_TEXT_LENGTH_CURRENT_LENGTH_1"><value>. Currently, the value of the Text property has a length of </value></data>
+  <data name="ERR_UPPER_TEXT_LENGTH_POSTNET"><value>Invalid value. The upper text length for the barcode type Postnet must be 5, 9 or 11.</value></data>
+  <data name="ERR_INTELLIGENTMAIL"><value>The text is invalid. For the barcode type Intelligent Mail, only a sequence of 20 (plus a trailing 0), 25, 29 or 31 digits is allowed.</value></data>
+  </root>

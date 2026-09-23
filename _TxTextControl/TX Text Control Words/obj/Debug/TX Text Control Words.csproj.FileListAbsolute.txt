@@ -1,0 +1,148 @@
+H:\ac\TX Text Control Words\bin\Debug\TXTextControlWords.exe.config
+H:\ac\TX Text Control Words\bin\Debug\TXTextControlWords.exe
+H:\ac\TX Text Control Words\bin\Debug\TXTextControlWords.pdb
+H:\ac\TX Text Control Words\bin\Debug\de\TXTextControlWords.resources.dll
+H:\ac\TX Text Control Words\bin\Debug\TXDocumentServer.dll
+H:\ac\TX Text Control Words\bin\Debug\TXDocumentServer.Windows.Forms.dll
+H:\ac\TX Text Control Words\bin\Debug\TXDrawing.dll
+H:\ac\TX Text Control Words\bin\Debug\TXDrawing.Windows.Forms.dll
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.dll
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.Windows.Forms.dll
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.Server.dll
+H:\ac\TX Text Control Words\bin\Debug\TXImageProvider.dll
+H:\ac\TX Text Control Words\bin\Debug\TXBarcode.Windows.Forms.dll
+H:\ac\TX Text Control Words\bin\Debug\TXBarcode.dll
+H:\ac\TX Text Control Words\bin\Debug\txkernel.dll
+H:\ac\TX Text Control Words\bin\Debug\txtools.dll
+H:\ac\TX Text Control Words\bin\Debug\TXDocumentServer.Windows.Forms.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXDocumentServer.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXDrawing.Windows.Forms.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXDrawing.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.Windows.Forms.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXTextControl.Server.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXImageProvider.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXBarcode.Windows.Forms.pdb
+H:\ac\TX Text Control Words\bin\Debug\TXBarcode.pdb
+H:\ac\TX Text Control Words\bin\Debug\tx29_xlx.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_rtf.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_doc.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_dox.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_htm.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_css.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_pdf.dll
+H:\ac\TX Text Control Words\bin\Debug\tx29_xml.dll
+H:\ac\_Выход\TXTextControlWords.exe.config
+H:\ac\_Выход\TXTextControlWords.exe
+H:\ac\_Выход\TXTextControlWords.pdb
+H:\ac\_Выход\de\TXTextControlWords.resources.dll
+H:\ac\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.AssemblyReference.cache
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.EditUserDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAccessDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAdminDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserPromptDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.AboutBox.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.OptionsDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.ChartDataGridDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MSChartLinkDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InsertBreakDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MainWindow.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.TrackedChangesDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.User_Access_Control.AddEditableRegionDialog.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.de.resources
+H:\ac\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.GenerateResource.cache
+H:\ac\TX Text Control Words\obj\Debug\TXTextControlWords.exe.licenses
+H:\ac\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CoreCompileInputs.cache
+H:\ac\TX Text Control Words\obj\Debug\de\TXTextControlWords.resources.dll
+H:\ac\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CopyComplete
+H:\ac\TX Text Control Words\obj\Debug\TXTextControlWords.exe
+H:\ac\TX Text Control Words\obj\Debug\TXTextControlWords.pdb
+H:\_TxTextControl\_Выход\TXTextControlWords.exe.config
+H:\_TxTextControl\_Выход\TXTextControlWords.exe
+H:\_TxTextControl\_Выход\TXTextControlWords.pdb
+H:\_TxTextControl\_Выход\de\TXTextControlWords.resources.dll
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.AssemblyReference.cache
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.EditUserDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAccessDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAdminDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserPromptDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.AboutBox.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.OptionsDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.ChartDataGridDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MSChartLinkDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InsertBreakDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MainWindow.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.TrackedChangesDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.User_Access_Control.AddEditableRegionDialog.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.de.resources
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.GenerateResource.cache
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.exe.licenses
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CoreCompileInputs.cache
+H:\_TxTextControl\TX Text Control Words\obj\Debug\de\TXTextControlWords.resources.dll
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CopyComplete
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.exe
+H:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.pdb
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.EditUserDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAccessDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserAdminDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.UserPromptDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.AboutBox.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.OptionsDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.ChartDataGridDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MSChartLinkDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InsertBreakDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.MainWindow.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.TrackedChangesDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.User_Access_Control.AddEditableRegionDialog.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.CheckFormFieldDialog.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.DateFormFieldDialog.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.EmptyWidthControl.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.SelectionFormFieldDialog.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.FormFields.TextFormFieldDialog.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.InputBoxDialog.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX_Text_Control_Words.Properties.Resources.de.resources
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.GenerateResource.cache
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CoreCompileInputs.cache
+I:\_TxTextControl\_Выход\TXTextControlWords.exe.config
+I:\_TxTextControl\_Выход\TXTextControlWords.exe
+I:\_TxTextControl\_Выход\TXTextControlWords.pdb
+I:\_TxTextControl\_Выход\de\TXTextControlWords.resources.dll
+I:\_TxTextControl\TX Text Control Words\obj\Debug\de\TXTextControlWords.resources.dll
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.CopyComplete
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.exe
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.pdb
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TXTextControlWords.exe.licenses
+I:\_TxTextControl\TX Text Control Words\obj\Debug\TX Text Control Words.csproj.AssemblyReference.cache

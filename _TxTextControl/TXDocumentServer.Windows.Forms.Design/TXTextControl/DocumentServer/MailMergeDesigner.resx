@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="METH_SELECTTEMPLATEFILE_DISPLAY"><value>TemplateFile…</value></data>
+  <data name="ERR_ALREADY_CONNECTED"><value>The MailMerge object is already connected to a text component.</value></data>
+  <data name="ERR_TXHELPCENTER_NOTFOUND"><value>The TX Text Control Help and Support Center is not installed.</value></data>
+  <data name="METH_SELECTCONFIGFILE_DISPLAY"><value>ReportDataSourceConfigFile…</value></data>
+  <data name="METH_CONNECTTOTEXTCOMPONENT"><value>Connects the MailMerge object to an existing text component.</value></data>
+  <data name="METH_SELECTTEMPLATEFILE_INFO"><value>Select a template document file which
+was created with the Template Designer.</value></data>
+  <data name="METH_ADDTEXTCOMPONENT_DISPLAY"><value>Add a Text Component</value></data>
+  <data name="ERR_WRONG_WINDOWS_VERSION"><value>Your Windows version is too old to run TX Template Designer. At least Windows Vista SP2 with “Platform Update for Windows Vista” is required.</value></data>
+  <data name="METH_CONNECTTOTEXTCOMPONENT_DISPLAY"><value>Connect to Text Component</value></data>
+  <data name="METH_SELECTCONFIGFILE_INFO"><value>Select a Report Data Source Configuration
+file which has been created with the
+Template Designer. It contains information
+about the database to be used with the
+template document.</value></data>
+  <data name="ERR_NO_TEXT_CMP_FOUND"><value>No suitable text component found. Add a TextControl or a ServerTextControl instance to your project first.</value></data>
+  <data name="METH_OPENTXHELPCENTER"><value>Opens the TX Text Control Help And Support Center.</value></data>
+  <data name="METH_STARTTEMPLDES_DISPLAY"><value>Start Template Designer</value></data>
+  <data name="METH_STARTTEMPLDES_INFO"><value>Use TX Text Control Template Designer
+(TX Text Control Words Ribbon) to create
+template documents and configuration files.</value></data>
+  <data name="METH_ADDTEXTCOMPONENT"><value>Adds a Text Component and connects it to the MailMerge object.</value></data>
+  <data name="METH_OPENTXHELPCENTER_DISPLAY"><value>Open the Help and Support Center</value></data>
+  <data name="ERR_MATCH_PROPERTY_NOTFOUND"><value>A matching DocumentServer property could not be found.</value></data>
+  <data name="ERR_TEMPLDES_NOTFOUND"><value>TX Template Designer is not installed.</value></data>
+  <data name="ERR_TEXT_CMP_EXISTS"><value>At least one text component already exists. Not adding a new one.</value></data>
+  </root>

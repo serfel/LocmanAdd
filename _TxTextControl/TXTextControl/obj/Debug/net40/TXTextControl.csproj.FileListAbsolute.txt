@@ -1,0 +1,58 @@
+I:\ab\TXTextControl\bin\Debug\net40\TXTextControl.dll
+I:\ab\TXTextControl\bin\Debug\net40\TXTextControl.pdb
+I:\ab\TXTextControl\bin\Debug\net40\TXImageProvider.dll
+I:\ab\TXTextControl\bin\Debug\net40\TXImageProvider.pdb
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.csproj.AssemblyReference.cache
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.TextControlCore.resources
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.csproj.GenerateResource.cache
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.csproj.CoreCompileInputs.cache
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.csproj.CopyComplete
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.dll
+I:\ab\TXTextControl\obj\Debug\net40\TXTextControl.pdb
+I:\ab\TXTextControl\bin\Debug\net40\txkernel.dll
+I:\ab\TXTextControl\bin\Debug\net40\txtools.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_xlx.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_rtf.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_doc.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_dox.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_htm.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_css.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_pdf.dll
+I:\ab\TXTextControl\bin\Debug\net40\tx29_xml.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\TXTextControl.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\TXTextControl.pdb
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\txkernel.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\txpdf.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\txtools.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\de\TXTextControl.resources.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_xlx.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_rtf.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_doc.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_dox.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_htm.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_css.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_pdf.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\bin\Debug\net40\tx29_xml.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.Properties.Resources.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.Barcode.TXBarcodeCore.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.AccessConnectionUIControl.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.AddPropertyDialog.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.DatabaseConnectionAdvancedDialog.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.DatabaseConnectionSourceDialog.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.OdbcConnectionUIControl.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.OleDBConnectionUIControl.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.SqlConnectionUIControl.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Data.ConnectionUI.SqlFileConnectionUIControl.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Properties.Resources.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.DocumentServer.Windows.Forms.DatabaseConnectionDialog.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.Drawing.Properties.Resources.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.Drawing.TXDrawing.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TXTextControl.Proofing.SpellCheckDialogForm.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.TextControlCore.resources
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.csproj.GenerateResource.cache
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.GeneratedMSBuildEditorConfig.editorconfig
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.csproj.CoreCompileInputs.cache
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.csproj.CopyComplete
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.dll
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.pdb
+E:\_Programs\_Лоцман добавка\_TxTextControl\TXTextControl\obj\Debug\net40\TXTextControl.csproj.AssemblyReference.cache

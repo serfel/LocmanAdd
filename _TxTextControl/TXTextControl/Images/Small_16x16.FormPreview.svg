@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#656867;stroke-linecap:square;stroke-miterlimit:10;}
+	.st2{fill:#656867;}
+	.st3{fill:none;stroke:#656867;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:#EDC87F;stroke:#656867;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<rect x="6" y="4.5" class="st0" width="7.5" height="7"/>
+		<rect x="0.5" y="4.5" class="st0" width="2.5" height="7"/>
+	</g>
+	<g>
+		<line class="st1" x1="6.5" y1="2.5" x2="2.5" y2="2.5"/>
+		<line class="st1" x1="4.5" y1="3.5" x2="4.5" y2="12.5"/>
+		<line class="st1" x1="6.5" y1="13.5" x2="2.5" y2="13.5"/>
+	</g>
+	<g>
+		<polygon class="st2" points="13,11 13,5 6,5 6,4 14,4 14,12 6,12 6,11 		"/>
+		<polygon class="st2" points="3,4 3,5 1,5 1,11 3,11 3,12 0,12 0,4 		"/>
+	</g>
+</g>
+<g>
+	<line class="st3" x1="12.5" y1="10.5" x2="18" y2="16"/>
+	<circle class="st4" cx="10.2" cy="8.2" r="4.2"/>
+</g>
+</svg>

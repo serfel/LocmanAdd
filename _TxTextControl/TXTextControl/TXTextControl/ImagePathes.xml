@@ -1,0 +1,1182 @@
+<?xml version="1.0"?>
+<ImageContainers>
+  <!--RibbonFormattingTab-->
+
+  <!--TXITEM_ClipboardGroup-->
+  <TXITEM_PasteImage>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertImage.svg</Small_16x16>
+  </TXITEM_PasteImage>
+  <TXITEM_PasteTextFrame>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertTextFrame.svg</Small_16x16>
+  </TXITEM_PasteTextFrame>
+  <TXITEM_PasteChart>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertChart.svg</Small_16x16>
+  </TXITEM_PasteChart>
+  <TXITEM_PasteBarcode>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertBarcode.svg</Small_16x16>
+  </TXITEM_PasteBarcode>
+  <TXITEM_PasteDrawing>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertShape.svg</Small_16x16>
+  </TXITEM_PasteDrawing>
+      
+  <!--TXITEM_FontGroup-->
+  <TXITEM_FontGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_FontGroup_DialogBoxLauncher>
+  <!--2. Row-->
+  <TXITEM_Bold_DE>
+    <Small_16x16>Images.Small_16x16.Bold_F.svg</Small_16x16>
+  </TXITEM_Bold_DE>
+  <TXITEM_Bold_FR>
+    <Small_16x16>Images.Small_16x16.Bold_G.svg</Small_16x16>
+  </TXITEM_Bold_FR>
+  <TXITEM_Bold_ES>
+    <Small_16x16>Images.Small_16x16.Bold_N.svg</Small_16x16>
+  </TXITEM_Bold_ES>
+  <TXITEM_Italic_DE>
+    <Small_16x16>Images.Small_16x16.Italic_K.svg</Small_16x16>
+  </TXITEM_Italic_DE>
+  <TXITEM_Italic_FR>
+    <Small_16x16>Images.Small_16x16.Italic.svg</Small_16x16>
+  </TXITEM_Italic_FR>
+  <TXITEM_Italic_ES>
+    <Small_16x16>Images.Small_16x16.Italic_K.svg</Small_16x16>
+  </TXITEM_Italic_ES>
+  <TXITEM_Underline_DE>
+    <Small_16x16>Images.Small_16x16.Underline.svg</Small_16x16>
+  </TXITEM_Underline_DE>
+  <TXITEM_Underline_FR>
+    <Small_16x16>Images.Small_16x16.Underline_S.svg</Small_16x16>
+  </TXITEM_Underline_FR>
+  <TXITEM_Underline_ES>
+    <Small_16x16>Images.Small_16x16.Underline_S.svg</Small_16x16>
+  </TXITEM_Underline_ES>
+  <TXITEM_TextColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_TextColor_MoreColors>
+
+  <!--TXITEM_ParagraphGroup-->
+  <TXITEM_ParagraphGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.ParagraphFormatting.svg</Small_16x16>
+  </TXITEM_ParagraphGroup_DialogBoxLauncher>
+  <!--1. Row-->
+  <TXITEM_BulletedList_Format>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.BulletedList.svg</Small_16x16>
+  </TXITEM_BulletedList_Format>
+  <TXITEM_NumberedList_Format>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.NumberedList.svg</Small_16x16>
+  </TXITEM_NumberedList_Format>
+  <TXITEM_StructuredList_Format>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.StructuredList.svg</Small_16x16>
+  </TXITEM_StructuredList_Format>
+  <!--2. Row-->
+  <TXITEM_BoxFrame>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Borders.svg</Small_16x16>
+  </TXITEM_BoxFrame>
+  <TXITEM_BackColor_Transparent>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_BackColor_Transparent>
+  <TXITEM_BackColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_BackColor_MoreColors>
+  <TXITEM_FrameLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_FrameLineColor_Automatic>
+  <TXITEM_FrameLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_FrameLineColor_MoreColors>
+
+  <!--TXITEM_StylesGroup-->
+  <TXITEM_StyleNames_Format>
+    <Small_16x16>Images.Small_16x16.StyleName.svg</Small_16x16>
+  </TXITEM_StyleNames_Format>
+  
+  <!--TXITEM_EditingGroup-->
+  <TXITEM_Find>
+    <Small_16x16>Images.Small_16x16.Find_Dialog.svg</Small_16x16>
+  </TXITEM_Find>
+  <TXITEM_Find_Sidebars>
+    <Small_16x16>Images.Small_16x16.Find_Dialog.svg</Small_16x16>
+  </TXITEM_Find_Sidebars>
+  <TXITEM_Replace>
+    <Small_16x16>Images.Small_16x16.Replace_Dialog.svg</Small_16x16>
+  </TXITEM_Replace>
+  <TXITEM_Replace_Sidebars>
+    <Small_16x16>Images.Small_16x16.Replace_Dialog.svg</Small_16x16>
+  </TXITEM_Replace_Sidebars>
+  <TXITEM_Replace_Sidebars_Vertical>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Vertical.svg</Small_16x16>
+  </TXITEM_Replace_Sidebars_Vertical>
+  <TXITEM_Replace_Sidebars_Horizontal>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Horizontal.svg</Small_16x16>
+  </TXITEM_Replace_Sidebars_Horizontal>
+  <TXITEM_Goto>
+    <Small_16x16>Images.Small_16x16.Goto_Dialog.svg</Small_16x16>
+  </TXITEM_Goto>
+  <TXITEM_Goto_Sidebars>
+    <Small_16x16>Images.Small_16x16.Goto_Dialog.svg</Small_16x16>
+  </TXITEM_Goto_Sidebars>
+  <TXITEM_Goto_Sidebars_Vertical>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Vertical.svg</Small_16x16>
+  </TXITEM_Goto_Sidebars_Vertical>
+  <TXITEM_Goto_Sidebars_Horizontal>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Horizontal.svg</Small_16x16>
+  </TXITEM_Goto_Sidebars_Horizontal>
+  <TXITEM_SelectObjects>
+    <Small_16x16>Images.Small_16x16.SelectTable.svg</Small_16x16>
+  </TXITEM_SelectObjects>
+
+  <!--RibbonInsertTab-->
+  <!--TXITEM_PageGroup-->
+
+  <!--TXITEM_TableGroup-->
+  <TXITEM_InsertTableDialog>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertTable.svg</Small_16x16>
+  </TXITEM_InsertTableDialog>
+
+  <!--TXITEM_IllustrationsGroup-->
+  <TXITEM_InsertImageDialog>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertImage.svg</Small_16x16>
+  </TXITEM_InsertImageDialog>
+
+  <!--TXITEM_LinksGroup-->
+  <TXITEM_InsertHyperlinkDialog>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertHyperlink.svg</Small_16x16>
+  </TXITEM_InsertHyperlinkDialog>
+  <TXITEM_InsertBookmarkDialog>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertBookmark.svg</Small_16x16>
+  </TXITEM_InsertBookmarkDialog>
+  <TXITEM_EditBookmark>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertBookmark.svg</Small_16x16>
+  </TXITEM_EditBookmark>
+
+  <!--TXITEM_HeaderFooterGroup-->
+  <TXITEM_EditHeader>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertHeader.svg</Small_16x16>
+  </TXITEM_EditHeader>
+  <TXITEM_EditFooter>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertFooter.svg</Small_16x16>
+  </TXITEM_EditFooter>
+  <TXITEM_InsertStandardPageNumber>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertPageNumber.svg</Small_16x16>
+  </TXITEM_InsertStandardPageNumber>
+
+  <!--TXITEM_TextGroup-->
+  <TXITEM_AddTextFrame>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertTextFrame.svg</Small_16x16>
+  </TXITEM_AddTextFrame>
+
+  <!--TXITEM_SymbolsGroup-->
+  <TXITEM_MoreSymbols>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertSymbol.svg</Small_16x16>
+  </TXITEM_MoreSymbols>
+  <!--RibbonViewTab-->
+
+  <!--TXITEM_DocumentViewsGroup-->
+
+  <!--TXITEM_ZoomGroup-->
+
+  <!--TXITEM_ToolbarsGroup-->
+
+  <!--TXITEM_ShowGroup-->
+  <TXITEM_ShowTableGridlines>
+    <Small_16x16>Images.Small_16x16.TableGridLines.svg</Small_16x16>
+  </TXITEM_ShowTableGridlines>
+  <TXITEM_ShowControlChars>
+    <Small_16x16>Images.Small_16x16.ControlChars.svg</Small_16x16>
+  </TXITEM_ShowControlChars>
+  <TXITEM_ShowDrawingFrameMarkersLines>
+    <Small_16x16>Images.Small_16x16.DrawingMarkerLines.svg</Small_16x16>
+  </TXITEM_ShowDrawingFrameMarkersLines>
+
+  <!--RibbonPageLayoutTab-->
+
+  <!--TXITEM_DocumentViewsGroup-->
+
+  <!--TXITEM_ColumnsAndBreaksGroup-->
+  <TXITEM_Columns_Two>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Columns.svg</Small_16x16>
+  </TXITEM_Columns_Two>
+  <TXITEM_Breaks>
+    <Small_16x16>Images.Small_16x16.InsertPageBreak.svg</Small_16x16>
+    <Large_32x32>Images.Large_32x32.InsertPageBreak.svg</Large_32x32>
+  </TXITEM_Breaks>
+  <TXITEM_Breaks_Page>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertPageBreak.svg</Small_16x16>
+  </TXITEM_Breaks_Page>
+
+  <!--TXITEM_PageBackgroundAndBordersGroup-->
+  <TXITEM_PageColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_PageColor_Automatic>
+  <TXITEM_PageColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_PageColor_MoreColors>
+  <TXITEM_PageLineColor>
+    <Small_16x16>Images.Small_16x16.FrameLineColor.svg</Small_16x16>
+  </TXITEM_PageLineColor>
+  <TXITEM_PageLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_PageLineColor_Automatic>
+  <TXITEM_PageLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_PageLineColor_MoreColors>
+  <TXITEM_PageLineWidth>
+    <Small_16x16>Images.Small_16x16.FrameLineWidth.svg</Small_16x16>
+  </TXITEM_PageLineWidth>
+
+  <!--RibbonProofingTab-->
+
+  <!--TXITEM_SpellingAndHyphenationGroup-->
+
+  <!--TXITEM_ProofingSettingsGroup-->
+
+  <!--TXITEM_TrackChangesGroup-->
+  <TXITEM_AcceptTrackedChange_AcceptAndMoveToNext>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.AcceptTrackedChange.svg</Small_16x16>
+  </TXITEM_AcceptTrackedChange_AcceptAndMoveToNext>
+  <TXITEM_AcceptTrackedChange_AcceptThisChange>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.AcceptTrackedChange.svg</Small_16x16>
+  </TXITEM_AcceptTrackedChange_AcceptThisChange>
+  <TXITEM_RejectTrackedChange_RejectAndMoveToNext>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.RejectTrackedChange.svg</Small_16x16>
+  </TXITEM_RejectTrackedChange_RejectAndMoveToNext>
+  <TXITEM_RejectTrackedChange_RejectThisChange>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.RejectTrackedChange.svg</Small_16x16>
+  </TXITEM_RejectTrackedChange_RejectThisChange>
+  <TXITEM_TrackedChanges>
+    <Small_16x16>Images.Small_16x16.TrackedChanges_Dialog.svg</Small_16x16>
+  </TXITEM_TrackedChanges>
+  <TXITEM_TrackedChanges_Sidebars>
+    <Small_16x16>Images.Small_16x16.TrackedChanges_Dialog.svg</Small_16x16>
+  </TXITEM_TrackedChanges_Sidebars>
+  <TXITEM_TrackedChanges_Sidebars_Vertical>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Vertical.svg</Small_16x16>
+  </TXITEM_TrackedChanges_Sidebars_Vertical>
+  <TXITEM_TrackedChanges_Sidebars_Horizontal>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Vertical.svg</Small_16x16>
+  </TXITEM_TrackedChanges_Sidebars_Horizontal>
+
+  <!--TXITEM_LanguageGroup-->
+
+  <!--RibbonReportingTab-->
+
+  <!--TXITEM_DataSourceGroup-->
+  <TXITEM_DataSource_DataSource>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DataSource.svg</Small_16x16>
+  </TXITEM_DataSource_DataSource>
+
+  <!--TXITEM_MergeFieldsGroup-->
+  <TXITEM_InsertMergeField_InsertCustomMergeField>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertMergeField.svg</Small_16x16>
+  </TXITEM_InsertMergeField_InsertCustomMergeField>
+  <TXITEM_InsertSpecialField_IF>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertSpecialField.svg</Small_16x16>
+  </TXITEM_InsertSpecialField_IF>
+
+  <!--TXITEM_MergeBlocksGroup-->
+  <TXITEM_InsertMergeBlock_InsertCustomMergeBlock>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertMergeBlock.svg</Small_16x16>
+  </TXITEM_InsertMergeBlock_InsertCustomMergeBlock>
+
+  <!--TXITEM_ViewGroup-->
+
+  <!--RibbonPermissionsTab-->
+
+  <!--TXITEM_RestrictFormattingGroup-->
+
+  <!--TXITEM_RestrictEditingGroup-->
+  <TXITEM_AllowCopy>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Copy.svg</Small_16x16>
+  </TXITEM_AllowCopy>
+  <TXITEM_FillInFormFields>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InsertFormFieldsGroup.svg</Small_16x16>
+  </TXITEM_FillInFormFields>
+  <!--TXITEM_RestrictEditingGroup-->
+
+  <!--TXITEM_EditRestrictedDocumentGroup-->
+
+  <!--RibbonTableLayoutTab-->
+
+  <!--TXITEM_TableLayoutGroup-->
+
+  <!--TXITEM_RowsAndColumnsGroup-->
+  <TXITEM_DeleteTableAll>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DeleteTable.svg</Small_16x16>
+  </TXITEM_DeleteTableAll>
+
+  <!--TXITEM_MergeGroup-->
+
+  <!--TXITEM_BordersAndBackgroundGroup-->
+  <TXITEM_BordersAndBackgroundGroup_DialogBoxLauncher>
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup_DialogBoxLauncher.svg</Small_16x16>
+  </TXITEM_BordersAndBackgroundGroup_DialogBoxLauncher>
+  <TXITEM_TableLeftFrameLine>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.LeftFrameLine.svg</Small_16x16>
+  </TXITEM_TableLeftFrameLine>
+  <TXITEM_TableTopFrameLine>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TopFrameLine.svg</Small_16x16>
+  </TXITEM_TableTopFrameLine>
+  <TXITEM_TableRightFrameLine>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.RightFrameLine.svg</Small_16x16>
+  </TXITEM_TableRightFrameLine>
+  <TXITEM_TableBottomFrameLine>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.BottomFrameLine.svg</Small_16x16>
+  </TXITEM_TableBottomFrameLine>
+  <TXITEM_TableBoxFrame>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Borders.svg</Small_16x16>
+  </TXITEM_TableBoxFrame>
+  <TXITEM_TableAllFrameLines>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.AllFrameLines.svg</Small_16x16>
+  </TXITEM_TableAllFrameLines>
+  <TXITEM_TableInnerHorizontalFrameLines>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InnerHorizontalFrameLines.svg</Small_16x16>
+  </TXITEM_TableInnerHorizontalFrameLines>
+  <TXITEM_TableInnerVerticalFrameLines>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.InnerVerticalFrameLines.svg</Small_16x16>
+  </TXITEM_TableInnerVerticalFrameLines>
+  <TXITEM_TableLineColor>
+    <Small_16x16>Images.Small_16x16.FrameLineColor.svg</Small_16x16>
+  </TXITEM_TableLineColor>
+  <TXITEM_TableLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_TableLineColor_Automatic>
+  <TXITEM_DrawingBackColor_Automatic_Canvas>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_DrawingBackColor_Automatic_Canvas>
+  
+  <TXITEM_TableLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_TableLineColor_MoreColors>
+  <TXITEM_TableBackColor>
+    <Small_16x16>Images.Small_16x16.BackColor.svg</Small_16x16>
+  </TXITEM_TableBackColor>
+  <TXITEM_TableBackColor_Transparent>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_TableBackColor_Transparent>
+  <TXITEM_TableBackColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_TableBackColor_MoreColors>
+  <TXITEM_TableLineWidth>
+    <Small_16x16>Images.Small_16x16.FrameLineWidth.svg</Small_16x16>
+  </TXITEM_TableLineWidth>
+
+  <!--TXITEM_BordersAndBackgroundGroup-->
+
+
+  <!--RibbonFormulaTab-->
+
+  <!--TXITEM_FormulaGroup-->
+  <TXITEM_FormulaGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.FormulaEditing.svg</Small_16x16>
+  </TXITEM_FormulaGroup_DialogBoxLauncher>
+
+  <!--TXITEM_NumberFormatGroup-->
+  <TXITEM_TableCellAcceptNumberFormat>
+    <Small_16x16>Images.Small_16x16.AcceptFormula.svg</Small_16x16>
+  </TXITEM_TableCellAcceptNumberFormat>
+
+  <!--TXITEM_FormulaSettingsGroup-->
+
+  <!--RibbonFrameLayoutTab-->
+
+  <!--TXITEM_ObjectArrangeGroup-->
+  <TXITEM_WrapText_Square>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.WrapText.svg</Small_16x16>
+  </TXITEM_WrapText_Square>
+  <TXITEM_BringToFront_ToFront>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.BringToFront.svg</Small_16x16>
+  </TXITEM_BringToFront_ToFront>
+  <TXITEM_SendToBack_ToBack>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.SendToBack.svg</Small_16x16>
+  </TXITEM_SendToBack_ToBack>
+  <TXITEM_Position_Left>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.Position.svg</Small_16x16>
+  </TXITEM_Position_Left>
+  <TXITEM_Position_OtherPosition>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.WrapText_MoreLayoutOptions.svg</Small_16x16>
+  </TXITEM_Position_OtherPosition>
+
+  <!--TXITEM_ObjectSizeGroup-->
+  <TXITEM_ObjectHeight_Image>
+    <Small_16x16>Images.Small_16x16.ObjectHeight.svg</Small_16x16>
+  </TXITEM_ObjectHeight_Image>
+  <TXITEM_ObjectWidth_Image>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_ObjectWidth_Image>
+  
+  <!--TXITEM_ObjectPropertiesGroup-->
+  <TXITEM_ObjectName_Image>
+    <Small_16x16>Images.Small_16x16.ObjectName.svg</Small_16x16>
+  </TXITEM_ObjectName_Image>
+  <TXITEM_ObjectID_Image>
+    <Small_16x16>Images.Small_16x16.ObjectID.svg</Small_16x16>
+   </TXITEM_ObjectID_Image>
+
+    <!--TXITEM_TextFrame_BordersandBackgroundGroup-->
+  <TXITEM_TextFrameBackColor>
+    <Small_16x16>Images.Small_16x16.BackColor.svg</Small_16x16>
+  </TXITEM_TextFrameBackColor>
+  <TXITEM_TextFrameBackColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_TextFrameBackColor_Automatic>
+  <TXITEM_TextFrameBackColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_TextFrameBackColor_MoreColors>
+  <TXITEM_TextFrameLineWidth>
+    <Small_16x16>Images.Small_16x16.FrameLineWidth.svg</Small_16x16>
+  </TXITEM_TextFrameLineWidth>
+
+  <!--TXITEM_Drawing_BordersandBackgroundGroup-->
+
+  <TXITEM_Drawing_BordersandBackgroundGroup>
+    <Large_32x32>Images.Large_32x32.TextFrame_BordersandBackgroundGroup.svg</Large_32x32>
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup.svg</Small_16x16>
+  </TXITEM_Drawing_BordersandBackgroundGroup>
+  <TXITEM_Drawing_BordersandBackgroundGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup_DialogBoxLauncher.svg</Small_16x16>
+  </TXITEM_Drawing_BordersandBackgroundGroup_DialogBoxLauncher>
+  <TXITEM_DrawingLineColor>
+    <Small_16x16>Images.Small_16x16.FrameLineColor.svg</Small_16x16>
+  </TXITEM_DrawingLineColor>
+  <TXITEM_DrawingLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_DrawingLineColor_Automatic>
+  <TXITEM_DrawingLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_DrawingLineColor_MoreColors>
+  <TXITEM_DrawingBackColor>
+    <Small_16x16>Images.Small_16x16.BackColor.svg</Small_16x16>
+  </TXITEM_DrawingBackColor>
+  <TXITEM_DrawingBackColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_DrawingBackColor_Automatic>
+  <TXITEM_DrawingBackColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_DrawingBackColor_MoreColors>
+  <TXITEM_DrawingLineWidth>
+    <Small_16x16>Images.Small_16x16.FrameLineWidth.svg</Small_16x16>
+  </TXITEM_DrawingLineWidth>
+  <TXITEM_DrawingTransparency>
+    <Small_16x16>Images.Small_16x16.TextFrameTransparency.svg</Small_16x16>
+  </TXITEM_DrawingTransparency>
+  <TXITEM_DrawingRotation_Right90>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DrawingRotation.svg</Small_16x16>
+  </TXITEM_DrawingRotation_Right90>
+
+  <!--TXITEM_Barcode_ColorsAndAlignmentGroup-->
+  <TXITEM_Barcode_ColorsAndAlignmentGroup>
+    <Large_32x32>Images.Large_32x32.TextFrame_BordersandBackgroundGroup.svg</Large_32x32>
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup.svg</Small_16x16>
+  </TXITEM_Barcode_ColorsAndAlignmentGroup>
+  <TXITEM_Barcode_ColorsAndAlignmentGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup_DialogBoxLauncher.svg</Small_16x16>
+  </TXITEM_Barcode_ColorsAndAlignmentGroup_DialogBoxLauncher>
+  <TXITEM_BarcodeForeColor>
+    <Small_16x16>Images.Small_16x16.FrameLineColor.svg</Small_16x16>
+  </TXITEM_BarcodeForeColor>
+  <TXITEM_BarcodeForeColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_BarcodeForeColor_Automatic>
+  <TXITEM_BarcodeForeColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_BarcodeForeColor_MoreColors>
+  <TXITEM_BarcodeBackColor>
+    <Small_16x16>Images.Small_16x16.BackColor.svg</Small_16x16>
+  </TXITEM_BarcodeBackColor>
+  <TXITEM_BarcodeBackColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_Transparent.svg</Small_16x16>
+  </TXITEM_BarcodeBackColor_Automatic>
+  <TXITEM_BarcodeBackColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_BarcodeBackColor_MoreColors>
+  <TXITEM_BarcodeTransparency>
+    <Small_16x16>Images.Small_16x16.TextFrameTransparency.svg</Small_16x16>
+  </TXITEM_BarcodeTransparency>
+  <TXITEM_BarcodeHorizontalAlignment_Left>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.BarcodeHorizontalAlignment.svg</Small_16x16>
+  </TXITEM_BarcodeHorizontalAlignment_Left>
+  <TXITEM_BarcodeVerticalAlignment_Top>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.BarcodeVerticalAlignment.svg</Small_16x16>
+  </TXITEM_BarcodeVerticalAlignment_Top>
+  <TXITEM_BarcodeRotation>
+    <Small_16x16>Images.Small_16x16.DrawingRotation.svg</Small_16x16>
+  </TXITEM_BarcodeRotation>
+  <TXITEM_BarcodeRotation_Right90>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DrawingRotation.svg</Small_16x16>
+  </TXITEM_BarcodeRotation_Right90>
+  <TXITEM_BarcodeRotation_Left90>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DrawingRotation_Left90.svg</Small_16x16>
+  </TXITEM_BarcodeRotation_Left90>
+  <TXITEM_BarcodeRotation_MoreRotationOptions>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.DrawingRotation_MoreRotationOptions.svg</Small_16x16>
+  </TXITEM_BarcodeRotation_MoreRotationOptions>
+
+  <!--TXITEM_Chart_TypeAndAppearanceGroup-->
+
+  <!--TXITEM_Barcode_ColorsAndAlignmentGroup-->
+  <TXITEM_Chart_TypeAndAppearanceGroup>
+    <Large_32x32>Images.Large_32x32.TextFrame_BordersandBackgroundGroup.svg</Large_32x32>
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup.svg</Small_16x16>
+  </TXITEM_Chart_TypeAndAppearanceGroup>
+  <TXITEM_Chart_TypeAndAppearanceGroup_DialogBoxLauncher>
+    <!--Dialog Box Launcher Item-->
+    <Small_16x16>Images.Small_16x16.TextFrame_BordersandBackgroundGroup_DialogBoxLauncher.svg</Small_16x16>
+  </TXITEM_Chart_TypeAndAppearanceGroup_DialogBoxLauncher>
+  <TXITEM_ChartType>
+    <Small_16x16>Images.Small_16x16.InsertChart.svg</Small_16x16>
+  </TXITEM_ChartType>
+  <!--RibbonChartLayoutTab-->
+
+  <!--TXITEM_DataGroup-->
+
+  <!--TXITEM_LabelsGroup-->
+
+  <TXITEM_LegendAlignment>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.LegendAlignmentHorizontal.svg</Small_16x16>
+  </TXITEM_LegendAlignment>
+  <TXITEM_LegendColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_LegendColor>
+  <TXITEM_LegendColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_LegendColor_Automatic>
+  <TXITEM_LegendColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_LegendColor_MoreColors>
+  <TXITEM_LegendFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_LegendFont>
+  <TXITEM_XAxisLabelsColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_XAxisLabelsColor>
+  <TXITEM_XAxisLabelsColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_XAxisLabelsColor_Automatic>
+  <TXITEM_XAxisLabelsColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_XAxisLabelsColor_MoreColors>
+  <TXITEM_XAxisLabelsFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_XAxisLabelsFont>
+  <TXITEM_YAxisLabelsColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_YAxisLabelsColor>
+  <TXITEM_YAxisLabelsColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_YAxisLabelsColor_Automatic>
+  <TXITEM_YAxisLabelsColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_YAxisLabelsColor_MoreColors>
+  <TXITEM_YAxisLabelsFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_YAxisLabelsFont>
+
+  <!--TXITEM_TitlesGroup-->
+
+  <TXITEM_ChartTitleDocking>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.ChartTitle.svg</Small_16x16>
+  </TXITEM_ChartTitleDocking>
+  <TXITEM_ChartTitleColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_ChartTitleColor>
+  <TXITEM_ChartTitleColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_ChartTitleColor_Automatic>
+  <TXITEM_ChartTitle_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_ChartTitle_MoreColors>
+  <TXITEM_ChartTitleFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_ChartTitleFont>
+
+  <TXITEM_FormatXAxisTitle>
+    <Small_16x16>Images.Small_16x16.FormatChartTitle.svg</Small_16x16>
+  </TXITEM_FormatXAxisTitle>
+  <TXITEM_XAxisTitleOrientation>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.ChartTitleOrientation.svg</Small_16x16>
+  </TXITEM_XAxisTitleOrientation>
+  <TXITEM_XAxisTitleColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_XAxisTitleColor>
+  <TXITEM_XAxisTitleColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_XAxisTitleColor_Automatic>
+  <TXITEM_XAxisTitleColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_XAxisTitleColor_MoreColors>
+  <TXITEM_XAxisTitleFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_XAxisTitleFont>
+
+  <TXITEM_FormatYAxisTitle>
+    <Small_16x16>Images.Small_16x16.FormatChartTitle.svg</Small_16x16>
+  </TXITEM_FormatYAxisTitle>
+  <TXITEM_YAxisTitleOrientation>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.ChartTitleOrientation.svg</Small_16x16>
+  </TXITEM_YAxisTitleOrientation>
+  <TXITEM_YAxisTitleColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor.svg</Small_16x16>
+  </TXITEM_YAxisTitleColor>
+  <TXITEM_YAxisTitleColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_YAxisTitleColor_Automatic>
+  <TXITEM_YAxisTitleColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_YAxisTitleColor_MoreColors>
+  <TXITEM_YAxisTitleFont>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.CharacterFormatting.svg</Small_16x16>
+  </TXITEM_YAxisTitleFont>
+
+  <!--TXITEM_XAxisGroup-->
+  <TXITEM_XAxisLineColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_XAxisLineColor>
+  <TXITEM_XAxisLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_XAxisLineColor_Automatic>
+  <TXITEM_XAxisLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_XAxisLineColor_MoreColors>
+
+  <TXITEM_XAxisMajorGridlinesColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesColor>
+  <TXITEM_XAxisMajorGridlinesColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesColor_Automatic>
+  <TXITEM_XAxisMajorGridlinesColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesColor_MoreColors>
+  <TXITEM_XAxisMajorGridlinesDashType>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType>
+  <TXITEM_XAxisMajorGridlinesDashType_Dash>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dash.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType_Dash>
+  <TXITEM_XAxisMajorGridlinesDashType_DashDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDot.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType_DashDot>
+  <TXITEM_XAxisMajorGridlinesDashType_DashDotDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDotDot.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType_DashDotDot>
+  <TXITEM_XAxisMajorGridlinesDashType_Dot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dot.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType_Dot>
+  <TXITEM_XAxisMajorGridlinesDashType_Solid>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Solid.svg</Small_16x16>
+  </TXITEM_XAxisMajorGridlinesDashType_Solid>
+
+  <TXITEM_XAxisMinorGridlinesColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesColor>
+  <TXITEM_XAxisMinorGridlinesColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesColor_Automatic>
+  <TXITEM_XAxisMinorGridlinesColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesColor_MoreColors>
+  <TXITEM_XAxisMinorGridlinesDashType>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType>
+  <TXITEM_XAxisMinorGridlinesDashType_Dash>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dash.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType_Dash>
+  <TXITEM_XAxisMinorGridlinesDashType_DashDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDot.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType_DashDot>
+  <TXITEM_XAxisMinorGridlinesDashType_DashDotDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDotDot.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType_DashDotDot>
+  <TXITEM_XAxisMinorGridlinesDashType_Dot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dot.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType_Dot>
+  <TXITEM_XAxisMinorGridlinesDashType_Solid>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Solid.svg</Small_16x16>
+  </TXITEM_XAxisMinorGridlinesDashType_Solid>
+  <TXITEM_XAxisMaximumAutomatic>
+    <Small_16x16>Images.Small_16x16.XAxisMinimumAutomatic.svg</Small_16x16>
+  </TXITEM_XAxisMaximumAutomatic>
+  <TXITEM_XAxisIntervalAutomatic>
+    <Small_16x16>Images.Small_16x16.XAxisMinimumAutomatic.svg</Small_16x16>
+  </TXITEM_XAxisIntervalAutomatic>
+
+  <!--TXITEM_YAxisGroup-->
+  <TXITEM_YAxisLineColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_YAxisLineColor>
+  <TXITEM_YAxisLineColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_YAxisLineColor_Automatic>
+  <TXITEM_YAxisLineColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_YAxisLineColor_MoreColors>
+  <TXITEM_YAxisLineDashType>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType>
+  <TXITEM_YAxisLineDashType_Dash>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dash.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType_Dash>
+  <TXITEM_YAxisLineDashType_DashDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDot.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType_DashDot>
+  <TXITEM_YAxisLineDashType_DashDotDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDotDot.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType_DashDotDot>
+  <TXITEM_YAxisLineDashType_Dot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dot.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType_Dot>
+  <TXITEM_YAxisLineDashType_Solid>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Solid.svg</Small_16x16>
+  </TXITEM_YAxisLineDashType_Solid>
+  <TXITEM_YAxisMajorGridlinesColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesColor>
+  <TXITEM_YAxisMajorGridlinesColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesColor_Automatic>
+  <TXITEM_YAxisMajorGridlinesColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesColor_MoreColors>
+  <TXITEM_YAxisMajorGridlinesDashType>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType>
+  <TXITEM_YAxisMajorGridlinesDashType_Dash>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dash.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType_Dash>
+  <TXITEM_YAxisMajorGridlinesDashType_DashDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDot.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType_DashDot>
+  <TXITEM_YAxisMajorGridlinesDashType_DashDotDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDotDot.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType_DashDotDot>
+  <TXITEM_YAxisMajorGridlinesDashType_Dot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dot.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType_Dot>
+  <TXITEM_YAxisMajorGridlinesDashType_Solid>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Solid.svg</Small_16x16>
+  </TXITEM_YAxisMajorGridlinesDashType_Solid>
+  <TXITEM_YAxisMinorGridlinesColor>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesColor>
+  <TXITEM_YAxisMinorGridlinesColor_Automatic>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextColor_Automatic.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesColor_Automatic>
+  <TXITEM_YAxisMinorGridlinesColor_MoreColors>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.TextBackColor_MoreColors.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesColor_MoreColors>
+  <TXITEM_YAxisMinorGridlinesDashType>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType>
+  <TXITEM_YAxisMinorGridlinesDashType_Dash>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dash.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType_Dash>
+  <TXITEM_YAxisMinorGridlinesDashType_DashDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDot.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType_DashDot>
+  <TXITEM_YAxisMinorGridlinesDashType_DashDotDot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_DashDotDot.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType_DashDotDot>
+  <TXITEM_YAxisMinorGridlinesDashType_Dot>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Dot.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType_Dot>
+  <TXITEM_YAxisMinorGridlinesDashType_Solid>
+    <!--Drop Down Item-->
+    <Small_16x16>Images.Small_16x16.XAxisLineDashType_Solid.svg</Small_16x16>
+  </TXITEM_YAxisMinorGridlinesDashType_Solid>
+  <TXITEM_YAxisMinimumAutomatic>
+    <Small_16x16>Images.Small_16x16.XAxisMinimumAutomatic.svg</Small_16x16>
+  </TXITEM_YAxisMinimumAutomatic>
+  <TXITEM_YAxisMaximumAutomatic>
+    <Small_16x16>Images.Small_16x16.XAxisMinimumAutomatic.svg</Small_16x16>
+  </TXITEM_YAxisMaximumAutomatic>
+  <TXITEM_YAxisIntervalAutomatic>
+    <Small_16x16>Images.Small_16x16.XAxisMinimumAutomatic.svg</Small_16x16>
+  </TXITEM_YAxisIntervalAutomatic>
+
+  <!--Sidebars-->
+
+  <!--FieldNavigatorPanel-->
+
+  <TXITEM_SearchButton>
+    <Small_16x16>Images.Small_16x16.ZoomFactor.svg</Small_16x16>
+  </TXITEM_SearchButton>
+
+  <!--Mini Toolbars-->
+
+  <!--TextMiniToolbar-->
+  <TXITEM_TableSelect>
+    <Large_32x32>Images.Large_32x32.SelectTable.svg</Large_32x32>
+  </TXITEM_TableSelect>
+  <TXITEM_TableDelete>
+    <Large_32x32>Images.Large_32x32.DeleteTable.svg</Large_32x32>
+  </TXITEM_TableDelete>
+  <TXITEM_TableInsert>
+    <Large_32x32>Images.Large_32x32.InsertTableRowBelow.svg</Large_32x32>
+  </TXITEM_TableInsert>
+  <TXITEM_TableMergeCells>
+    <Large_32x32>Images.Large_32x32.MergeTableCells.svg</Large_32x32>
+  </TXITEM_TableMergeCells>
+  <TXITEM_TableSplitCells>
+    <Large_32x32>Images.Large_32x32.SplitTableCells.svg</Large_32x32>
+  </TXITEM_TableSplitCells>
+
+  <!--ObjectMiniToolbar-->
+  <TXITEM_TextFrameBackColor>
+    <Large_32x32>Images.Large_32x32.BackColor.svg</Large_32x32>
+  </TXITEM_TextFrameBackColor>
+  <TXITEM_TextFrameLineWidth>
+    <Large_32x32>Images.Large_32x32.FrameLineWidth.svg</Large_32x32>
+  </TXITEM_TextFrameLineWidth>
+  <TXITEM_TextFrameTransparency>
+    <Large_32x32>Images.Large_32x32.TextFrameTransparency.svg</Large_32x32>
+  </TXITEM_TextFrameTransparency>
+  <TXITEM_DrawingBackColor>
+    <Large_32x32>Images.Large_32x32.BackColor.svg</Large_32x32>
+  </TXITEM_DrawingBackColor>
+  <TXITEM_DrawingTransparency>
+    <Large_32x32>Images.Large_32x32.TextFrameTransparency.svg</Large_32x32>
+  </TXITEM_DrawingTransparency>
+  <TXITEM_DrawingLineColor>
+    <Large_32x32>Images.Large_32x32.FrameLineColor.svg</Large_32x32>
+  </TXITEM_DrawingLineColor>
+  <TXITEM_DrawingLineWidth>
+    <Large_32x32>Images.Large_32x32.FrameLineWidth.svg</Large_32x32>
+  </TXITEM_DrawingLineWidth>
+  <TXITEM_BarcodeBackColor>
+    <Large_32x32>Images.Large_32x32.BackColor.svg</Large_32x32>
+  </TXITEM_BarcodeBackColor>
+  <TXITEM_BarcodeForeColor>
+    <Large_32x32>Images.Large_32x32.FrameLineColor.svg</Large_32x32>
+  </TXITEM_BarcodeForeColor>
+  <TXITEM_BarcodeTransparency>
+    <Large_32x32>Images.Large_32x32.TextFrameTransparency.svg</Large_32x32>
+  </TXITEM_BarcodeTransparency>
+
+  <!--RibbonFormFieldTab-->
+
+  <!--TXITEM_InsertFormFieldsGroup-->
+
+  <!--TXITEM_FormValidationGroup-->
+  <TXITEM_ManageConditionalInstructions_Dialog>
+    <Small_16x16>Images.Small_16x16.ManageConditionalInstructions.svg</Small_16x16>
+    <Large_32x32>Images.Large_32x32.ManageConditionalInstructions.svg</Large_32x32>
+  </TXITEM_ManageConditionalInstructions_Dialog>
+  <TXITEM_ManageConditionalInstructions_Sidebars>
+    <Small_16x16>Images.Small_16x16.ManageConditionalInstructions.svg</Small_16x16>
+    <Large_32x32>Images.Large_32x32.ManageConditionalInstructions.svg</Large_32x32>
+  </TXITEM_ManageConditionalInstructions_Sidebars>
+  <TXITEM_ManageConditionalInstructions_Sidebars_Vertical>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Vertical.svg</Small_16x16>
+  </TXITEM_ManageConditionalInstructions_Sidebars_Vertical>
+  <TXITEM_ManageConditionalInstructions_Sidebars_Horizontal>
+    <Small_16x16>Images.Small_16x16.Find_Sidebars_Horizontal.svg</Small_16x16>
+  </TXITEM_ManageConditionalInstructions_Sidebars_Horizontal>
+  
+  <!--TXITEM_FormFieldPropertiesGroup-->
+  <TXITEM_FormFieldName_Image>
+    <Small_16x16>Images.Small_16x16.ObjectName.svg</Small_16x16>
+  </TXITEM_FormFieldName_Image>
+  <TXITEM_FormFieldID_Image>
+    <Small_16x16>Images.Small_16x16.ObjectID.svg</Small_16x16>
+  </TXITEM_FormFieldID_Image>
+  
+  <!--TXITEM_ComboBoxFieldPropertiesGroup-->
+
+  <TXITEM_ComboBoxFieldPropertiesGroup>
+    <Small_16x16>Images.Small_16x16.InsertComboBoxField.svg</Small_16x16>
+  </TXITEM_ComboBoxFieldPropertiesGroup>
+   <TXITEM_ComboBoxFieldEmptyWidth>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_ComboBoxFieldEmptyWidth>
+    <TXITEM_ComboBoxFieldEmptyWidth_Image>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_ComboBoxFieldEmptyWidth_Image>
+   <TXITEM_ComboBoxFieldRemoveContent>
+    <Small_16x16>Images.Small_16x16.RemoveFormFieldsContent.svg</Small_16x16>
+  </TXITEM_ComboBoxFieldRemoveContent>
+  <TXITEM_NewComboBoxListItem>
+    <Small_16x16>Images.Small_16x16.NewDropDownListItem.svg</Small_16x16>
+  </TXITEM_NewComboBoxListItem>
+  <TXITEM_DeleteComboBoxListItem>
+    <Small_16x16>Images.Small_16x16.DeleteDropDownListItem.svg</Small_16x16>
+  </TXITEM_DeleteComboBoxListItem> 
+  <TXITEM_ComboBoxListItemMoveUp>
+    <Small_16x16>Images.Small_16x16.DropDownListItemMoveUp.svg</Small_16x16>
+  </TXITEM_ComboBoxListItemMoveUp>
+  <TXITEM_ComboBoxListItemMoveDown>
+    <Small_16x16>Images.Small_16x16.DropDownListItemMoveDown.svg</Small_16x16>
+  </TXITEM_ComboBoxListItemMoveDown>
+  
+  <!--TXITEM_DropDownListFieldPropertiesGroup-->
+
+  <TXITEM_DropDownListFieldPropertiesGroup>
+    <Small_16x16>Images.Small_16x16.InsertDropDownListField.svg</Small_16x16>
+  </TXITEM_DropDownListFieldPropertiesGroup>
+  <TXITEM_DropDownListFieldEmptyWidth>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_DropDownListFieldEmptyWidth>
+  <TXITEM_DropDownListFieldEmptyWidth_Image>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_DropDownListFieldEmptyWidth_Image>
+  <TXITEM_DropDownListFieldRemoveContent>
+    <Small_16x16>Images.Small_16x16.RemoveFormFieldsContent.svg</Small_16x16>
+  </TXITEM_DropDownListFieldRemoveContent>
+  
+   <!--TXITEM_DateFormFieldPropertiesGroup-->
+
+  <TXITEM_DateFormFieldPropertiesGroup>
+    <Small_16x16>Images.Small_16x16.InsertDateFormField.svg</Small_16x16>
+  </TXITEM_DateFormFieldPropertiesGroup>
+  <TXITEM_DateFormFieldEmptyWidth>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_DateFormFieldEmptyWidth>
+  <TXITEM_DateFormFieldEmptyWidthLabel >
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_DateFormFieldEmptyWidthLabel >
+  <TXITEM_DateFormFieldEmptyWidth_Image>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_DateFormFieldEmptyWidth_Image>
+  <TXITEM_DateFormat_Image>
+    <Small_16x16>Images.Small_16x16.DateFormat.svg</Small_16x16>
+  </TXITEM_DateFormat_Image>
+   <TXITEM_DateFormFieldRemoveContent>
+    <Small_16x16>Images.Small_16x16.RemoveFormFieldsContent.svg</Small_16x16>
+  </TXITEM_DateFormFieldRemoveContent>
+  
+  <!--TXITEM_TextFormFieldPropertiesGroup-->
+
+  <TXITEM_TextFormFieldPropertiesGroup>
+    <Small_16x16>Images.Small_16x16.InsertTextFormField.svg</Small_16x16>
+  </TXITEM_TextFormFieldPropertiesGroup>
+  <TXITEM_TextFormFieldEmptyWidth>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_TextFormFieldEmptyWidth>
+  <TXITEM_TextFormFieldEmptyWidth_Image>
+    <Small_16x16>Images.Small_16x16.ObjectWidth.svg</Small_16x16>
+  </TXITEM_TextFormFieldEmptyWidth_Image>
+   <TXITEM_TextFormFieldRemoveContent>
+    <Small_16x16>Images.Small_16x16.RemoveFormFieldsContent.svg</Small_16x16>
+  </TXITEM_TextFormFieldRemoveContent>
+  <!--TXITEM_CheckBoxFieldPropertiesGroup-->
+
+  <TXITEM_CheckBoxFieldPropertiesGroup>
+    <Small_16x16>Images.Small_16x16.Checked.svg</Small_16x16>
+  </TXITEM_CheckBoxFieldPropertiesGroup>
+   
+  <!--TXITEM_EditFormFieldsGroup-->
+
+  <TXITEM_EditFormFieldsGroup>
+    <Small_16x16>Images.Small_16x16.HighlightFormFields.svg</Small_16x16>
+  </TXITEM_EditFormFieldsGroup>
+
+  <!--RibbonReferencesTab-->
+
+  <!--TXITEM_TableOfContentsGroup-->
+
+  <!--TXITEM_TableOfContentsPropertiesGroup-->
+  <TXITEM_TOCMinimumStructureLevel_Image>
+    <Small_16x16>Images.Small_16x16.TOCMinimumStructureLevel.svg</Small_16x16>
+  </TXITEM_TOCMinimumStructureLevel_Image>
+  <TXITEM_TOCMaximumStructureLevel_Image>
+    <Small_16x16>Images.Small_16x16.TOCMaximumStructureLevel.svg</Small_16x16>
+  </TXITEM_TOCMaximumStructureLevel_Image>
+  <TXITEM_TOCCreateHyperlinks>
+    <Small_16x16>Images.Small_16x16.InsertHyperlink.svg</Small_16x16>
+  </TXITEM_TOCCreateHyperlinks>
+   <TXITEM_TOCTitle>
+    <Small_16x16>Images.Small_16x16.InsertTextFormField.svg</Small_16x16>
+  </TXITEM_TOCTitle>
+   <TXITEM_TOCTitle_Image>
+    <Small_16x16>Images.Small_16x16.InsertTextFormField.svg</Small_16x16>
+  </TXITEM_TOCTitle_Image>
+  <TXITEM_TOCShowPageNumbers>
+    <Small_16x16>Images.Small_16x16.InsertPageNumber.svg</Small_16x16>
+  </TXITEM_TOCShowPageNumbers>
+  <TXITEM_TOCRightAlignPageNumbers>
+    <Small_16x16>Images.Small_16x16.RightAligned.svg</Small_16x16>
+  </TXITEM_TOCRightAlignPageNumbers>
+  <!--TXITEM_ParagraphStructureLevelsGroup-->
+  <TXITEM_AddParagraph>
+    <Small_16x16>Images.Small_16x16.ControlChars.svg</Small_16x16>
+  </TXITEM_AddParagraph>
+  
+
+
+
+  <!--FileMenuItems-->
+  <TXITEM_New>
+    <Small_16x16>Images.Small_16x16.InsertPage.svg</Small_16x16>
+  </TXITEM_New>
+  
+  <!--Internal General Images-->
+  <ChartLegendAlignmentHorizontal>
+    <Small_16x16>Images.Small_16x16.LegendAlignmentHorizontal.svg</Small_16x16>
+  </ChartLegendAlignmentHorizontal>
+  <ChartLegendAlignmentVertical>
+    <Small_16x16>Images.Small_16x16.LegendAlignmentVertical.svg</Small_16x16>
+  </ChartLegendAlignmentVertical>
+
+  <!--WebItem-->
+  <TXITEM_IncreaseIndentLeft>
+    <Small_16x16>Images.Small_16x16.IncreaseIndent.svg</Small_16x16>
+  </TXITEM_IncreaseIndentLeft>
+
+</ImageContainers>

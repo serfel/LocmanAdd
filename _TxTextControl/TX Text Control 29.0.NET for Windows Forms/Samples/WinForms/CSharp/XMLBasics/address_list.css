@@ -1,0 +1,8 @@
+name {	display: block; 
+		font-size: 14pt; 
+		color: blue }
+
+street, 
+city, 
+email { display: list-item;
+	    font-size: 11pt}

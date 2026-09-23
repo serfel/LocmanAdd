@@ -1,0 +1,42 @@
+namespace ns21
+{
+	internal enum Enum96
+	{
+		const_0 = 1,
+		const_1 = 2,
+		const_2 = 4,
+		const_3 = 8,
+		const_4 = 0x10,
+		const_5 = 0x20,
+		const_6 = 0x40,
+		const_7 = 0x80,
+		const_8 = 0x10000,
+		const_9 = 0x200,
+		const_10 = 0x400,
+		const_11 = 0x800,
+		const_12 = 0x1000,
+		const_13 = 0x2000,
+		const_14 = 0x4000,
+		const_15 = 0x8000,
+		const_16 = 0x20000,
+		const_17 = 0x200,
+		const_18 = 0x400,
+		const_19 = 0x800,
+		const_20 = 0x1000,
+		const_21 = 0x2000,
+		const_22 = 0x4000,
+		const_23 = 0x8000,
+		const_24 = 0x20000,
+		const_25 = 0x400,
+		const_26 = 0x800,
+		const_27 = 0x1000,
+		const_28 = 0x2000,
+		const_29 = 4,
+		const_30 = 8,
+		const_31 = 20992,
+		const_32 = 16912,
+		const_33 = 4672,
+		const_34 = 16528,
+		const_35 = 4288
+	}
+}

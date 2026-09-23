@@ -1,0 +1,3225 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Чапома)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Чапома</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Стрельна (Чапома)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Чапома</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Чаваньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Чаваньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Травяная губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Травяная губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Тетрино)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Тетрино</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Стрельно)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Стрельно</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Пояконда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пояконда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 5 (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>КАЗАРМА (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдорская (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Совхозная (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нагорная (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Пинозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пинозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Лупче-Савино-2)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лупче Савино_2</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Кузрека)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кузрека</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>СТ "Солнышко" (Кузрека)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кузрека</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Кузомень)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кузомень</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Бывший нп Устье</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кузомень</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Кашкаранцы)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кашкаранцы</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Варзуга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Варзуга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Никольская (Варзуга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Варзуга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Успенская</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Варзуга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Белое море)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Белое море</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 26391 (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Коммунальная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 23279 (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 70148 (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 64262 (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 10236 (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нагорная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирова (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строительная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Почтовый пер (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Восточная губа (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Советская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Мира (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Московская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Гвардейская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ленина (Африканда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Африканда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Речная (Ковда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Ковда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Ковда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Морская (Ковда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Оленица)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Оленица</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Нурми)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нурми</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Уполокша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Уполокша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Чумба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>озеро Чумба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2-ая Горная (Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1-ая Горная (Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Космонавтов (Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Центральный (Слюда)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Слюда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Калюжный)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Калюжный</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Авва-Губа (Авва-Губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Авва Губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(ОАО "Колэнерго")</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>ОАО "Колэнерго"</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Лупче Савино)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лупче Савино</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Пиренга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Пиренга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ленина пл.</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Промстрой-2 (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Садовая (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Сооружения по г. Ковдор</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Парковая (Ковдор) переименована в ул. Сухачева</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдорский ГОК</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ОАО "Ковдорслюда" (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Победы (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Сухачева (Ковдор) ранее ул. Парковая</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Чехова (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Коновалова (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирова (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озерная (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Промстрой (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Баштыркова (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Горняков (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярный (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Гоголя (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Слюдяная (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строителей (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ленина (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кошица (Ковдор)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдор</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ленинградская (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Центральная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строителей (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесной (Енский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Енский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Победы (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Горняков (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Геологов (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пролетарская (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Риколатва)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Риколатва</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Речная (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Енская (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Почтовая (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Вокзальная (Куропта)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Куропта</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Лейпи)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лейпи</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ленинградская (Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строительная (Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Ёна)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ена</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Вуориярви (Вуориярви)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Вуориярви</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Плес - озеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Плес-озеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Жемчужная)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Жемчужная</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Проливы)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Проливы</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г №50 (Проливы)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Проливы</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г №51 (Проливы)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Проливы</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Ручьи)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ручьи</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Федосеевка)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Федосеевка</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Нямозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нямозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Нямозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нямозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Чупа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Чупа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Вокзальная (Чупа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Чупа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Тумча)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Тумча</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Палкина Губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Палкина Губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Вильмо-озеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Вильмо-озеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Лоухи)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лоухи</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Южная (Лоухи)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лоухи</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Питкуль)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Питкуль</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Неблагорский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Неблагорский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Кирки)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кирки</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Гангос)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Гангос</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Узкий)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Узкий</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Восточное Мунозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Восточное Мунозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Мосеево)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Мосеево</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Нива-2)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-2</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Нива-1)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-1</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строительная (Нива-1)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-1</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Нива-1)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-1</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Полярный Круг)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярный Круг</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Кереть)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кереть</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Индель)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Индель</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Луговая (Индель)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Индель</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Кайралы)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кайралы</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Поселок Лесной</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-3</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Нива-3)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нива-3</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Автодорога Полярные Зори-Африканда</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>о.Малый (Кандалакшский залив Белого моря)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 км автодороги Кандалакша-Алакуртти</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Прочие объекты.</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>4 км автодороги Апатиты-аэропорт "Хибины"</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>4 км автодороги Кандалакша-Полярные Зори</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Автодорога Пиренга - трасса Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Автодорога Умба-Варзуга</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>60 км автодороги Умба-Индель</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железная дорога</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Турбазы</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>36 км автодороги Кандалакша-Умба</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Тоневой участок "Насилово"</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>10 км автодороги Кандалакша-Полярные Зори</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1219 км направления Волховстрой-Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Автодорога Кандалакша-Алакуртти-КПП "Салла"</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>12 км автодороги Умба-Кировск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 км лесовозной автодороги в урочище Тютюшкино</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1108 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1176 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1107 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1188 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1185 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>73 км автодороги Кандалакша-Алакуртти</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1149 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1143 км автодороги Санкт-Петербург - Мурманск</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Прочие объекты</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Район</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Восточная губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Восточная Губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Колвица)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Колвица</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Колвица)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Колвица</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Колвица)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Колвица</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Песочная (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пионерская (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбацкая (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нагорная (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Зеленая (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдозерская (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Ковдозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ковдозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Промышленная (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>16 км к северо-востоку от г. Полярные Зори</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ГЭК (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кольская АЭС</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Котельная (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Складская (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Станция (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>М-к Энергетик (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ж/д поселок (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Партизан Заполярья (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Белова (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нивский проспект  (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Р/з Имандра (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Сивко (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пушкина (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строителей (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ломоносова (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Курчатова (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Энергетиков (Полярные Зори)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Полярные Зори</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ЭПТК Нивская гидроэлектростанция-1 инв.№523</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г №64</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ГЭК (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Квартал 266, выдел 53 Зашейковского лесничества</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 712 (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/Ч 01713 (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Плотина (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Складская (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Дорожников (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заводская (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строителей (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная аллея (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Станционная (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Клубный переулок (Зашеек) *</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Зашеек)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Веденеева (Зашеек) *</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Зашейковская (Зашеек) *</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зашеек</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Южная (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Шоссейная (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озеро Безымянное (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбацкая (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдская (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдорская (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Станционная (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Княжая)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ЭПТК Иовская гидроэлектростанции (ГЭС-10) инв.№2482</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ЭПТК Кумской гидроэлектростанции (ГЭС-9) инв.№2481</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Экспедиция (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Маткожненская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кондопожская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ондская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кумская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нивская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Туломская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Береговая (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Иовская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Княжегубская (Зареченск)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зареченск</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пограничная застава "НОТА"</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г 4 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г 5 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 46031 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г 21 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 32029 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 81475 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Подгорная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Содружества (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 2201 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 314363 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесной (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 25258 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 03506 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Советская (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нижняя Набережная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 31487 (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Данилова (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Грязнова (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кузнецова (Алакуртти)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Алакуртти</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбоводная (Княжая Губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Княжая Губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбацкая (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Партизанская  (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ДРП (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ДРСУ (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдская  (Княжая губа)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Княжая губа</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Подтайбола)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Подтайбола</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Подтайбола)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Подтайбола</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая биржа (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ЭПТК Княжегубская ГЭС-11</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Спортивный (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новоозерская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Травяная губа (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Почтовая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбацкая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озерный (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Культуры (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нижняя (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Совхозная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Титова (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярный (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирпичная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Подтайбольская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Болотный (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ДРП (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдозерская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Восточная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбоводный (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Беломорский (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нагорная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Южная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ковдская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Молодежная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Песочная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Энергетическая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Княжегубский (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Парковая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Беломорская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Высотная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Средняя (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Зеленая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Магистральная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Шоссейная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Мира (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Дорожников (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Центральная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Княжегубская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Портовая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заводская (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Станционная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озерная (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Зеленоборский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Зеленоборский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приозерная (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Разные (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Потанина (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьная (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ушакова (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Центральная (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Беломорская (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заводская (Лесозаводский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лесозаводский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Совхозная</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2-я линия (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Букина (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кондрашкина (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Нагорная (Нивский)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Нивский</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озеро "Барское" (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 20868 (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Калинушка, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Медвежка, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Губа Хендалакша (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Здоровье, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Сосновка, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Угловатое, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Вильма-озеро (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Погост, СОТ</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Луговая (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбоводный завод (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ключевая (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Озерная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Спортивная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пионерская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирпичный-1 (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ударников (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Восточная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рабочая (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Совхозная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирова (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Горная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Южный (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Советская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Дзержинского (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Умбская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Морская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесной (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирпичный-2 (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Зеленая (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строительная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>8 Марта (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярный (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Победы (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Приморская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Беломорская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбников (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Октябрьская (Умба)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Умба</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кировская улица (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Лесная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Станционный узел (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/г 35 (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Берег реки Нива (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая биржа</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Канда Викинг, СП Туристический комплекс</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>79 квартал (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Городское кладбище (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Крестовая гора (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кандалакшский порт</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Железнодорожная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Госзаповедник (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Зеленая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Промышленная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 Нагорная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Гмайнера (Кандалакша) переименован</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Дорожников (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ГПТУ-9 (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 966681 (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Морская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кирпичная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Речная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Сосновый переулок (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Путепроводная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>3 Парковая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Средняя (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Крутой спуск (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ГОРЭЛЕКТРОСЕТЬ (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Объездная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Красноармейская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Строителей (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбоводная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Путейская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 Парковая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кооперативная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Северная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>3 Локомотивный (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>МОРСКОЙ УЗЕЛ (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 Локомотивный (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Высокая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 248 (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбоводный завод (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>В/ч 25258 (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заводская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1 Локомотивный (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Цеховая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Проезжая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Привокзальная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Беломорская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Рыбацкая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Локомотивная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 Линия (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Новая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Колхозная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Шпальная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1 Шпальная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Курасова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Каменный тупик (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Партизанская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Парковая (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>2 Шпальная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>50 Лет Октября (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Южная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пролетарская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Восточный (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Школьный проезд (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>3 Линия (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Данилова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>4 Локомотивный (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Аэронавтов (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>ПИТЕО (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Батюты (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Защитников Заполярья (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>1 Линия (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Мурманская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярные Зори (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пионерская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Пронина (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Фрунзе (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Набережная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Шевчука (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Наймушина (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Спекова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Советская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Комсомольская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Чкалова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кандалакшское шоссе (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Кировская аллея (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Линейная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Уверова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Борисова (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Первомайская (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Полярная (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Горького (Кандалакша)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Кандалакша</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Город</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Речной (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>СОТ "Восточный"</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Брусничная</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Заречная (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Промзона (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Любава (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Молодежная (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Мира (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT> (Лувеньга)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Лувеньга</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>Ж/д станция Ковда</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Ж/д станция Ковда</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+  <result>
+    <vwObjects__TYPE>Структурная единица</vwObjects__TYPE>
+    <vwObjects__PRODUCT>(Канозеро)</vwObjects__PRODUCT>
+    <vwObjects1__PRODUCT>Канозеро</vwObjects1__PRODUCT>
+    <vwObjects1__TYPE>Поселок</vwObjects1__TYPE>
+  </result>
+</DocumentElement>

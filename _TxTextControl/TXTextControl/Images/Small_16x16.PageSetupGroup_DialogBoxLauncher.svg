@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#4EB748;}
+	.st2{fill:#4F83B9;}
+	.st3{fill:#656867;}
+	.st4{fill:none;stroke:#4F83B9;stroke-linecap:square;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#646766;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+<rect x="7" y="7" class="st0" width="9" height="9"/>
+<g>
+	<polygon class="st1" points="14,9 14,8 9,8 8,8 8,9 8,14 9,14 9,9 	"/>
+	<polygon class="st1" points="13.4,12.6 11,10.3 10.3,11 12.6,13.4 11,15 15,15 15,11 	"/>
+</g>
+<polygon class="st0" points="7,6 14.5,6 14.5,0.5 2.5,0.5 2.5,15.5 7,15.5 "/>
+<polygon class="st2" points="7,12 6,12 6,4 11,4 11,6 12,6 12,4 14,4 14,3 12,3 12,1 11,1 11,3 6,3 6,1 5,1 5,3 3,3 3,4 5,4 5,12 
+	3,12 3,13 5,13 5,15 6,15 6,13 7,13 "/>
+<polygon class="st3" points="7,15 3,15 3,1 14,1 14,6 15,6 15,0 2,0 2,16 7,16 "/>
+<rect x="7" y="5" class="st0" width="7" height="2"/>
+<line class="st4" x1="11.5" y1="6.5" x2="11.5" y2="4.5"/>
+<line class="st5" x1="14.5" y1="6.5" x2="14.5" y2="5.5"/>
+</svg>
