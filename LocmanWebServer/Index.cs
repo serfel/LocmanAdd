@@ -19,7 +19,13 @@ namespace LocmanWebServer
  label{font-weight:600;margin-right:6px;display:inline-block;min-width:70px}
  select,input[type=text]{padding:6px 8px;border:1px solid #bbb;border-radius:4px;font-size:14px}
  .row{margin:8px 0}
- #flatList{max-height:220px;overflow:auto;border:1px solid #ccc;border-radius:4px;padding:8px;column-count:4;min-height:40px}
+ /* Выпадающее меню квартир с чекбоксами */
+ .dd{position:relative;display:inline-block;vertical-align:middle}
+ .dd-btn{background:#fff;color:#222;border:1px solid #bbb;border-radius:4px;padding:6px 10px;font-size:14px;cursor:pointer;min-width:230px;text-align:left}
+ .dd-btn:after{content:'\\25BE';float:right;color:#777}
+ .dd-panel{display:none;position:absolute;top:110%;left:0;z-index:10;background:#fff;border:1px solid #bbb;border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,.25);padding:8px;width:340px}
+ .dd.open .dd-panel{display:block}
+ #flatList{max-height:220px;overflow:auto;column-count:2;margin:6px 0;border-top:1px solid #e3e8ef;padding-top:6px}
  #flatList label{display:inline-flex;align-items:center;min-width:0;font-weight:400;margin:2px 10px 2px 0;white-space:nowrap}
  #flatList input{margin-right:4px}
  table{border-collapse:collapse;width:100%}
@@ -37,18 +43,22 @@ namespace LocmanWebServer
 <div class='wrap'>
 
  <div class='card'>
-   <div class='row'><label>Город:</label>
-     <select id='city'><option value=''>(загрузка…)</option></select></div>
    <div class='row'><label>Улица:</label>
-     <select id='street'><option value=''>— сначала выберите город —</option></select></div>
+     <select id='street'><option value=''>(загрузка…)</option></select></div>
    <div class='row'><label>Дом:</label>
      <select id='house'><option value=''>— сначала выберите улицу —</option></select></div>
  </div>
 
  <div class='card' id='flatsCard' style='display:none'>
-   <div class='row'><b>Квартиры</b>
-     <span class='muted'>&nbsp;<a href='#' id='selAll'>выделить все</a> |
-     <a href='#' id='selNone'>снять все</a></span>
+   <div class='row'><b>Квартиры:</b>
+     <span class='dd' id='flatsDd'>
+       <button type='button' class='dd-btn' id='flatsDdBtn'>Квартиры: выбрано 0</button>
+       <span class='dd-panel'>
+         <span class='muted'><a href='#' id='selAll'>выделить все</a> |
+         <a href='#' id='selNone'>снять все</a></span>
+         <div id='flatList'></div>
+       </span>
+     </span>
      <span style='float:right'>
        <label style='min-width:0'>Действие:</label>
        <select id='flatsAction'>
@@ -62,7 +72,6 @@ namespace LocmanWebServer
        <button id='runFlats'>Выполнить</button>
      </span>
    </div>
-   <div id='flatList'></div>
  </div>
 
  <div class='card' id='residentsCard' style='display:none'>
