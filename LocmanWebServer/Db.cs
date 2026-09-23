@@ -18,10 +18,11 @@ namespace LocmanWebServer
             return (s ?? "").Replace("'", "''");
         }
 
-        static List<KeyValuePair<string, string>> AllCatalogs()
+        // Разбирает строку настроек «каталог=Название;...» в список каталогов.
+        public static List<KeyValuePair<string, string>> ParseCatalogs(string citiesRaw)
         {
             var list = new List<KeyValuePair<string, string>>();
-            foreach (var pair in cfg.CitiesRaw.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
+            foreach (var pair in (citiesRaw ?? "").Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
             {
                 var kv = pair.Split(new[] { '=' }, 2);
                 string catalog = kv[0].Trim();
@@ -29,6 +30,11 @@ namespace LocmanWebServer
                 if (catalog.Length > 0) list.Add(new KeyValuePair<string, string>(catalog, name));
             }
             return list;
+        }
+
+        List<KeyValuePair<string, string>> AllCatalogs()
+        {
+            return ParseCatalogs(cfg.CitiesRaw);
         }
 
         // Улицы сразу по всем городам (поле «Город» из интерфейса удалено):
