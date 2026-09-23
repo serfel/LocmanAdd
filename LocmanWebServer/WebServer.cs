@@ -126,16 +126,13 @@ namespace LocmanWebServer
         {
             var res = new List<KeyValuePair<string, List<KeyValuePair<int, int>>>>();
             var seen = new HashSet<int>();
-            foreach (var pair in Settings.Load().CitiesRaw
-                         .Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
+            foreach (var catalog in Db.ParseCatalogs(Cfg.CitiesRaw))
             {
-                var kv = pair.Split(new[] { '=' }, 2);
-                string catalog = kv[0].Trim();
-                if (catalog.Length == 0) continue;
+                string name = catalog.Key;
                 List<KeyValuePair<int, int>> flats;
                 try
                 {
-                    flats = Database.GetFlats(catalog, street, house);
+                    flats = Database.GetFlats(name, street, house);
                 }
                 catch (SqlException)
                 {
@@ -149,7 +146,7 @@ namespace LocmanWebServer
                 }
                 flats = flats.Where(x => seen.Add(x.Key)).ToList(); // без дублей номеров между городами
                 if (flats.Count > 0)
-                    res.Add(new KeyValuePair<string, List<KeyValuePair<int, int>>>(catalog, flats));
+                    res.Add(new KeyValuePair<string, List<KeyValuePair<int, int>>>(name, flats));
             }
             return res;
         }
