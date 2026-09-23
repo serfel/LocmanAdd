@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -28,11 +29,10 @@ namespace LocmanWebServer
                 {
                     case "/": SendHtml(res, Index.Html); break;
                     case "/app.js": SendText(res, Scripts.AppJs, "application/javascript"); break;
-                    case "/api/cities": SendJson(res, GetCities()); break;
-                    case "/api/streets": SendJson(res, GetStreets(Query(req, "city"))); break;
-                    case "/api/houses": SendJson(res, GetHouses(Query(req, "city"), Query(req, "street"))); break;
-                    case "/api/flats": SendJson(res, GetFlats(Query(req, "city"), Query(req, "street"), Query(req, "house"))); break;
-                    case "/api/residents": SendJson(res, GetResidents(Query(req, "city"), Query(req, "street"), Query(req, "house"), Query(req, "flats"))); break;
+                    case "/api/streets": SendJson(res, GetStreets()); break;
+                    case "/api/houses": SendJson(res, GetHouses(Query(req, "street"))); break;
+                    case "/api/flats": SendJson(res, GetFlats(Query(req, "street"), Query(req, "house"))); break;
+                    case "/api/residents": SendJson(res, GetResidents(Query(req, "street"), Query(req, "house"), Query(req, "flats"))); break;
                     case "/report": Report(req, res); break;
                     default:
                         res.StatusCode = 404;
@@ -76,46 +76,43 @@ namespace LocmanWebServer
 
         // ---------- API ----------
 
-        static object GetCities()
+        static object GetStreets()
         {
-            return Database.GetCities().Select(x => new { value = x.Key, name = x.Value }).ToList();
+            return Database.GetStreets();
         }
 
-        static object GetStreets(string city)
+        static object GetHouses(string street)
         {
-            if (string.IsNullOrEmpty(city)) return new List<string>();
-            return Database.GetStreets(city);
+            if (string.IsNullOrEmpty(street)) return new List<string>();
+            return Database.GetHouses(street);
         }
 
-        static object GetHouses(string city, string street)
+        static object GetFlats(string street, string house)
         {
-            if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(street)) return new List<string>();
-            return Database.GetHouses(city, street);
-        }
-
-        static object GetFlats(string city, string street, string house)
-        {
-            if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(street) || string.IsNullOrEmpty(house))
+            if (string.IsNullOrEmpty(street) || string.IsNullOrEmpty(house))
                 return new List<object>();
-            return Database.GetFlats(city, street, house)
+            return Database.GetFlatsAllCatalogs(street, house)
                            .Select(x => new { num = x.Key, id = x.Value }).ToList();
         }
 
-        static List<KeyValuePair<int, int>> ParseFlats(string city, string street, string house, string flatsCsv)
+        static List<KeyValuePair<int, int>> ParseFlats(string street, string house, string flatsCsv)
         {
-            var all = Database.GetFlats(city, street, house);
+            var all = Database.GetFlatsAllCatalogs(street, house);
             if (string.IsNullOrEmpty(flatsCsv)) return all;
             var nums = new HashSet<string>(flatsCsv.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
                                                   .Select(x => x.Trim()));
             return all.Where(x => nums.Contains(x.Key.ToString())).ToList();
         }
 
-        static object GetResidents(string city, string street, string house, string flatsCsv)
+        static object GetResidents(string street, string house, string flatsCsv)
         {
-            if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(street) || string.IsNullOrEmpty(house))
+            if (string.IsNullOrEmpty(street) || string.IsNullOrEmpty(house))
                 return new List<object>();
-            var flats = ParseFlats(city, street, house, flatsCsv);
-            return Database.GetResidents(city, flats).Select(r => new
+            var result = new List<Resident>();
+            // Группируем выбранные квартиры по каталогу (городу), где они найдены.
+            foreach (var catalog in AllCatalogsWithFlats(street, house, flatsCsv))
+                result.AddRange(Database.GetResidents(catalog.Key, catalog.Value));
+            return result.OrderBy(r => r.Flat).ThenBy(r => r.FIO).Select(r => new
             {
                 flat = r.Flat,
                 fio = r.FIO,
@@ -124,14 +121,47 @@ namespace LocmanWebServer
             }).ToList();
         }
 
+        static List<KeyValuePair<string, List<KeyValuePair<int, int>>>> AllCatalogsWithFlats(
+            string street, string house, string flatsCsv)
+        {
+            var res = new List<KeyValuePair<string, List<KeyValuePair<int, int>>>>();
+            var seen = new HashSet<int>();
+            foreach (var pair in Settings.Load().CitiesRaw
+                         .Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                var kv = pair.Split(new[] { '=' }, 2);
+                string catalog = kv[0].Trim();
+                if (catalog.Length == 0) continue;
+                List<KeyValuePair<int, int>> flats;
+                try
+                {
+                    flats = Database.GetFlats(catalog, street, house);
+                }
+                catch (SqlException)
+                {
+                    continue; // город временно недоступен
+                }
+                if (!string.IsNullOrEmpty(flatsCsv))
+                {
+                    var nums = new HashSet<string>(flatsCsv.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                                                          .Select(x => x.Trim()));
+                    flats = flats.Where(x => nums.Contains(x.Key.ToString())).ToList();
+                }
+                flats = flats.Where(x => seen.Add(x.Key)).ToList(); // без дублей номеров между городами
+                if (flats.Count > 0)
+                    res.Add(new KeyValuePair<string, List<KeyValuePair<int, int>>>(catalog, flats));
+            }
+            return res;
+        }
+
         // ---------- Отчёты ----------
-        // GET /report?format=xls|csv|txt&kind=flats|residents&city=..&street=..&house=..&flats=1,2,3
+        // GET /report?format=xls|csv|txt&kind=flats|residents&street=..&house=..&flats=1,2,3
 
         static void Report(HttpListenerRequest req, HttpListenerResponse res)
         {
             string format = Query(req, "format").ToLowerInvariant();
             string kind = Query(req, "kind").ToLowerInvariant();
-            string city = Query(req, "city"), street = Query(req, "street"),
+            string street = Query(req, "street"),
                    house = Query(req, "house"), flatsCsv = Query(req, "flats");
 
             var rows = new List<string[]>();
@@ -140,17 +170,19 @@ namespace LocmanWebServer
             if (kind == "residents")
             {
                 rows.Add(new[] { "Квартира", "Ф.И.О.", "Тип договора", "Дата записи" });
-                var flats = ParseFlats(city, street, house, flatsCsv);
-                foreach (var r in Database.GetResidents(city, flats))
+                var residents = new List<Resident>();
+                foreach (var catalog in AllCatalogsWithFlats(street, house, flatsCsv))
+                    residents.AddRange(Database.GetResidents(catalog.Key, catalog.Value));
+                foreach (var r in residents.OrderBy(r => r.Flat).ThenBy(r => r.FIO))
                     rows.Add(new[] { r.Flat.ToString(), r.FIO, r.ContractType, r.RegDate });
-                fname = "Жители_" + street + "_" + house;
+                fname = "Жители__" + street + "_" + house;
             }
             else
             {
                 rows.Add(new[] { "Номер квартиры", "ID объекта" });
-                foreach (var f in ParseFlats(city, street, house, flatsCsv))
+                foreach (var f in ParseFlats(street, house, flatsCsv))
                     rows.Add(new[] { f.Key.ToString(), f.Value.ToString() });
-                fname = "Квартиры_" + street + "_" + house;
+                fname = "Квартиры__" + street + "_" + house;
             }
 
             byte[] data;

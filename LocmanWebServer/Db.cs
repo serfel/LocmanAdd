@@ -18,8 +18,7 @@ namespace LocmanWebServer
             return (s ?? "").Replace("'", "''");
         }
 
-        // Города (каталоги) из конфигурации.
-        public List<KeyValuePair<string, string>> GetCities()
+        static List<KeyValuePair<string, string>> AllCatalogs()
         {
             var list = new List<KeyValuePair<string, string>>();
             foreach (var pair in cfg.CitiesRaw.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
@@ -32,26 +31,56 @@ namespace LocmanWebServer
             return list;
         }
 
-        // Улицы: Select _PRODUCT From vwObjects Where _TYPE Like 'Струк%'
-        public List<string> GetStreets(string catalog)
+        // Улицы сразу по всем городам (поле «Город» из интерфейса удалено):
+        // Select _PRODUCT From vwObjects Where _TYPE Like 'Струк%'
+        public List<string> GetStreets()
         {
             var result = new List<string>();
-            using (var con = new SqlConnection(cfg.ConnectionString(catalog)))
-            using (var sc = new SqlCommand(
-                "Select vwObjects._PRODUCT From vwObjects Where vwObjects._TYPE Like 'Струк%'", con))
+            foreach (var catalog in AllCatalogs())
             {
-                con.Open();
-                using (var dr = sc.ExecuteReader())
-                    while (dr.Read()) result.Add(dr.GetString(0));
+                try
+                {
+                    using (var con = new SqlConnection(cfg.ConnectionString(catalog.Key)))
+                    using (var sc = new SqlCommand(
+                        "Select vwObjects._PRODUCT From vwObjects Where vwObjects._TYPE Like 'Струк%'", con))
+                    {
+                        con.Open();
+                        using (var dr = sc.ExecuteReader())
+                            while (dr.Read()) result.Add(dr.GetString(0));
+                    }
+                }
+                catch (SqlException)
+                {
+                    // Город временно недоступен — пропускаем его улицы.
+                }
             }
             return result.Distinct().OrderBy(x => x).ToList();
         }
 
-        // Номера домов по улице: атрибут «Дом номер» у дочерних объектов улицы.
-        public List<string> GetHouses(string catalog, string street)
+        // Номера домов по улице сразу по всем городам: атрибут «Дом номер» у
+        // дочерних объектов улицы.
+        public List<string> GetHouses(string street)
         {
             var items = new SortedList<int, string>();
             var others = new List<string>();
+            foreach (var catalog in AllCatalogs())
+            {
+                try
+                {
+                    CollectHouses(catalog.Key, street, items, others);
+                }
+                catch (SqlException)
+                {
+                    // город временно недоступен
+                }
+            }
+            var res = items.Values.ToList();
+            res.AddRange(others.Distinct().OrderBy(x => x));
+            return res;
+        }
+
+        void CollectHouses(string catalog, string street, SortedList<int, string> items, List<string> others)
+        {
             using (var con = new SqlConnection(cfg.ConnectionString(catalog)))
             using (var sc = new SqlCommand(
                 @"Select stAttributes.stValue
@@ -77,9 +106,6 @@ namespace LocmanWebServer
                     }
                 }
             }
-            var res = items.Values.ToList();
-            res.AddRange(others.OrderBy(x => x));
-            return res;
         }
 
         // Квартиры дома: цепочка связей Структурная единица -> Описание внутренних помещений
@@ -125,6 +151,29 @@ namespace LocmanWebServer
                 }
             }
             return flats.OrderBy(x => x.Key).ToList();
+        }
+
+        // Квартиры без выбора города: ищем по всем каталогам, где встречается
+        // такая же улица+дом. Дубликаты номеров не повторяем.
+        public List<KeyValuePair<int, int>> GetFlatsAllCatalogs(string street, string house)
+        {
+            var result = new List<KeyValuePair<int, int>>();
+            var seen = new HashSet<int>();
+            foreach (var catalog in AllCatalogs())
+            {
+                List<KeyValuePair<int, int>> flats;
+                try
+                {
+                    flats = GetFlats(catalog.Key, street, house);
+                }
+                catch (SqlException)
+                {
+                    continue; // город временно недоступен
+                }
+                foreach (var f in flats)
+                    if (seen.Add(f.Key)) result.Add(f);
+            }
+            return result.OrderBy(x => x.Key).ToList();
         }
 
         // Жители (собственники) квартир: дочерние объекты квартиры, у которых есть
