@@ -19,6 +19,10 @@ namespace LocmanWebServer
  label{font-weight:600;margin-right:6px;display:inline-block;min-width:70px}
  select,input[type=text]{padding:6px 8px;border:1px solid #bbb;border-radius:4px;font-size:14px}
  .row{margin:8px 0}
+ /* Строки «Улица» и «Дом» сдвинуты вправо на 20px; метки фиксированной ширины,
+    остальные строки («Квартиры», «Документ») остаются слева, на своём месте */
+ .shift{margin-left:20px}
+ .row > label{width:90px}
  /* Выпадающие меню с чекбоксами (квартиры) — тот же стиль, что и у обычных select */
  .dd{position:relative;display:inline-block;vertical-align:middle}
  .dd-btn{background:#fff;color:#222;border:1px solid #bbb;border-radius:4px;padding:6px 10px;font-size:14px;cursor:pointer;min-width:230px;text-align:left}
@@ -43,9 +47,9 @@ namespace LocmanWebServer
 <div class='wrap'>
 
  <div class='card'>
-   <div class='row'><label>Улица:</label>
+   <div class='row shift'><label>Улица:</label>
      <select id='street'><option value=''>(загрузка…)</option></select></div>
-   <div class='row'><label>Дом:</label>
+   <div class='row shift'><label>Дом:</label>
      <select id='house'><option value=''>— сначала выберите улицу —</option></select></div>
    <!-- Выпадающий список квартир с чекбоксами: на одном уровне с «Дома»,
         заполняется после выбора дома. Рядок виден всегда (до выбора дома —
@@ -61,7 +65,7 @@ namespace LocmanWebServer
      </span>
    </div>
    <!-- Выпадающий список документов: на том же уровне, одна запись -->
-   <div class='row'><label>Документ:</label>
+   <div class='row' id='documentRow'><label>Документ:</label>
      <select id='document'>
        <option value=''>— выберите документ —</option>
        <option value='doc1'>Документ 1</option>
