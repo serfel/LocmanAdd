@@ -63,29 +63,25 @@ namespace LocmanWebServer
        </span>
      </span>
    </div>
+   <!-- Блок «Действие»: строка НАД «Документ», выровнена по тому же левому краю
+        (метка шириной 110px, как у остальных строк). Показывается после выбора дома. -->
+   <div class='row' id='actionRow' style='display:none'><label>Действие:</label>
+     <select id='flatsAction'>
+       <option value=''>— выберите действие —</option>
+       <option value='report_xls'>Отчёт в Excel (.xls)</option>
+       <option value='report_csv'>Отчёт в CSV (.csv)</option>
+       <option value='report_txt'>Отчёт в TXT (.txt)</option>
+       <option value='show_residents'>Показать жителей выбранных квартир</option>
+       <option value='show_all'>Показать жителей всех квартир дома</option>
+     </select>
+     <button id='runFlats'>Выполнить</button>
+   </div>
    <!-- Выпадающий список документов: на том же уровне, одна запись -->
    <div class='row' id='documentRow'><label>Документ:</label>
      <select id='document'>
        <option value=''>— выберите документ —</option>
        <option value='doc1'>Документ 1</option>
      </select>
-   </div>
- </div>
-
- <div class='card' id='flatsCard' style='display:none'>
-   <div class='row'>
-     <span style='float:right'>
-       <label style='min-width:0'>Действие:</label>
-       <select id='flatsAction'>
-         <option value=''>— выберите действие —</option>
-         <option value='report_xls'>Отчёт в Excel (.xls)</option>
-         <option value='report_csv'>Отчёт в CSV (.csv)</option>
-         <option value='report_txt'>Отчёт в TXT (.txt)</option>
-         <option value='show_residents'>Показать жителей выбранных квартир</option>
-         <option value='show_all'>Показать жителей всех квартир дома</option>
-       </select>
-       <button id='runFlats'>Выполнить</button>
-     </span>
    </div>
  </div>
 
