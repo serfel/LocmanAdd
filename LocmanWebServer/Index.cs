@@ -22,6 +22,10 @@ namespace LocmanWebServer
  /* Все заголовки выровнены по одному левому краю, все выпадающие меню —
     на одном отступе слева (фиксированная ширина метки) */
  .row > label{width:110px}
+ /* Поле внутри строки (метка + элемент): несколько таких блоков могут
+    располагаться в одной строке горизонтально, выровненные по вертикали */
+ .field{display:inline-flex;align-items:center;vertical-align:middle;margin-right:24px}
+ .field > label{width:110px}
  /* Выпадающие меню с чекбоксами (квартиры) — тот же стиль, что и у обычных select */
  .dd{position:relative;display:inline-block;vertical-align:middle}
  .dd-btn{background:#fff;color:#222;border:1px solid #bbb;border-radius:4px;padding:6px 10px;font-size:14px;cursor:pointer;min-width:230px;text-align:left}
@@ -63,25 +67,27 @@ namespace LocmanWebServer
        </span>
      </span>
    </div>
-   <!-- Блок «Действие»: строка НАД «Документ», выровнена по тому же левому краю
-        (метка шириной 110px, как у остальных строк). Показывается после выбора дома. -->
-   <div class='row' id='actionRow' style='display:none'><label>Действие:</label>
-     <select id='flatsAction'>
-       <option value=''>— выберите действие —</option>
-       <option value='report_xls'>Отчёт в Excel (.xls)</option>
-       <option value='report_csv'>Отчёт в CSV (.csv)</option>
-       <option value='report_txt'>Отчёт в TXT (.txt)</option>
-       <option value='show_residents'>Показать жителей выбранных квартир</option>
-       <option value='show_all'>Показать жителей всех квартир дома</option>
-     </select>
-     <button id='runFlats'>Выполнить</button>
-   </div>
-   <!-- Выпадающий список документов: на том же уровне, одна запись -->
-   <div class='row' id='documentRow'><label>Документ:</label>
-     <select id='document'>
-       <option value=''>— выберите документ —</option>
-       <option value='doc1'>Документ 1</option>
-     </select>
+   <!-- Одна строка: блок «Документ» слева, блок «Действие» СПРАВА от него.
+        Оба блока выровнены по вертикали (inline-flex, vertical-align:middle).
+        Блок «Действие» показывается после выбора дома. -->
+   <div class='row' id='documentRow'>
+     <span class='field'><label>Документ:</label>
+       <select id='document'>
+         <option value=''>— выберите документ —</option>
+         <option value='doc1'>Документ 1</option>
+       </select>
+     </span>
+     <span class='field' id='actionRow' style='display:none'><label>Действие:</label>
+       <select id='flatsAction'>
+         <option value=''>— выберите действие —</option>
+         <option value='report_xls'>Отчёт в Excel (.xls)</option>
+         <option value='report_csv'>Отчёт в CSV (.csv)</option>
+         <option value='report_txt'>Отчёт в TXT (.txt)</option>
+         <option value='show_residents'>Показать жителей выбранных квартир</option>
+         <option value='show_all'>Показать жителей всех квартир дома</option>
+       </select>
+       <button id='runFlats'>Выполнить</button>
+     </span>
    </div>
  </div>
 
