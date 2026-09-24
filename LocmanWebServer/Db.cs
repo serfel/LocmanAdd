@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 
@@ -10,13 +12,9 @@ namespace LocmanWebServer
     public class Db
     {
         readonly Settings cfg;
-
+        string АдресБезДома = "";
+        public string baseCatalog = "Murmansk";
         public Db(Settings settings) { cfg = settings; }
-
-        static string Esc(string s)
-        {
-            return (s ?? "").Replace("'", "''");
-        }
 
         // Разбирает строку настроек «каталог=Название;...» в список каталогов.
         public static List<KeyValuePair<string, string>> ParseCatalogs(string citiesRaw)
@@ -85,20 +83,32 @@ namespace LocmanWebServer
             return res;
         }
 
-        void CollectHouses(string catalog, string street, SortedList<int, string> items, List<string> others)
+        void _CollectHouses(string catalog, string street, SortedList<int, string> items, List<string> others)
         {
+            // ВАЖНО (исправление фильтра): в Лоцмане «улица» — родитель дома,
+            // т.е. дом является ПОТОМКОМ улицы: улица._ID = vwLinks.inIdChild,
+            // дом._ID = vwLinks.inIdParent (стрелка связи «из родителя в потомка»:
+            // inIdParent -> inIdChild). Ранее было переставлено наоборот
+            // (улица как parent), поэтому список домов всегда возвращал пустым.
+            // Номер дома хранится в атрибуте самого объекта-дома (stVersions по
+            // дому, а не по улице).
             using (var con = new SqlConnection(cfg.ConnectionString(catalog)))
             using (var sc = new SqlCommand(
+                /*
                 @"Select stAttributes.stValue
                   From vwObjects
-                  Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent
-                  Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID
+                  Inner Join vwLinks On vwObjects._ID = vwLinks.inIdChild
+                  Inner Join vwObjects vwObjects1 On vwLinks.inIdParent = vwObjects1._ID
                   Inner Join stVersions On vwObjects1._ID = stVersions.inId
                   Inner Join stAttributes On stVersions.inId = stAttributes.inIdVersion
                   Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId
                   Where vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер'
-                    And vwObjects._PRODUCT = '" + Esc(street) + "'", con))
+                    And vwObjects._PRODUCT = @street"
+                */
+                $@"Select vwObjects._PRODUCT As vwObjects__PRODUCT, vwObjects1._TYPE As vwObjects1__TYPE, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join stVersions On vwObjects1._ID = stVersions.inId Inner Join stAttributes On stVersions.inId = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr =  vwTypesAndAttributes.inId Where vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер' And vwObjects._PRODUCT = '{street}'"
+                , con))
             {
+                //sc.Parameters.AddWithValue("@street", street ?? "");
                 con.Open();
                 using (var dr = sc.ExecuteReader())
                 {
@@ -114,6 +124,247 @@ namespace LocmanWebServer
             }
         }
 
+        private void __CollectHouses(string Catalog, string Улица, SortedList<int, string> items, List<string> others)
+        {
+            //АдресБезДома = "";
+            using (var con = new SqlConnection(cfg.ConnectionString(Catalog)))
+            {
+                con.Open();
+                using (SqlCommand sc = new SqlCommand($@"Select vwObjects._PRODUCT As vwObjects__PRODUCT, vwObjects1._TYPE As vwObjects1__TYPE, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join stVersions On vwObjects1._ID = stVersions.inId Inner Join stAttributes On stVersions.inId = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr =  vwTypesAndAttributes.inId Where vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер' And vwObjects._PRODUCT = '{Улица}'"))
+                {
+                    var stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        stVers.Load(dr);
+
+                        ArrayList _items = new ArrayList();
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            string key = "";
+                            int ky = 0;
+                            int.TryParse(stVers.Rows[x]["stAttributes_stValue"].ToString(), out ky);
+                            if (ky < 0) stVers.Rows[x]["Свойства_Значение"].ToString();
+                            else
+                            {
+                                if (ky < 10) key = "  " + ky.ToString();
+                                else if (ky < 100) key = " " + ky.ToString();
+                                else key = ky.ToString();
+                            }
+                            if (!_items.Contains(key))
+                            {
+                                _items.Add(key);
+                            }
+                            else
+                            {
+
+                            }
+                            if (!_items.Contains(stVers.Rows[x]["stAttributes_stValue"].ToString()))
+                            {
+                                _items.Add(stVers.Rows[x]["stAttributes_stValue"].ToString());
+                                baseCatalog = Catalog;
+                            }
+                            else
+                            {
+
+                            }
+                        }
+                        _items.Sort();
+                        for (int x = 0; x < _items.Count; x++)
+                        {
+                            while (_items[x].ToString()[0] == ' ')
+                                _items[x] = _items[x].ToString().Remove(0, 1);
+                        }
+                        //items.AddRange(items.ToArray());
+                    }
+                }
+                using (SqlCommand sc = new SqlCommand($@"Select vwTypesAndAttributes.stAttrName As vwTypesAndAttributes_stAttrName, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join stAttributes On vwObjects._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Where vwObjects._PRODUCT = '{Улица}' And vwObjects._TYPE Like 'Струк%' And (vwTypesAndAttributes.stAttrName = 'Тип' Or vwTypesAndAttributes.stAttrName = 'Наименование')"))
+                {
+                    var stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        string Тип = "";
+                        string Наименование = "";
+                        stVers.Load(dr);
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            if (stVers.Rows[x]["vwTypesAndAttributes_stAttrName"].ToString() == "Тип")
+                                Тип = stVers.Rows[x]["stAttributes_stValue"].ToString();
+                            if (stVers.Rows[x]["vwTypesAndAttributes_stAttrName"].ToString() == "Наименование")
+                                Наименование = stVers.Rows[x]["stAttributes_stValue"].ToString();
+
+                            АдресБезДома = $@"{Тип} {Наименование}";
+                        }
+                    }
+                }
+                //con.Close();
+
+                if (АдресБезДома == "") return;
+                //using (SqlConnection con = new SqlConnection(string.Format(ConnectionStrings.SQL, new object[] { tbServer, Catalog, tbUser, tbPassword, ConnectionTimeout })))
+                {
+                    //con.Open();
+                    using (SqlCommand sc = new SqlCommand($@"Select vwObjects1._PRODUCT As vwObjects1__PRODUCT, vwObjects1._TYPE As vwObjects1__TYPE, vwObjects2._PRODUCT As vwObjects2__PRODUCT, vwObjects2._TYPE As vwObjects2__TYPE, vwObjects2._ID As vwObjects2__ID From vwObjects vwObjects1 Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdChild Inner Join vwObjects vwObjects2 On vwObjects2._ID = vwLinks1.inIdParent Where vwObjects1._PRODUCT = '{Улица}' And vwObjects1._TYPE = 'Структурная единица'"))
+                    {
+                        var stVers = new DataTable("Table");
+                        sc.Connection = con;
+                        using (SqlDataReader dr = sc.ExecuteReader())
+                        {
+                            stVers.Load(dr);
+                            for (int x = 0; x < stVers.Rows.Count; x++)
+                            {
+                                if (stVers.Rows[x]["vwObjects2__TYPE"].ToString() != "Округ")
+                                    АдресБезДома = stVers.Rows[x]["vwObjects2__TYPE"].ToString() + " " + stVers.Rows[x]["vwObjects2__PRODUCT"].ToString() + ", " + АдресБезДома;
+                                else
+                                {
+                                    // Для Мурманска - еще один уровень
+                                    using (SqlCommand scn = new SqlCommand($@"Select vwObjects2._PRODUCT As vwObjects2__PRODUCT, vwObjects2._TYPE As vwObjects2__TYPE, vwObjects2._ID As vwObjects2__ID, vwLinks1.inIdChild As vwLinks1_inIdChild From vwLinks vwLinks1 Inner Join vwObjects vwObjects2 On vwObjects2._ID = vwLinks1.inIdParent Where vwLinks1.inIdChild = {stVers.Rows[x]["vwObjects2__ID"].ToString()}"))
+                                    {
+                                        var stVersn = new DataTable("Table");
+                                        scn.Connection = con;
+                                        using (SqlDataReader drn = scn.ExecuteReader())
+                                        {
+                                            stVersn.Load(drn);
+                                            for (int xn = 0; xn < stVersn.Rows.Count; xn++)
+                                            {
+                                                if (stVersn.Rows[xn]["vwObjects2__TYPE"].ToString() != "Округ")
+                                                    АдресБезДома = stVersn.Rows[xn]["vwObjects2__TYPE"].ToString() + " " + stVersn.Rows[xn]["vwObjects2__PRODUCT"].ToString() + ", " + АдресБезДома;
+                                                else
+                                                {
+
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                    con.Close();
+                }
+            }
+        }
+
+        void CollectHouses(string Catalog, string Улица, SortedList<int, string> items, List<string> others)
+        {
+            // Запрос — точно как в рабочем коде оригинального проекта
+            // («Лоцман добавка», ПоискАдреса.cs): УЛИЦА = vwLinks.inIdParent,
+            // ДОМ = vwLinks.inIdChild, атрибут «Дом номер» берётся из версии
+            // объекта-дома (stVersions по vwObjects1). Отличие одно — вместо
+            // подстановки '{Улица}' в строку используется параметр @street
+            // (результат тот же, но защищены кавычки в названиях улиц и нет
+            // риска SQL-инъекций).
+            var stVers = new DataTable("Table");
+            using (var con = new SqlConnection(cfg.ConnectionString(Catalog)))
+            {
+                con.Open();
+                using (SqlCommand sc = new SqlCommand($@"Select vwObjects._PRODUCT As vwObjects__PRODUCT, vwObjects1._TYPE As vwObjects1__TYPE, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join stVersions On vwObjects1._ID = stVersions.inId Inner Join stAttributes On stVersions.inId = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr =  vwTypesAndAttributes.inId Where vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер' And vwObjects._PRODUCT = @street"))
+                {
+                    sc.Connection = con;
+                    sc.Parameters.AddWithValue("@street", Улица ?? "");
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        stVers.Load(dr);
+                    }
+                }
+
+
+                // Обход строк результата — построчно как в оригинале, но с
+                // заполнением целевых коллекций вызывающего кода:
+                //   items  (SortedList<int,string>) — числовые номера домов,
+                //            ключ = int для сортировки по возрастанию, значение = исходная строка;
+                //   others (List<string>)           — нечисловые варианты ("2к1", "А", "10/2").
+                for (int x = 0; x < stVers.Rows.Count; x++)
+                {
+                    string val = stVers.Rows[x]["stAttributes_stValue"].ToString().Trim();
+                    if (val.Length == 0) continue;
+
+                    int ky = 0;
+                    bool numeric = int.TryParse(val, out ky);
+
+                    if (numeric && ky >= 0)
+                    {
+                        // Числовой дом: ключ ky (для сортировки), значение val.
+                        // Дубликаты перезаписываются — как дубликаты ключей в
+                        // SortedList в оригинальном коде пропускались (_items.Contains).
+                        items[ky] = val;
+                    }
+                    else
+                    {
+                        // Нечисловой/отрицательный вариант — в others без дубликатов.
+                        if (!others.Contains(val)) others.Add(val);
+                    }
+                }
+                using (SqlCommand sc = new SqlCommand($@"Select vwTypesAndAttributes.stAttrName As vwTypesAndAttributes_stAttrName, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join stAttributes On vwObjects._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Where vwObjects._PRODUCT = '{Улица}' And vwObjects._TYPE Like 'Струк%' And (vwTypesAndAttributes.stAttrName = 'Тип' Or vwTypesAndAttributes.stAttrName = 'Наименование')"))
+                {
+                    stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        string Тип = "";
+                        string Наименование = "";
+                        stVers.Load(dr);
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            if (stVers.Rows[x]["vwTypesAndAttributes_stAttrName"].ToString() == "Тип")
+                                Тип = stVers.Rows[x]["stAttributes_stValue"].ToString();
+                            if (stVers.Rows[x]["vwTypesAndAttributes_stAttrName"].ToString() == "Наименование")
+                                Наименование = stVers.Rows[x]["stAttributes_stValue"].ToString();
+
+                            АдресБезДома = $@"{Тип} {Наименование}";
+                        }
+                    }
+                }
+                //con.Close();
+
+                if (АдресБезДома == "") return;
+                //using (SqlConnection con = new SqlConnection(string.Format(ConnectionStrings.SQL, new object[] { tbServer, Catalog, tbUser, tbPassword, ConnectionTimeout })))
+                {
+                    //con.Open();
+                    using (SqlCommand sc = new SqlCommand($@"Select vwObjects1._PRODUCT As vwObjects1__PRODUCT, vwObjects1._TYPE As vwObjects1__TYPE, vwObjects2._PRODUCT As vwObjects2__PRODUCT, vwObjects2._TYPE As vwObjects2__TYPE, vwObjects2._ID As vwObjects2__ID From vwObjects vwObjects1 Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdChild Inner Join vwObjects vwObjects2 On vwObjects2._ID = vwLinks1.inIdParent Where vwObjects1._PRODUCT = '{Улица}' And vwObjects1._TYPE = 'Структурная единица'"))
+                    {
+                        stVers = new DataTable("Table");
+                        sc.Connection = con;
+                        using (SqlDataReader dr = sc.ExecuteReader())
+                        {
+                            stVers.Load(dr);
+                            for (int x = 0; x < stVers.Rows.Count; x++)
+                            {
+                                if (stVers.Rows[x]["vwObjects2__TYPE"].ToString() != "Округ")
+                                    АдресБезДома = stVers.Rows[x]["vwObjects2__TYPE"].ToString() + " " + stVers.Rows[x]["vwObjects2__PRODUCT"].ToString() + ", " + АдресБезДома;
+                                else
+                                {
+                                    // Для Мурманска - еще один уровень
+                                    using (SqlCommand scn = new SqlCommand($@"Select vwObjects2._PRODUCT As vwObjects2__PRODUCT, vwObjects2._TYPE As vwObjects2__TYPE, vwObjects2._ID As vwObjects2__ID, vwLinks1.inIdChild As vwLinks1_inIdChild From vwLinks vwLinks1 Inner Join vwObjects vwObjects2 On vwObjects2._ID = vwLinks1.inIdParent Where vwLinks1.inIdChild = {stVers.Rows[x]["vwObjects2__ID"].ToString()}"))
+                                    {
+                                        var stVersn = new DataTable("Table");
+                                        scn.Connection = con;
+                                        using (SqlDataReader drn = scn.ExecuteReader())
+                                        {
+                                            stVersn.Load(drn);
+                                            for (int xn = 0; xn < stVersn.Rows.Count; xn++)
+                                            {
+                                                if (stVersn.Rows[xn]["vwObjects2__TYPE"].ToString() != "Округ")
+                                                    АдресБезДома = stVersn.Rows[xn]["vwObjects2__TYPE"].ToString() + " " + stVersn.Rows[xn]["vwObjects2__PRODUCT"].ToString() + ", " + АдресБезДома;
+                                                else
+                                                {
+
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+                con.Close();
+            }
+        }
+
+
         // Квартиры дома: цепочка связей Структурная единица -> Описание внутренних помещений
         // -> Расчет площади основного строения; атрибут «Номер помещения...».
         // Возвращает пары: номер квартиры -> _ID объекта квартиры.
@@ -122,28 +373,34 @@ namespace LocmanWebServer
             var flats = new Dictionary<int, int>();
             using (var con = new SqlConnection(cfg.ConnectionString(catalog)))
             using (var sc = new SqlCommand(
+                // Цепочка потомков (дом -> ... -> квартира): каждый следующий
+                // объект является ПОТОМКОМ предыдущего, т.е. связь идём от
+                // inIdChild предыдущего к inIdParent следующего (см. комментарий
+                // в CollectHouses: улица = inIdChild, дом = inIdParent).
                 @"Select vwObjects5._ID, stAttributes1.stValue
                   From vwObjects
-                  Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent
-                  Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID
+                  Inner Join vwLinks On vwObjects._ID = vwLinks.inIdChild
+                  Inner Join vwObjects vwObjects1 On vwLinks.inIdParent = vwObjects1._ID
                   Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion
                   Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId
-                  Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdParent
-                  Inner Join vwObjects vwObjects2 On vwLinks1.inIdChild = vwObjects2._ID
-                  Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdParent
-                  Inner Join vwObjects vwObjects3 On vwLinks2.inIdChild = vwObjects3._ID
-                  Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdParent
-                  Inner Join vwObjects vwObjects4 On vwLinks3.inIdChild = vwObjects4._ID
-                  Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdParent
-                  Inner Join vwObjects vwObjects5 On vwLinks4.inIdChild = vwObjects5._ID
+                  Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdChild
+                  Inner Join vwObjects vwObjects2 On vwLinks1.inIdParent = vwObjects2._ID
+                  Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdChild
+                  Inner Join vwObjects vwObjects3 On vwLinks2.inIdParent = vwObjects3._ID
+                  Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdChild
+                  Inner Join vwObjects vwObjects4 On vwLinks3.inIdParent = vwObjects4._ID
+                  Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdChild
+                  Inner Join vwObjects vwObjects5 On vwLinks4.inIdParent = vwObjects5._ID
                   Inner Join stAttributes stAttributes1 On vwObjects5._ID = stAttributes1.inIdVersion
                   Inner Join vwTypesAndAttributes vwTypesAndAttributes1 On vwTypesAndAttributes1.inId = stAttributes1.inIdTypeAttr
                   Where vwObjects._TYPE Like 'Струк%'
                     And vwTypesAndAttributes.stAttrName = 'Дом номер'
                     And vwTypesAndAttributes1.stAttrName = 'Номер помещения (квартиры торгового складского и др. п.)'
-                    And vwObjects._PRODUCT = '" + Esc(street) + @"'
-                    And stAttributes.stValue = '" + Esc(house) + "' ", con))
+                    And vwObjects._PRODUCT = @street
+                    And stAttributes.stValue = @house", con))
             {
+                sc.Parameters.AddWithValue("@street", street ?? "");
+                sc.Parameters.AddWithValue("@house", house ?? "");
                 con.Open();
                 using (var dr = sc.ExecuteReader())
                 {
@@ -193,10 +450,12 @@ namespace LocmanWebServer
                 foreach (var flat in flats)
                 {
                     using (var sc = new SqlCommand(
+                        // Житель — ПОТОМОК квартиры: квартира._ID = inIdChild,
+                        // объект жителя = inIdParent (см. CollectHouses).
                         @"Select vwObjects._ID
                           From vwLinks
-                          Inner Join vwObjects On vwLinks.inIdChild = vwObjects._ID
-                          Where vwLinks.inIdParent = @id", con))
+                          Inner Join vwObjects On vwLinks.inIdParent = vwObjects._ID
+                          Where vwLinks.inIdChild = @id", con))
                     {
                         sc.Parameters.AddWithValue("@id", flat.Value);
                         var ids = new List<int>();
