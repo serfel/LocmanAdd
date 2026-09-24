@@ -364,43 +364,166 @@ namespace LocmanWebServer
             }
         }
 
+        private void FillFlats(string Catalog, string Улица, string Дом)
+        {
+            if (baseCatalog != Catalog) return;
+            //using (SqlConnection con = new SqlConnection(string.Format(ConnectionStrings.SQL, new object[] { tbServer, Catalog, tbUser, tbPassword, ConnectionTimeout })))
+            {
+                /*
+                con.Open();
+
+                while (Дом[0] == ' ') Дом = Дом.Remove(0, 1);
+                using (SqlCommand sc = new SqlCommand($@"Select vwObjects5._ID As vwObjects5__ID, vwObjects._ID As vwObjects__ID, vwObjects._PRODUCT As vwObjects__PRODUCT, stAttributes.stValue As stAttributes_stValue, vwObjects5._TYPE As vwObjects5__TYPE, stAttributes1.stValue As stAttributes1_stValue, vwObjects1._PRODUCT As vwObjects1__PRODUCT, vwTypesAndAttributes2.stAttrName As vwTypesAndAttributes2_stAttrName, stAttributes2.stValue As stAttributes2_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdParent Inner Join vwObjects vwObjects2 On vwLinks1.inIdChild = vwObjects2._ID Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdParent Inner Join vwObjects vwObjects3 On vwLinks2.inIdChild = vwObjects3._ID Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdParent Inner Join vwObjects vwObjects4 On vwLinks3.inIdChild = vwObjects4._ID Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdParent Inner Join vwObjects vwObjects5 On vwLinks4.inIdChild = vwObjects5._ID Inner Join stAttributes stAttributes1 On vwObjects5._ID = stAttributes1.inIdVersion Inner Join vwTypesAndAttributes vwTypesAndAttributes1 On vwTypesAndAttributes1.inId = stAttributes1.inIdTypeAttr Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Inner Join stAttributes stAttributes2 On stAttributes2.inIdVersion = vwObjects1._ID Inner Join vwTypesAndAttributes vwTypesAndAttributes2 On vwTypesAndAttributes2.inId = stAttributes2.inIdTypeAttr Where vwObjects._PRODUCT = '{Улица}' And stAttributes.stValue = '{Дом}' And(vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.1995 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2007 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2009 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2010 года') And vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер' And vwObjects3._TYPE = 'Расчет площади основного строения' And vwObjects2._TYPE = 'Описание внутренних помещений' And vwTypesAndAttributes1.stAttrName = 'Номер помещения (квартиры торгового складского и др. п.)'"))
+                {
+                    var stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        stVers.Load(dr);
+                        ArrayList items = new ArrayList();
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            string key = "";
+                            int ky = -1;
+                            int.TryParse(stVers.Rows[x]["stAttributes1_stValue"].ToString(), out ky);
+                            if (ky < 0)
+                                int.TryParse(stVers.Rows[x]["Свойства_Значение"].ToString(), out ky);
+                            if (ky < 0) continue;
+                            if (ky < 10) key = "  " + ky.ToString();
+                            else if (ky < 100) key = " " + ky.ToString();
+                            else key = ky.ToString();
+                            if (!items.Contains(key))
+                            {
+                                items.Add(key);
+                                while (key[0] == ' ') key = key.Remove(0, 1);
+                                Flats.Add(int.Parse(key), int.Parse(stVers.Rows[x]["vwObjects5__ID"].ToString()));
+                            }
+                            else
+                            {
+
+                            }
+                        }
+                        items.Sort();
+                        txFlat.Items.AddRange(items.ToArray());
+                    }
+                }
+                */
+                /*
+                string kId = "";
+                using (SqlCommand sc = new SqlCommand($@"Select vwObjects1._ID As vwObjects1__ID From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Where vwObjects._PRODUCT = '{Улица}' And stAttributes.stValue = '{Дом}' And vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер'"))
+                {
+                    var stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        stVers.Load(dr);
+                        ArrayList items = new ArrayList();
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            kId = stVers.Rows[x]["vwObjects1__ID"].ToString();
+                        }
+                        items.Sort();
+                        txFlat.Items.AddRange(items.ToArray());
+                    }
+                }
+                if (kId == "") return;
+                
+                using (SqlCommand sc = new SqlCommand($@"Select vwObjects1._ID As vwObjects1__ID, vwObjects1._PRODUCT As vwObjects1__PRODUCT, vwTypesAndAttributes.stAttrName As vwTypesAndAttributes_stAttrName, stAttributes.stValue As stAttributes_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Where vwObjects1._ID = '{kId}' And vwObjects._PRODUCT = 'Бабикова (Заполярный)' And vwObjects._TYPE Like 'Струк%' And (vwTypesAndAttributes.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.1995 года' Or vwTypesAndAttributes.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2007 года' Or vwTypesAndAttributes.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2009 года' Or vwTypesAndAttributes.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2010 года')"))
+                {
+                    var stVers = new DataTable("Table");
+                    sc.Connection = con;
+                    using (SqlDataReader dr = sc.ExecuteReader())
+                    {
+                        string Стоимость1квмвценахна01_01_1995года = "";
+                        string Стоимость1квмвценахна01_01_2007года = "";
+                        string Стоимость1квмвценахна01_01_2009года = "";
+                        string Стоимость1квмвценахна01_01_2010года = "";
+
+                        stVers.Load(dr);
+                        ArrayList items = new ArrayList();
+                        for (int x = 0; x < stVers.Rows.Count; x++)
+                        {
+                            switch (stVers.Rows[x]["vwTypesAndAttributes_stAttrName"].ToString())
+                            {
+                                case "Стоимость 1 кв.м. в ценах на 01.01.1995 года": Стоимость1квмвценахна01_01_1995года = stVers.Rows[x]["stAttributes_stValue"].ToString(); break;
+                                case "Стоимость 1 кв.м. в ценах на 01.01.2007 года": Стоимость1квмвценахна01_01_2007года = stVers.Rows[x]["stAttributes_stValue"].ToString(); break;
+                                case "Стоимость 1 кв.м. в ценах на 01.01.2009 года": Стоимость1квмвценахна01_01_2009года = stVers.Rows[x]["stAttributes_stValue"].ToString(); break;
+                                case "Стоимость 1 кв.м. в ценах на 01.01.2010 года": Стоимость1квмвценахна01_01_2010года = stVers.Rows[x]["stAttributes_stValue"].ToString(); break;
+                            }
+                        }
+                        double dСтоимость1квмвценахна01_01_1995года = 0D;
+                        double.TryParse(Стоимость1квмвценахна01_01_1995года.Replace(".", ","), out dСтоимость1квмвценахна01_01_1995года);
+                        double dСтоимость1квмвценахна01_01_2007года = 0D;
+                        double.TryParse(Стоимость1квмвценахна01_01_2007года.Replace(".", ","), out dСтоимость1квмвценахна01_01_2007года);
+                        double dСтоимость1квмвценахна01_01_2009года = 0D;
+                        double.TryParse(Стоимость1квмвценахна01_01_2009года.Replace(".", ","), out dСтоимость1квмвценахна01_01_2009года);
+                        double dСтоимость1квмвценахна01_01_2010года = 0D;
+                        double.TryParse(Стоимость1квмвценахна01_01_2010года.Replace(".", ","), out dСтоимость1квмвценахна01_01_2010года);
+                        
+                        //if (dСтоимость1квмвценахна01_01_1995года == 0D) MessageBox.Show("Не заполнено поле \"Стоимость 1 кв.м.в ценах на 01.01.1995 года\" по адресу " + Адрес );
+                        //if (dСтоимость1квмвценахна01_01_2007года == 0D) MessageBox.Show("Не заполнено поле \"Стоимость 1 кв.м.в ценах на 01.01.2007 года\" по адресу " + Адрес);
+                        //if (dСтоимость1квмвценахна01_01_2009года == 0D) MessageBox.Show("Не заполнено поле \"Стоимость 1 кв.м.в ценах на 01.01.2009 года\" по адресу " + Адрес);
+                        //if (dСтоимость1квмвценахна01_01_2010года == 0D) MessageBox.Show("Не заполнено поле \"Стоимость 1 кв.м.в ценах на 01.01.2010 года\" по адресу " + Адрес);
+                                                
+                        //if (dСтоимость1квмвценахна01_01_1995года != 0D)
+                        {
+                            if (dСтоимость1квмвценахна01_01_2007года != dСтоимость1квмвценахна01_01_1995года * 20) MessageBox.Show("Неправильно заполнено поле \"Стоимость 2007 года\" по адресу " + Адрес);
+                            if (dСтоимость1квмвценахна01_01_2009года != dСтоимость1квмвценахна01_01_1995года * 33.74) MessageBox.Show("Неправильно заполнено поле \"Стоимость 2009 года\" по адресу " + Адрес);
+                            if (dСтоимость1квмвценахна01_01_2010года != dСтоимость1квмвценахна01_01_1995года * 40.54) MessageBox.Show("Неправильно заполнено поле \"Стоимость 2010 года\" по адресу " + Адрес);
+                            ИнвСтоимость = (dСтоимость1квмвценахна01_01_1995года * 40.54).ToString();
+                            ИнвСтоимость2 = Стоимость1квмвценахна01_01_2010года;
+                        }
+                        
+                        items.Sort();
+                        txFlat.Items.AddRange(items.ToArray());
+                    }
+                }
+                */
+                //con.Close();
+            }
+            //Flats.processInSortedOrder();
+        }
 
         // Квартиры дома: цепочка связей Структурная единица -> Описание внутренних помещений
         // -> Расчет площади основного строения; атрибут «Номер помещения...».
         // Возвращает пары: номер квартиры -> _ID объекта квартиры.
-        public List<KeyValuePair<int, int>> GetFlats(string catalog, string street, string house)
+        public List<KeyValuePair<int, int>> GetFlats(string catalog, string Улица, string Дом)
         {
             var flats = new Dictionary<int, int>();
             using (var con = new SqlConnection(cfg.ConnectionString(catalog)))
-            using (var sc = new SqlCommand(
+            using (var sc = new SqlCommand( 
                 // Цепочка потомков (дом -> ... -> квартира): каждый следующий
                 // объект является ПОТОМКОМ предыдущего, т.е. связь идём от
                 // inIdChild предыдущего к inIdParent следующего (см. комментарий
                 // в CollectHouses: улица = inIdChild, дом = inIdParent).
-                @"Select vwObjects5._ID, stAttributes1.stValue
-                  From vwObjects
-                  Inner Join vwLinks On vwObjects._ID = vwLinks.inIdChild
-                  Inner Join vwObjects vwObjects1 On vwLinks.inIdParent = vwObjects1._ID
-                  Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion
-                  Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId
-                  Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdChild
-                  Inner Join vwObjects vwObjects2 On vwLinks1.inIdParent = vwObjects2._ID
-                  Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdChild
-                  Inner Join vwObjects vwObjects3 On vwLinks2.inIdParent = vwObjects3._ID
-                  Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdChild
-                  Inner Join vwObjects vwObjects4 On vwLinks3.inIdParent = vwObjects4._ID
-                  Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdChild
-                  Inner Join vwObjects vwObjects5 On vwLinks4.inIdParent = vwObjects5._ID
-                  Inner Join stAttributes stAttributes1 On vwObjects5._ID = stAttributes1.inIdVersion
-                  Inner Join vwTypesAndAttributes vwTypesAndAttributes1 On vwTypesAndAttributes1.inId = stAttributes1.inIdTypeAttr
-                  Where vwObjects._TYPE Like 'Струк%'
-                    And vwTypesAndAttributes.stAttrName = 'Дом номер'
-                    And vwTypesAndAttributes1.stAttrName = 'Номер помещения (квартиры торгового складского и др. п.)'
-                    And vwObjects._PRODUCT = @street
-                    And stAttributes.stValue = @house", con))
+                $@"Select vwObjects5._ID As vwObjects5__ID, vwObjects._ID As vwObjects__ID, vwObjects._PRODUCT As vwObjects__PRODUCT, stAttributes.stValue As stAttributes_stValue, vwObjects5._TYPE As vwObjects5__TYPE, stAttributes1.stValue As stAttributes1_stValue, vwObjects1._PRODUCT As vwObjects1__PRODUCT, vwTypesAndAttributes2.stAttrName As vwTypesAndAttributes2_stAttrName, stAttributes2.stValue As stAttributes2_stValue From vwObjects Inner Join vwLinks On vwObjects._ID = vwLinks.inIdParent Inner Join vwObjects vwObjects1 On vwLinks.inIdChild = vwObjects1._ID Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdParent Inner Join vwObjects vwObjects2 On vwLinks1.inIdChild = vwObjects2._ID Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdParent Inner Join vwObjects vwObjects3 On vwLinks2.inIdChild = vwObjects3._ID Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdParent Inner Join vwObjects vwObjects4 On vwLinks3.inIdChild = vwObjects4._ID Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdParent Inner Join vwObjects vwObjects5 On vwLinks4.inIdChild = vwObjects5._ID Inner Join stAttributes stAttributes1 On vwObjects5._ID = stAttributes1.inIdVersion Inner Join vwTypesAndAttributes vwTypesAndAttributes1 On vwTypesAndAttributes1.inId = stAttributes1.inIdTypeAttr Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId Inner Join stAttributes stAttributes2 On stAttributes2.inIdVersion = vwObjects1._ID Inner Join vwTypesAndAttributes vwTypesAndAttributes2 On vwTypesAndAttributes2.inId = stAttributes2.inIdTypeAttr Where vwObjects._PRODUCT = '{Улица}' And stAttributes.stValue = '{Дом}' And(vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.1995 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2007 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2009 года' Or vwTypesAndAttributes2.stAttrName = 'Стоимость 1 кв.м. в ценах на 01.01.2010 года') And vwObjects._TYPE Like 'Струк%' And vwTypesAndAttributes.stAttrName = 'Дом номер' And vwObjects3._TYPE = 'Расчет площади основного строения' And vwObjects2._TYPE = 'Описание внутренних помещений' And vwTypesAndAttributes1.stAttrName = 'Номер помещения (квартиры торгового складского и др. п.)'", con))
+            /*
+            @"Select vwObjects5._ID, stAttributes1.stValue
+              From vwObjects
+              Inner Join vwLinks On vwObjects._ID = vwLinks.inIdChild
+              Inner Join vwObjects vwObjects1 On vwLinks.inIdParent = vwObjects1._ID
+              Inner Join stAttributes On vwObjects1._ID = stAttributes.inIdVersion
+              Inner Join vwTypesAndAttributes On stAttributes.inIdTypeAttr = vwTypesAndAttributes.inId
+              Inner Join vwLinks vwLinks1 On vwObjects1._ID = vwLinks1.inIdChild
+              Inner Join vwObjects vwObjects2 On vwLinks1.inIdParent = vwObjects2._ID
+              Inner Join vwLinks vwLinks2 On vwObjects2._ID = vwLinks2.inIdChild
+              Inner Join vwObjects vwObjects3 On vwLinks2.inIdParent = vwObjects3._ID
+              Inner Join vwLinks vwLinks3 On vwObjects3._ID = vwLinks3.inIdChild
+              Inner Join vwObjects vwObjects4 On vwLinks3.inIdParent = vwObjects4._ID
+              Inner Join vwLinks vwLinks4 On vwObjects4._ID = vwLinks4.inIdChild
+              Inner Join vwObjects vwObjects5 On vwLinks4.inIdParent = vwObjects5._ID
+              Inner Join stAttributes stAttributes1 On vwObjects5._ID = stAttributes1.inIdVersion
+              Inner Join vwTypesAndAttributes vwTypesAndAttributes1 On vwTypesAndAttributes1.inId = stAttributes1.inIdTypeAttr
+              Where vwObjects._TYPE Like 'Струк%'
+                And vwTypesAndAttributes.stAttrName = 'Дом номер'
+                And vwTypesAndAttributes1.stAttrName = 'Номер помещения (квартиры торгового складского и др. п.)'
+                And vwObjects._PRODUCT = @street
+                And stAttributes.stValue = @house", con))
+            */
             {
-                sc.Parameters.AddWithValue("@street", street ?? "");
-                sc.Parameters.AddWithValue("@house", house ?? "");
+                //sc.Parameters.AddWithValue("@street", street ?? "");
+                //sc.Parameters.AddWithValue("@house", house ?? "");
+                //con.ConnectionTimeout = 480;
                 con.Open();
                 using (var dr = sc.ExecuteReader())
                 {
@@ -408,7 +531,7 @@ namespace LocmanWebServer
                     {
                         int id = Convert.ToInt32(dr.GetValue(0));
                         int num;
-                        if (int.TryParse(dr.GetValue(1).ToString().Trim(), out num) && num >= 0)
+                        if (int.TryParse(dr.GetValue(5).ToString().Trim(), out num) && num >= 0)
                             flats[num] = id;
                     }
                 }
