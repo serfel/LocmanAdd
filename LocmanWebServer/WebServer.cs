@@ -56,7 +56,59 @@ namespace LocmanWebServer
 
         static string Query(HttpListenerRequest req, string key)
         {
+            // HttpListener.QueryString декодирует query в кодировке системы
+            // (на русской Windows — cp1251), из-за чего русские параметры
+            // приходят кракозябрами («РљРѕР»СЊСЃРєРёР№ РїСЂ.»). Берём «сырое»
+            // значение из URL и раскодируем percent-encoding сами: байты
+            // %-последовательностей трактуются как UTF-8 (так шлёт браузер
+            // через encodeURIComponent); если байты валидный UTF-8 не
+            // образуют — интерпретируем их как cp1251 (старые клиенты).
+            var raw = RawQueryValue(req.Url.Query, key);
+            if (raw != null)
+            {
+                try { return DecodePercent(raw); }
+                catch { /* fallback ниже */ }
+            }
             return req.QueryString[key] ?? "";
+        }
+
+        static string DecodePercent(string raw)
+        {
+            var bytes = new List<byte>(raw.Length);
+            for (int i = 0; i < raw.Length; i++)
+            {
+                char ch = raw[i];
+                if (ch == '%' && i + 2 < raw.Length)
+                {
+                    bytes.Add(Convert.ToByte(raw.Substring(i + 1, 2), 16));
+                    i += 2;
+                }
+                else if (ch == '+') bytes.Add((byte)' ');
+                else bytes.AddRange(Encoding.UTF8.GetBytes(new[] { ch }));
+            }
+            var utf8Strict = (Encoding)Encoding.UTF8.Clone();
+            utf8Strict.DecoderFallback = DecoderFallback.ExceptionFallback;
+            try { return utf8Strict.GetString(bytes.ToArray()); }
+            catch (DecoderFallbackException)
+            {
+                return Encoding.GetEncoding(1251).GetString(bytes.ToArray());
+            }
+        }
+
+        static string RawQueryValue(string query, string key)
+        {
+            if (string.IsNullOrEmpty(query)) return null;
+            if (query.StartsWith("?")) query = query.Substring(1);
+            foreach (var pair in query.Split('&'))
+            {
+                int eq = pair.IndexOf('=');
+                if (eq < 0) continue;
+                string k;
+                try { k = Uri.UnescapeDataString(pair.Substring(0, eq)); }
+                catch { k = pair.Substring(0, eq); }
+                if (k == key) return pair.Substring(eq + 1);
+            }
+            return null;
         }
 
         static void SendHtml(HttpListenerResponse res, string html) { SendText(res, html, "text/html"); }

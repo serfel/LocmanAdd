@@ -48,10 +48,11 @@ namespace LocmanWebServer
    <div class='row'><label>Дом:</label>
      <select id='house'><option value=''>— сначала выберите улицу —</option></select></div>
    <!-- Выпадающий список квартир с чекбоксами: на одном уровне с «Дома»,
-        заполняется после выбора дома -->
-   <div class='row' id='flatsRow' style='display:none'><label>Квартиры:</label>
+        заполняется после выбора дома. Рядок виден всегда (до выбора дома —
+        неактивен), чтобы элемент не «появлялся из ниоткуда». -->
+   <div class='row' id='flatsRow'><label>Квартиры:</label>
      <span class='dd' id='flatsDd'>
-       <button type='button' class='dd-btn' id='flatsDdBtn'>Квартиры: выбрано 0</button>
+       <button type='button' class='dd-btn' id='flatsDdBtn'>Квартиры: сначала выберите дом</button>
        <span class='dd-panel'>
          <span class='muted'><a href='#' id='selAll'>выделить все</a> |
          <a href='#' id='selNone'>снять все</a></span>
